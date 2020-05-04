@@ -23,16 +23,6 @@ $ git merge upstream/master
 
 Next, create a new branch for the particular issue - `$ git checkout -b <NEW-BRANCH-NAME>` and make PR from that branch while leaving **master** branch unchanged :white_check_mark:
 
-## :construction: Development
-
-- In your branch you can run the following command:
-```bash
-# testing locally
-$ npm run test
-
-# building locally
-$ npm run build
-```
 
 - Once you have made your changes, run the following command:
 
