@@ -19,6 +19,10 @@ $ cd Girl-Code-It-Website
 $ git remote add upstream https://github.com/Girl-Code-It/Girl-Code-It-Website.git
 $ git fetch upstream
 $ git merge upstream/develop
+
+# To keep your local branch updated with develop branch, always run these commands before starting your work and also before sending your PR
+$ git fetch upstream
+$ git merge upstream/develop
 ```
 
 Checkout to develop branch 
