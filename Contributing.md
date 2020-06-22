@@ -18,10 +18,13 @@ $ cd Girl-Code-It-Website
 # include all the latest changes from the remote repository
 $ git remote add upstream https://github.com/Girl-Code-It/Girl-Code-It-Website.git
 $ git fetch upstream
-$ git merge upstream/master
+$ git merge upstream/develop
 ```
 
-Next, create a new branch for the particular issue - `$ git checkout -b <NEW-BRANCH-NAME>` and make PR from that branch while leaving **master** branch unchanged :white_check_mark:
+Checkout to develop branch 
+`$ git checkout develop` 
+
+Next, create a new branch for the particular issue - `$ git checkout -b <NEW-BRANCH-NAME>` and make PR from that branch while leaving other branches unchanged :white_check_mark:
 
 - Once you have made your changes, run the following command:
 
@@ -34,3 +37,4 @@ $ git commit -m "<YOUR-COMMIT-MESSAGE>"
 ```
 
 > Think you're ready :grey_question: Make the PR :tropical_drink:
+Always make PRs to develop branch 
