@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ImpactList from "./ImpactList";
+import ImpactCard from "./ImpactCard";
 
 export default class Impact extends Component {
   render() {
