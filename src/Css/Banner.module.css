@@ -1,0 +1,62 @@
+.head {
+  font-size: 80px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: arial;
+  color: black;
+}
+.btn1 {
+  margin-top: 27px;
+  font-size: 30px;
+  background-color: #008dc8;
+  color: white;
+  padding: 5px 23px;
+  border-radius: 70px;
+  box-shadow: #00000029 3px 3px;
+  margin-bottom: 0px;
+}
+.btn2 {
+  margin-left: 80px;
+  font-size: 30px;
+  background-color: #008dc8;
+  color: white;
+  padding: 5px 23px;
+  border-radius: 70px;
+  box-shadow: #00000029 3px 3px;
+  margin-top: 0px;
+  transform: translateY(-50px);
+}
+.dreams {
+  color: #008dc8;
+  font-weight: bold;
+}
+hr {
+  color: #008dc8;
+  margin-top: -17px;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 5px solid;
+  width: 150px;
+  margin-right: 130px;
+}
+
+.main {
+  display: inline-flex;
+  margin-left: 20px;
+  padding: 30px;
+}
+.code {
+  width: 450px;
+  height: 450px;
+  margin-top: 80px;
+  margin-right: -340px;
+  transform: translateX(80px);
+}
+.girl {
+  width: 500px;
+  height: 350px;
+  margin-top: -350px;
+  margin-right: 60px;
+  position: relative;
+  transform: translateX(-100px);
+}
