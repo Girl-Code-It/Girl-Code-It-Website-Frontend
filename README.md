@@ -1,4 +1,4 @@
-# Introduction
+﻿# Introduction
 
 > _"Knowledge is the only thing that grows when shared."_ 🔥
 
@@ -13,16 +13,16 @@ So what are you waiting for? Come join us! 😊 ✨
 # install dependencies
 npm install
 
-# run the sever
+# run the server
 npm run start
 ```
 
 ## Mentors
 
-| GitHub Usernames                                     | Domain                             |
-| ---------------------------------------------------- | ---------------------------------- |
-| [@SinghVikram97](https://github.com/SinghVikram97)   | Fullstack                          |
-| [@aayush-05](https://github.com/aayush-05)           | Design + Fullstack                 |
-| [@vaishali614](https://github.com/vaishali614)       | Frontend Development               |
-| [@praveenscience](https://github.com/praveenscience) | Frontend Development               |
-| [@Manvityagi](https://github.com/Manvityagi)         | Backend Devlopment + Documentation |
+| GitHub Usernames                                     | Domain                              |
+| ---------------------------------------------------- | ----------------------------------- |
+| [@SinghVikram97](https://github.com/SinghVikram97)   | Fullstack                           |
+| [@aayush-05](https://github.com/aayush-05)           | Design + Fullstack                  |
+| [@vaishali614](https://github.com/vaishali614)       | Frontend Development                |
+| [@praveenscience](https://github.com/praveenscience) | Frontend Development                |
+| [@Manvityagi](https://github.com/Manvityagi)         | Backend Development + Documentation |

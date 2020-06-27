@@ -1,0 +1,83 @@
+﻿h1 {
+  font-family: "Arial";
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.About {
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 55px;
+  margin: 10px;
+}
+
+.Us {
+  letter-spacing: 0px;
+  color: #008dc8;
+  font-size: 55px;
+}
+
+.rectangle {
+  height: 5px;
+  width: 170px;
+  background-color: #008dc8;
+  position: relative;
+  bottom: 15px;
+  float: right;
+}
+
+button {
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 15px 10px 15px;
+  position: relative;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 9.5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  .rectangle {
+    display: none;
+  }
+  button {
+    position: absolute;
+    right: 40%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  p {
+    margin-top: 45px;
+  }
+}
