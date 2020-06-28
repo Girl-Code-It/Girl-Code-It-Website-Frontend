@@ -37,7 +37,7 @@ hr {
   border: 0;
   border-top: 5px solid;
   width: 150px;
-  margin-right: 130px;
+  margin-right: 25px;
 }
 
 .main {
@@ -48,15 +48,16 @@ hr {
 .code {
   width: 450px;
   height: 450px;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-right: -340px;
   transform: translateX(80px);
 }
 .girl {
   width: 500px;
   height: 350px;
-  margin-top: -350px;
-  margin-right: 60px;
+  margin-right: -10px;
   position: relative;
   transform: translateX(-100px);
+  margin-top: 180px;
+  transform: translateX(-200px);
 }
