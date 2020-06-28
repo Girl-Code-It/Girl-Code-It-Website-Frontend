@@ -1,28 +1,30 @@
 import React from "react";
-import "./Css/Banner.module.css";
+import styles from "../Css/Banner.module.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <div className="main">
-        <div className="head">
+    <div className={`${styles.App}`}>
+      <div className={`${styles.main}`}>
+        <div className={`${styles.head}`}>
           Give wings to
           <br />
-          your <span className="dreams">dreams</span>
-          <hr />
-          <button className="btn1 border-0">About Us</button>
-          <button className="btn2 border-0">Join Our Community</button>
+          your <span className={`${styles.dreams}`}>dreams</span>
+          <hr className={`${styles.hr}`} />
+          <button className={`border-0 ${styles.btn1}`}>About Us</button>
+          <button className={`border-0 ${styles.btn2}`}>
+            Join Our Community
+          </button>
         </div>
-        <div className="picture">
+        <div className={`${styles.main}`}>
           <img
-            className="code"
+            className={`${styles.code}`}
             data-assetindex="0"
             src="./code.svg"
             alt="code"
           />
 
           <img
-            className="girl"
+            className={`${styles.girl}`}
             data-assetindex="1"
             src="./girl.svg"
             alt="girl"
