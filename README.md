@@ -1,4 +1,4 @@
-﻿# Introduction
+# Introduction
 
 > _"Knowledge is the only thing that grows when shared."_ 🔥
 
@@ -25,4 +25,11 @@ npm run start
 | [@aayush-05](https://github.com/aayush-05)           | Design + Fullstack                  |
 | [@vaishali614](https://github.com/vaishali614)       | Frontend Development                |
 | [@praveenscience](https://github.com/praveenscience) | Frontend Development                |
-| [@Manvityagi](https://github.com/Manvityagi)         | Backend Development + Documentation |
+
+| GitHub Usernames                                     | Domain                             |
+| ---------------------------------------------------- | ---------------------------------- |
+| [@SinghVikram97](https://github.com/SinghVikram97)   | Fullstack                          |
+| [@aayush-05](https://github.com/aayush-05)           | Design + Fullstack                 |
+| [@vaishali614](https://github.com/vaishali614)       | Design + Frontend Development      |
+| [@praveenscience](https://github.com/praveenscience) | Frontend Development               |
+| [@Manvityagi](https://github.com/Manvityagi)         | Backend Development + Documentation|
