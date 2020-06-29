@@ -1,0 +1,96 @@
+.heading {
+  font-family: "Arial";
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 46px;
+  font-size: 55px;
+}
+
+.About {
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 10px;
+}
+
+.Us {
+  letter-spacing: 0px;
+  color: #008dc8;
+}
+
+.description {
+  text-align: left;
+}
+
+.rectangle {
+  height: 5px;
+  width: 170px;
+  background-color: #008dc8;
+  position: relative;
+  bottom: 22px;
+  float: right;
+}
+
+.knowMore {
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 10px 15px 10px 15px;
+  margin-top: -10px;
+  position: relative;
+  float: left;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.knowMore {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.knowMore:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 9.5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.knowMore:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.knowMore:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  .rectangle {
+    display: none;
+  }
+  .knowMore {
+    position: absolute;
+    right: 35%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .description {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .knowMore {
+    position: absolute;
+    left: 30%;
+  }
+}
