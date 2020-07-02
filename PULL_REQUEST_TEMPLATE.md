@@ -1,16 +1,17 @@
 # Description
 
-Please include a summary of the change and which issue is fixed. List any dependencies that are required for this change.
+Fixed Issue #12.
 
-Fixed # (issue) (`e.g. Fixed #8`)
+Added NavBar component.
+
+Added Dependencies: 
+"react-bootstrap": "^1.0.1"
 
 ## Type of change
 
 Please delete options that are not relevant.
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
-- [ ] This change requires a documentation update
 
 # Checklist:
 
