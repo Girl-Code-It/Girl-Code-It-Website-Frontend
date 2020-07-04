@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FAQCard from "./FAQCard";
 import Data from "./FAQData";
+import styles from "./Css/FAQS.module.css";
 
 export default class FAQS extends Component {
   constructor() {
@@ -30,13 +31,14 @@ export default class FAQS extends Component {
 
     return (
       <div>
-        <div className="container-fixed">
-          <h1 className="head">
-            Frequently Asked <span className="blue"> Questions</span>
+        <div className={`container-fixed`}>
+          <h1 className={`${styles.head}`}>
+            Frequently Asked{" "}
+            <span className={`${styles.blue}`}> Questions</span>
           </h1>
         </div>
-        <div className="faqs">{FAQCards}</div>
-        <div className="divider" />
+        <div className={`${styles.faqs}`}>{FAQCards}</div>
+        <div className={`${styles.divider}`} />
       </div>
     );
   }
