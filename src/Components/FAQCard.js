@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Css/FAQS.module.css";
+import styles from "../Css/FAQS.module.css";
 
 export default function FAQCard(props) {
   const { open } = props.item;
-  console.log(open);
+  
   return (
     <div
       className={`faq`}
