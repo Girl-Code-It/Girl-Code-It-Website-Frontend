@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Css/Impact.module.css";
+import styles from "../css/Impact.module.css";
 
 export default function ImpactCard(props) {
   return (
