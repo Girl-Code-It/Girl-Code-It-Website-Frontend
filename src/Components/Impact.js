@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ImpactCard from "./ImpactCard";
-import styles from "./Css/Impact.module.css";
+import styles from "../css/Impact.module.css";
 
 export default class Impact extends Component {
   render() {
