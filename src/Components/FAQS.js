@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import FAQCard from "./FAQCard";
 import Data from "./FAQData";
-import styles from "./Css/FAQS.module.css";
+import styles from "../Css/FAQS.module.css";
 
 export default class FAQS extends Component {
   constructor() {
