@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    text-align: center;
+}
+  
+.container {
+    margin-top:40px;
+    padding:5px;
+    height: 30%;
+    max-width:90%;
+}
+  
+.wrapper {
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .wrapper h1 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+} */

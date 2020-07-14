@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* img {
+    margin-top: -80px;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  } */
+  
+  .box {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  p {
+    position: relative;
+    font-size: 13px;
+  }
+  p:before {
+    content: "\201C";
+    font-family: "FontAwesome";
+    left: -10px;
+    top: -20px;
+    color: palevioletred;
+    position: absolute;
+    font-size: 40px;
+    opacity: 1.6;
+    font-style: normal;
+  }
+  
+  p:after {
+    content: "\201D";
+    font-family: "FontAwesome";
+    color: palevioletred;
+    font-size: 40px;
+    right: -5px;
+    bottom: -30px;
+    position: absolute;
+    opacity: 1;
+    font-style: normal;
+  }
+  
