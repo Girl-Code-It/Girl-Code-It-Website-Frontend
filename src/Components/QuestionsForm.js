@@ -39,7 +39,7 @@ export default class QuestionsForm extends Component {
     const { firstName, lastName, email, question } = this.state;
 
     return(
-      <Jumbotron style = {{backgroundColor: '#ffffff'}}>
+      <Jumbotron style = {{paddingTop:"0px" , backgroundColor: '#ffffff'}}>
         <Container fluid = "sm">
           <h1 className = {styles.Heading}>Still have some <span style={{color: '#008dc8'}}>Questions</span>?</h1>
           <Row className = "justify-content-md-center" style = {{marginTop: '50px' }}>
