@@ -20,11 +20,12 @@
   p {
     position: relative;
     font-size: 13px;
+    text-align: center;
   }
   p:before {
     content: "\201C";
     font-family: "FontAwesome";
-    left: -10px;
+    left: -20px;
     top: -20px;
     color: palevioletred;
     position: absolute;
@@ -38,7 +39,7 @@
     font-family: "FontAwesome";
     color: palevioletred;
     font-size: 40px;
-    right: -5px;
+    right: -15px;
     bottom: -30px;
     position: absolute;
     opacity: 1;
