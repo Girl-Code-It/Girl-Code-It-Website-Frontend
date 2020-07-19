@@ -7,7 +7,11 @@ export default function ImpactCard(props) {
       <div className={`card ${styles.one}`}>
         <div className={`card-block`}>
           <div className={`${styles.left}`}>
-            <img data-assetindex="2" src={props.impact.imgUrl} alt="image1" />
+            <img
+              data-assetindex="2"
+              src={require("../assets/" + props.impact.imgUrl)}
+              alt="image1"
+            />
           </div>
           <div className={`${styles.right}`}>
             <h1>{props.impact.name}</h1>
