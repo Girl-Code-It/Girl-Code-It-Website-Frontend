@@ -1,422 +1,208 @@
-.head {
-  font-size: clamp(1rem, 10vw, 5rem);
-  font-family: arial;
-  color: black;
-  margin-top: 15%;
-  font-weight: 500;
+.Jumbotron {
+  padding-bottom: 60px;
+  background-color: #fff;
 }
-.btn1 {
-  font-size: 40%;
+.heading {
+  font-family: "Arial";
+  font-weight: normal;
+  text-align: left;
+  top: 50px !important;
+  left: 50px;
+  margin-bottom: 54px;
+  font-size: 70px;
+}
+.containersmall {
+  display: none;
+}
+.Button {
   background-color: #008dc8;
-  color: white;
-  padding: 5px 23px;
-  border-radius: 70px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 22px;
+  padding: 5px 30px 5px 30px;
+  margin: 5px 0px 5px 0px;
+  position: relative;
+  float: left;
+  top: 30px;
+  left: 115px;
+  transition: all 0.5s;
+  cursor: pointer;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-  transform: translateY(-600%);
 }
-.btn2 {
-  font-size: 40%;
+.Button:hover,
+.Button:focus,
+.Button:active {
   background-color: #008dc8;
-  color: white;
-  padding: 5px 23px;
-  border-radius: 70px;
-  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-  transform: translateY(-600%);
-  margin-left: 5%;
-}
-.dreams {
-  color: #008dc8;
-  font-weight: bold;
-}
-hr {
-  color: #008dc8;
-  margin-top: -2%;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 6px solid;
-  width: 13%;
-  margin-left: 28%;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 .code {
   width: 450px;
   height: 450px;
-  transform: translateX(140%);
-  margin-top: -22%;
+  z-index: 1;
 }
 .girl {
   width: 500px;
   height: 350px;
-  transform: translateX(5%);
-  margin-top: -10%;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  z-index: 2;
 }
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
-  .girl {
-    transform: translateX(73%);
-    margin-top: -35%;
-  }
-  .code {
-    transform: translateX(111%);
-  }
-  .head {
-    margin-top: 16%;
-  }
-  .hr {
-    margin-left: 35%;
-    width: 14%;
-  }
-}
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  .girl {
-    transform: translateY(-75%);
-    width: 73%;
-    height: 31%;
-  }
-  .code {
-    transform: translateX(14%);
-    margin-top: 10%;
-    width: 595px;
-    height: 465px;
-  }
-  .head {
-    margin-top: 20%;
-    text-align: center;
-    font-size: 630%;
-  }
-  .hr {
-    width: 29%;
-    transform: translateX(118%);
-  }
-  .btn1 {
-    margin-top: 6%;
-    font-size: 2rem;
-    padding: 5px 25px;
-    margin-left: 0%;
-  }
-  .btn2 {
-    font-size: 2rem;
-    padding: 5px 25px;
-    transform: translateY(-600%);
-    margin-left: 15%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .girl {
-    transform: translateY(-82%);
-    width: 67%;
-    height: 27%;
-  }
-  .code {
-    transform: translateX(-14%);
-    margin-top: 10%;
-    width: 587px;
-    height: 333px;
-  }
-  .head {
-    margin-top: 26%;
-    text-align: center;
-  }
-  .hr {
-    margin-left: 65%;
-    width: 27%;
-  }
-  .btn1 {
-    margin-top: 25%;
-    font-size: 2rem;
-    padding: 5px 25px;
-    margin-left: -2%;
-  }
-  .btn2 {
-    font-size: 2rem;
-    padding: 5px 25px;
-    transform: translateY(-600%);
-    margin-left: 10%;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .hr {
-    margin-left: 65%;
-    width: 21%;
-    border: 3px solid;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .head {
-    font-size: 340%;
-    text-align: center;
-    margin-top: 41%;
-  }
-  .girl {
-    transform: translateY(-88%);
-    margin-left: -3%;
-    position: absolute;
-    width: 58%;
-    height: 45%;
-  }
-  .btn1 {
-    position: absolute;
-    margin-left: -37%;
-    margin-top: 15%;
-    padding: 5px 26px;
-    font-size: 1.8rem;
-  }
-  .btn2 {
-    position: absolute;
-    transform: translateY(-446%);
-    margin-left: 5%;
-    padding: 5px 26px;
-    font-size: 1.8rem;
-  }
-  .hr {
-    margin-left: 61%;
-    width: 19%;
-    border: 2px solid;
-  }
-}
-@media only screen and (max-width: 599px) {
-  .btn1 {
-    position: absolute;
-    margin-left: -35%;
-    margin-top: 25%;
-    padding: 5px 26px;
-    font-size: 1.8rem;
-  }
-  .btn2 {
-    position: absolute;
-    transform: translateY(-345%);
-    margin-left: 7%;
-    padding: 5px 26px;
-    font-size: 1.8rem;
-  }
-  .code {
-    transform: translateX(-9%);
-  }
-}
-@media only screen and (max-width: 530px) {
-  .btn2 {
-    transform: translateY(-364%);
-  }
-}
-@media only screen and (max-width: 500px) {
-  .btn2 {
-    transform: translateY(-205%);
-    margin-left: 21%;
-  }
-  .girl {
-    transform: translateY(-76%);
-    margin-left: 0%;
-    width: 62%;
-    height: 50%;
-  }
-  .btn1 {
-    margin-top: 42.3%;
-    margin-left: -29%;
-  }
-  .head {
-    font-size: clamp(1rem, 15vw, 5rem);
-    text-align: center;
-  }
-  .hr {
-    margin-left: 66%;
-    width: 28%;
-    border: 3px solid;
-  }
-}
-@media only screen and (max-width: 475px) {
-  .btn2 {
-    transform: translateY(-219%);
-  }
-}
-@media only screen and (max-width: 477px) {
-  .head {
-    font-size: clamp(1rem, 15vw, 5rem);
-    text-align: center;
-  }
-  .code {
-    transform: translateX(32%);
-    height: 239px;
-    width: 285px;
-  }
-  .girl {
-    transform: translateY(64%);
-    margin-left: -60%;
-    width: 59%;
-    height: 50%;
-  }
-
-  .btn1 {
-    margin-top: -19%;
-    font-size: 1.3rem;
-    transform: translateX(-6%);
-    position: absolute;
-    padding: 5px 16px;
-  }
-  .btn2 {
-    transform: translateY(-212%);
-    font-size: 1.3rem;
-    margin-left: 5%;
-    padding: 5px 16px;
-  }
-}
-@media only screen and (max-width: 440px) {
-  .btn2 {
-    transform: translateY(-205%);
-  }
-}
-@media only screen and (max-width: 430px) {
-  .head {
-    font-size: clamp(1rem, 15vw, 5rem);
-    text-align: center;
-  }
-  .code {
-    transform: translateX(23%);
-    height: 214px;
-    width: 282px;
-  }
-  .girl {
-    transform: translateY(64%);
-    margin-left: -65%;
-    width: 59%;
-    height: 50%;
-  }
-  .btn1 {
-    margin-top: -20%;
-    font-size: 1.3rem;
-    transform: translateX(-1%);
-    position: absolute;
-    padding: 5px 16px;
-  }
-  .btn2 {
-    transform: translateY(-210%);
-    font-size: 1.3rem;
-    margin-left: 4%;
-    padding: 5px 16px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .btn2 {
-    transform: translateY(-203%);
-  }
-}
-@media only screen and (max-width: 411px) {
-  .btn2 {
-    transform: translateY(-200%);
-  }
-}
-@media only screen and (max-width: 380px) {
-  .btn2 {
-    transform: translateY(-183%);
-  }
-}
-@media only screen and (max-width: 360px) {
-  .head {
-    font-size: clamp(1rem, 15vw, 5rem);
-    text-align: center;
-  }
-  .code {
-    transform: translateX(9%);
-    height: 200px;
-    width: 282px;
-  }
-  .girl {
-    transform: translateY(66%);
-    margin-left: -81%;
-    width: 65%;
-    height: 50%;
-  }
-
-  .btn1 {
-    margin-top: 83%;
-    font-size: 40%;
-    transform: translateX(-159%);
-    position: absolute;
-    padding: 5px 16px;
-  }
-  .btn2 {
-    transform: translateY(712%);
-    font-size: 40%;
-    margin-right: 15%;
-    padding: 5px 16px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .btn2 {
-    transform: translateY(700%);
-  }
-}
-@media only screen and (max-width: 311px) {
-  .girl {
-    transform: translateX(124%);
-    margin-top: -52%;
-  }
-  .btn1 {
-    transform: translateX(-145%);
-    font-size: 40%;
-    margin-top: 91%;
-  }
-  .btn2 {
-    transform: translateY(765%);
-    font-size: 40%;
-    margin-right: 12%;
-    padding: 5px 16px;
-  }
+.rectangle {
+  height: 5px;
+  width: 130px;
+  background-color: #008dc8;
+  position: relative;
+  bottom: 50px;
+  float: right;
+  right: 190px;
 }
 
-@media only screen and (max-width: 280px) {
-  .btn2 {
-    transform: translateY(726%);
-    margin-right: 5%;
+@media screen and (min-width: 1199px) {
+  .heading {
+    position: relative;
+    top: 9px;
   }
-  .btn1 {
-    transform: translateX(-137%);
-  }
-}
-@media only screen and (max-width: 277px) {
-  .girl {
-    transform: translateX(132%);
-    margin-top: -66%;
-  }
-  .btn1 {
-    margin-top: 83%;
-    font-size: 40%;
-    transform: translateX(-117%);
-    position: absolute;
-  }
-  .btn2 {
-    transform: translateY(671%);
-    margin-right: 1%;
-  }
-  .head {
-    margin-top: 52%;
+  .rectangle {
+    top: -10px;
   }
 }
-@media only screen and (max-width: 233px) {
+@media screen and (max-width: 1199px) {
+  .heading {
+    position: relative;
+    top: 35px;
+  }
+  .Button {
+    font-size: 20px;
+    left: 60px;
+  }
+  .rectangle {
+    right: 100px;
+    top: -10px;
+  }
   .girl {
-    transform: translateX(114%);
-    margin-top: -76%;
-    width: 78%;
-    height: 50%;
+    right: 160px;
   }
-  .btn1 {
-    margin-top: 100%;
-    font-size: 40%;
-    transform: translateX(-105%);
-    position: absolute;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .Jumbotron {
+    padding-bottom: 0px;
+    margin-bottom: -60px;
   }
-  .btn2 {
-    transform: translateY(777%);
-    margin-right: -3%;
-    font-size: 40%;
-    position: absolute;
+}
+@media screen and (max-width: 991px) {
+  .container {
+    margin-left: 8%;
   }
-  .head {
-    margin-top: 62%;
+  .align {
+    display: none;
+  }
+  .heading {
+    font-size: 54px;
+    top: -20px !important;
+  }
+  .rectangle {
+    top: -75px !important;
+    left: 25px;
   }
   .code {
-    transform: translateX(2%);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 70px;
+    bottom: 75px;
+    margin: 0px;
+    z-index: 1;
   }
-  .hr {
-    margin-left: 68%;
-    width: 30%;
-    border: 2px solid;
+  .girl {
+    width: 300px;
+    height: 250px;
+    left: -10px;
+    top: 25px;
+    z-index: 2;
+  }
+  .Button {
+    font-size: 15px;
+    top: -50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Jumbotron {
+    padding-bottom: 80px;
+  }
+  .container {
+    display: none;
+  }
+  .containersmall {
+    display: inline-block;
+  }
+  .heading {
+    position: inherit;
+    align-content: center;
+  }
+  .Button {
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    position: relative;
+    top: 5%;
+    left: 37%;
+  }
+  .Button:hover,
+  .Button:focus,
+  .Button:active {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .Rectsmall {
+    height: 5px;
+    width: 130px;
+    background-color: #008dc8;
+    position: sticky;
+    bottom: 0px;
+    float: right;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 669px) and (min-width: 460px) {
+  .Rectsmall {
+    position: sticky;
+    top: 750px;
+    right: 300px;
+  }
+}
+@media screen and (max-width: 629px) {
+  .Button {
+    left: 33%;
+  }
+}
+@media screen and (max-width: 503px) {
+  .Button {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .rectangle {
+    position: sticky;
+    left: 75%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Button {
+    left: 26%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .Button {
+    left: 22%;
+  }
+}
+@media screen and (max-width: 280px) {
+  .Button {
+    left: 10%;
   }
 }
