@@ -6,6 +6,9 @@ import AboutUsImg from "../assets/AboutUsImg.png";
 export default function AboutUs() {
   return (
     <Jumbotron style={{ backgroundColor: "#ffffff" }} fluid>
+=======
+    <Jumbotron style={{ paddingTop: "0px", backgroundColor: "#ffffff" }} fluid>
+
       <Container>
         <h1 className={styles.heading}>
           <span className={styles.About}>About</span>

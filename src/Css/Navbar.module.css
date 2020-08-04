@@ -1,5 +1,6 @@
 .NavBar{
-  margin: 15px 35px;
+  margin: 0 0;
+  background-color: white !important;
 }
 
 .NavBar a{
@@ -10,11 +11,17 @@
   margin: auto 8px;
 }
 
+.navbar-default {
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+}
+
 .Logo{
   letter-spacing: 0px;
   font-size: 2.3rem;
   font-weight: 390;
   font-family: Arial;
+  padding-left: 20px;
 }
 
 a:hover,
