@@ -1,0 +1,34 @@
+  .box {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .block {
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+  }
+   .block:before {
+    content: "\201C";
+    font-family: "FontAwesome";
+    left: -20px;
+    top: -20px;
+    color: palevioletred;
+    position: absolute;
+    font-size: 40px;
+    opacity: 1.6;
+    font-style: normal;
+  }
+  
+  .block:after {
+    content: "\201D";
+    font-family: "FontAwesome";
+    color: palevioletred;
+    font-size: 40px;
+    right: -15px;
+    bottom: -30px;
+    position: absolute;
+    opacity: 1;
+    font-style: normal;
+  }
+  
