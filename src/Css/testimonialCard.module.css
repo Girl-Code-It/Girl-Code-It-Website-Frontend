@@ -1,0 +1,46 @@
+  .username {
+    background-color: #008dc8;
+    text-align: center;
+  }
+  
+  .displayPicture {
+    position: relative;
+    width: 100px;
+  }
+
+  /* .box {
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  .summary {
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    padding: 15px;
+  }
+  .summary:before {
+    content: "\201C";
+    font-family: "FontAwesome";
+    left: 2px;
+    top: -10px;
+    color: palevioletred;
+    position: absolute;
+    font-size: 40px;
+    opacity: 1.6;
+    font-style: normal;
+  }
+  
+  .summary:after {
+    content: "\201D";
+    font-family: "FontAwesome";
+    color: palevioletred;
+    font-size: 40px;
+    right: 3px;
+    bottom: -20px;
+    position: absolute;
+    opacity: 1.6;
+    font-style: normal;
+  }
+  
+  
