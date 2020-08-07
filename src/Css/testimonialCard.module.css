@@ -3,12 +3,12 @@
     justify-content: center;
   }
   
-  p {
+  .block {
     position: relative;
     font-size: 13px;
     text-align: center;
   }
-  p:before {
+   .block:before {
     content: "\201C";
     font-family: "FontAwesome";
     left: -20px;
@@ -20,7 +20,7 @@
     font-style: normal;
   }
   
-  p:after {
+  .block:after {
     content: "\201D";
     font-family: "FontAwesome";
     color: palevioletred;
