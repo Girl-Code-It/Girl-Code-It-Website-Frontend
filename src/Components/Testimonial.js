@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import TestimonialCard from "./TestimonialCard";
-import "../Css/testimonial.module.css";
 import "tachyons";
 import Slider from "react-slick";
 
@@ -25,7 +24,7 @@ class Testimonial extends Component {
           }
         },
         {
-          breakpoint: 800,
+          breakpoint: 900,
           settings: {
             slidesToShow: 1
           }
@@ -48,11 +47,11 @@ class Testimonial extends Component {
     };
     
     return (
-      <div className="wrapper">
+      <div>
         <h1 className="mt6"  style={h1_style}>What Our <span style={{color: '#008dc8'}}>Students </span>Say?</h1>
         <br />
         <Slider {...settings}>
-          <div className="container">
+          <div>
             <TestimonialCard
               test={{
                 name: "Sherley Williams",
@@ -62,7 +61,7 @@ class Testimonial extends Component {
               }}
             />
           </div>
-          <div className="container">
+          <div>
             <TestimonialCard
               test={{
                 name: "Sherley Williams",
@@ -72,7 +71,7 @@ class Testimonial extends Component {
               }}
             />
           </div>
-          <div className="container">
+          <div >
             <TestimonialCard
               test={{
                 name: "Sherley Williams",
@@ -83,7 +82,7 @@ class Testimonial extends Component {
             />
           </div>
 
-          <div className="container">
+          <div >
             <TestimonialCard
               test={{
                 name: "Sherley Williams",
@@ -93,7 +92,7 @@ class Testimonial extends Component {
               }}
             />
           </div>
-          <div className="container">
+          <div >
             <TestimonialCard
               test={{
                 name: "Sherley Williams",
@@ -103,7 +102,7 @@ class Testimonial extends Component {
               }}
             />
           </div>
-          <div className="container">
+          <div >
             <TestimonialCard
               test={{
                 name: "Sherley Williams",

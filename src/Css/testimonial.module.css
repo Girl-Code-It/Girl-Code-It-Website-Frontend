@@ -1,13 +1,31 @@
-.container {
-    margin-top:40px;
-    padding:5px;
-    height: 30%;
-    max-width:90%;
-}
+  .block {
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    padding:15px;
+  }
+   .block:before {
+    content: "\201C";
+    font-family: "FontAwesome";
+    left: 2px;
+    top: 10px;
+    color: palevioletred;
+    position: absolute;
+    font-size: 40px;
+    opacity: 1.6;
+    font-style: normal;
+  }
   
-.wrapper {
-    margin: 10%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+  .block:after {
+    content: "\201D";
+    font-family: "FontAwesome";
+    color: palevioletred;
+    font-size: 40px;
+    right: 3px;
+    bottom: -20px;
+    position: absolute;
+    opacity: 1.6;
+    font-style: normal;
+  }
+    
+  

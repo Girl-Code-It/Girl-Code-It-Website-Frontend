@@ -1,5 +1,5 @@
 import React from "react";
-import "../Css/testimonialCard.module.css";
+import styles from "../Css/Testimonial.module.css";
 
 const styleImage = {
   position: "absolute",
@@ -15,7 +15,7 @@ const bg_color = {
 // pa4-ns
 function TestimonialCard(props) {
   return (
-    <div className=" center box mw7 bg-white br3 pa3 mv5 pb0 ba b--black-10">
+    <div className="center mw7 bg-white br3 mt5 ba b--black-10">
       <div>
         <img
           {...styleImage}
@@ -25,9 +25,9 @@ function TestimonialCard(props) {
         />
       </div>
 
-      <p className="block mt1 lh-copy measure center f6">{props.test.detail1}</p>
+      <p className={styles.block}>{props.test.detail1}</p>
       <hr className="center mw3 bb bw1 b--black-10 mv2" />
-      <h3 className="ghg name white" style={bg_color}>{props.test.name}</h3>
+      <h3 style={bg_color}>{props.test.name}</h3>
     </div>
   );
 }
