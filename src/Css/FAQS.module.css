@@ -1,0 +1,120 @@
+    .head {
+    font-family: Arial;
+    font-weight: 390;
+    font-size: 2.3rem ;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 0;
+  }
+ .image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.4s ease;
+    zoom: 0.8;
+    margin-left: 25%;
+    cursor: pointer;
+ }
+ .faqs{
+  margin: 0.3%;
+  margin-left: 22%;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0,0, 0, 0.2);
+  width: 54%;
+  background-color: rgb(255, 255, 255);
+ }
+ .faqQuestion{
+    letter-spacing: 0;
+    font-family: Arial;
+    font-weight: 370;
+    color: #000000;
+    font-size: 1.45rem;
+ }
+ .faqAnswer{
+   opacity: 0;
+   max-height: 0;
+   transition: all ease;
+ }
+ .faqAnsweropen{
+  opacity: 1;
+  max-height: none;
+  font-size: 1.2rem;
+  align-items: center;
+  padding: 10px;
+  margin-left: 22%;
+  box-shadow: 0px 0px 4px rgba(0,0, 0, 0.2);
+  width: 54%;
+  transition: all ease;
+  color: #204967;
+  border: 0.1px solid #000029;
+  border-radius: 7px;
+  background-color: #F4F5F6;
+}
+@media screen and (max-width: 991px){
+  .faqs{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .faqAnsweropen{
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 500px){
+  .faqQuestion{
+    font-size: 1.29rem;
+  }
+  .image{
+    zoom: 0.7;
+  }
+  .faqAnsweropen{
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 440px){
+  .faqs{
+    width: 82%;
+    margin-left: 10%;
+    padding: 7px;
+    padding-left: 0px;
+  }
+  .faqQuestion{
+    font-size: 1.25rem;
+  }
+  .faqAnsweropen{
+    width: 82%;
+    margin-left: 10%;
+    font-size: 1.05rem;
+  }
+}
+@media screen and (max-width: 367px){
+  .faqs{
+    margin-left: 4%;
+    width: 90%;
+    padding: 5px;
+    padding-left: 0px;
+  }
+  .faqQuestion{
+    font-size: 1.2rem;
+  }
+  .faqAnsweropen{
+    margin-left: 4%;
+    width: 90%;
+    font-size: 1rem;
+  }
+  .image{
+    zoom: 0.65;
+  }
+}
+@media screen and (max-width: 319px){
+  .faqs{
+    width: 95%;
+  }
+  .faqAnsweropen{
+    width: 95%;
+  }
+  .faqQuestion{
+    font-size: 1.1rem;
+  }
+}
