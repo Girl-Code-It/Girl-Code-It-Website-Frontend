@@ -1,0 +1,208 @@
+.Jumbotron {
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+.heading {
+  font-family: "Arial";
+  font-weight: normal;
+  text-align: left;
+  top: 50px !important;
+  left: 50px;
+  margin-bottom: 54px;
+  font-size: 70px;
+}
+.containersmall {
+  display: none;
+}
+.Button {
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 22px;
+  padding: 5px 30px 5px 30px;
+  margin: 5px 0px 5px 0px;
+  position: relative;
+  float: left;
+  top: 30px;
+  left: 115px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+.Button:hover,
+.Button:focus,
+.Button:active {
+  background-color: #008dc8;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.code {
+  width: 450px;
+  height: 450px;
+  z-index: 1;
+}
+.girl {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  z-index: 2;
+}
+.rectangle {
+  height: 5px;
+  width: 130px;
+  background-color: #008dc8;
+  position: relative;
+  bottom: 50px;
+  float: right;
+  right: 190px;
+}
+
+@media screen and (min-width: 1199px) {
+  .heading {
+    position: relative;
+    top: 9px;
+  }
+  .rectangle {
+    top: -10px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .heading {
+    position: relative;
+    top: 35px;
+  }
+  .Button {
+    font-size: 20px;
+    left: 60px;
+  }
+  .rectangle {
+    right: 100px;
+    top: -10px;
+  }
+  .girl {
+    right: 160px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .Jumbotron {
+    padding-bottom: 0px;
+    margin-bottom: -60px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    margin-left: 8%;
+  }
+  .align {
+    display: none;
+  }
+  .heading {
+    font-size: 54px;
+    top: -20px !important;
+  }
+  .rectangle {
+    top: -75px !important;
+    left: 25px;
+  }
+  .code {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 70px;
+    bottom: 75px;
+    margin: 0px;
+    z-index: 1;
+  }
+  .girl {
+    width: 300px;
+    height: 250px;
+    left: -10px;
+    top: 25px;
+    z-index: 2;
+  }
+  .Button {
+    font-size: 15px;
+    top: -50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Jumbotron {
+    padding-bottom: 80px;
+  }
+  .container {
+    display: none;
+  }
+  .containersmall {
+    display: inline-block;
+  }
+  .heading {
+    position: inherit;
+    align-content: center;
+  }
+  .Button {
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    position: relative;
+    top: 5%;
+    left: 37%;
+  }
+  .Button:hover,
+  .Button:focus,
+  .Button:active {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .Rectsmall {
+    height: 5px;
+    width: 130px;
+    background-color: #008dc8;
+    position: sticky;
+    bottom: 0px;
+    float: right;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 669px) and (min-width: 460px) {
+  .Rectsmall {
+    position: sticky;
+    top: 750px;
+    right: 300px;
+  }
+}
+@media screen and (max-width: 629px) {
+  .Button {
+    left: 33%;
+  }
+}
+@media screen and (max-width: 503px) {
+  .Button {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .rectangle {
+    position: sticky;
+    left: 75%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Button {
+    left: 26%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .Button {
+    left: 22%;
+  }
+}
+@media screen and (max-width: 280px) {
+  .Button {
+    left: 10%;
+  }
+}
