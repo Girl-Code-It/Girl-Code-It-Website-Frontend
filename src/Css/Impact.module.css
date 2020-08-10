@@ -20,8 +20,8 @@ body {
   height: 270px;
   margin: 5%;
   margin-top: 3%;
-  margin-bottom: 3%;
 }
+
 .line {
   align-items: right;
   text-align: left;
@@ -56,7 +56,7 @@ body {
   transition: all 0.5s;
   cursor: pointer;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-  top: 140%;
+  top: 150%;
   left: 35%;
 }
 
@@ -78,14 +78,14 @@ body {
 }
 @media only screen and (max-width: 400px) {
   .one {
-    width: 75%;
+    width: 85%;
     height: 90%;
-    margin-left: 13%;
+    margin-left: 9%;
   }
   .knowMore {
     font-size: 13px;
     top: 110%;
-    left: 40%;
+    left: 45%;
   }
   .girls {
     margin-top: 5%;
@@ -96,6 +96,7 @@ body {
     transform: translateY(-50%);
     margin-left: 2%;
     width: 120%;
+    padding-right: 20%;
   }
 }
 
@@ -107,7 +108,7 @@ body {
   }
   .knowMore {
     font-size: 13px;
-    top: 84%;
+    top: 98%;
     left: 60%;
   }
   .girls {
@@ -148,7 +149,7 @@ body {
     margin-right: 50%;
   }
   .knowMore {
-    top: 155%;
+    top: 168%;
   }
   .line1 {
     margin-left: 30%;
@@ -166,7 +167,7 @@ body {
     margin-right: 22%;
   }
   .knowMore {
-    top: 155%;
+    top: 170%;
   }
   .line1 {
     width: 2000px;
