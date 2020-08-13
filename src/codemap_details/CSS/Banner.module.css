@@ -1,0 +1,164 @@
+.Jumbotron {
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+.container {
+  margin-top: 80px;
+}
+.containersmall {
+  margin-top: 50px;
+  display: none;
+}
+.heading {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 80px;
+}
+.Code {
+  color: #000000;
+  border-bottom: 6px solid #008dc8;
+}
+.Map {
+  display: inline-block;
+  color: #008dc8;
+}
+.description {
+  position: relative;
+  left: 30px;
+  margin-top: 13%;
+  color: #000000;
+  font-family: "Inter";
+  font-weight: normal;
+  font-size: 45px;
+  letter-spacing: 0px;
+}
+.Button {
+  background-color: #008dc8;
+  font-family: "Inter";
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 22px;
+  padding: 5px 30px 5px 30px;
+  margin: 5px 0px 5px 0px;
+  position: relative;
+  float: right;
+  top: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+.Button:hover,
+.Button:focus,
+.Button:active {
+  background-color: #008dc8;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.img {
+  position: relative;
+  left: -20px;
+}
+@media screen and (max-width: 1200px) {
+  .heading {
+    font-size: 70px;
+  }
+  .align {
+    display: none;
+  }
+  .description {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .heading {
+    left: 10px;
+    font-size: 60px;
+    top: 0px;
+  }
+  .img {
+    position: relative;
+    left: 20px;
+  }
+  .description {
+    margin-top: 25px;
+    font-size: 29px;
+    left: 10px;
+  }
+  .Button {
+    position: relative;
+    top: -2px;
+    left: 20px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: none;
+  }
+  .containersmall {
+    display: inline-block;
+  }
+  .heading {
+    text-align: center;
+    font-size: 70px;
+    position: initial;
+  }
+  .img {
+    width: 500px;
+    height: auto;
+    margin-top: 5px;
+    position: sticky;
+    left: 100px;
+  }
+  .h2 {
+    text-align: center;
+    font-weight: 390;
+    font-size: 35px;
+    margin-top: 5px;
+    position: relative;
+    left: -20px;
+  }
+
+  .Button {
+    float: left;
+    position: sticky;
+    left: 41%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .h2 {
+    left: -10px;
+  }
+  .Button {
+    left: 32%;
+  }
+}
+@media screen and (max-width: 698px) {
+  .img {
+    left: 40px;
+  }
+}
+@media screen and (max-width: 589px) {
+  .img {
+    left: 20px;
+  }
+  .h2 {
+    left: -5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .heading {
+    font-size: 34px;
+  }
+  .h2 {
+    font-size: 20px;
+  }
+  .Button {
+    font-size: 16px;
+  }
+}
