@@ -55,6 +55,7 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <CodeMapBanner />
+                  <OneCodeMap />
                   <WhyCodeMap />
                   <Query />
                   <WhatToPay />
