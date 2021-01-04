@@ -7,24 +7,61 @@ In a world teeming with possibilities due to the rapid growth of technology ever
 GCI is here to help you navigate your way through the amazing world of computers and coding. 😍  
 So what are you waiting for? Come join us! 😊 ✨
 
-![CI/CD](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/workflows/CI/CD/badge.svg)
+## Table of Contents
 
-## Setup
+1. [Install](#install)
+2. [Technology Stack](#Technology-Stack)
+3. [Designs](#Designs)
+4. [Bugs and Feature Requests](#Bugs-and-Feature-Requests)
+5. [Contributing](#contributing)
+6. [Mentors](#mentors)
+6. [Copyright and license](#copyright-and-license)
+
+<h2 align="center">Install</h2>
 
 ```
-# install dependencies
-npm install
+# Clone the repository
+# Install dependencies
+$ npm install
 
-# run the server
-npm run start
+# Start application
+$ npm start
+
+# Visit localhost:3000 in your browser
 ```
 
-## Mentors
+<h2 align="center">Technology Stack</h2>
+
+- **HTML, CSS, Javascript** 
+- **Wireframing & Designing** - AdobeXD
+- **Library** - ReactJs
+- **Framework** - React-Bootstrap
+
+<h2 align="center">Designs</h2>
+ 
+-   [**All Designs here**](https://docs.google.com/spreadsheets/d/1_HQy1a_iSKqPIQlZTjnkcZxoTZgElAHMyYxEjnIi0AY/edit?usp=sharing)
+
+
+<h2 align="center">Bugs and Feature Requests</h2>
+
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/blob/develop/Contributing.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/issues/new).
+
+<h2 align="center">Contributing</h2>
+
+We want contributing to Opportunity Calendar to be enjoyable and educational for everyone. We would love to have your contributions.
+To get started have a look at our [documentation on contributing](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/blob/develop/Contributing.md).
+
+<h2 align="center">Mentors</h2>
 
 | GitHub Usernames                                     | Domain                              |
 | ---------------------------------------------------- | ----------------------------------- |
-| [@SinghVikram97](https://github.com/SinghVikram97)   | Fullstack                           |
-| [@aayush-05](https://github.com/aayush-05)           | Design + Fullstack                  |
+| [@Manvityagi](https://github.com/Manvityagi)         | FullStack + Documentation |
+| [@SinghVikram97](https://github.com/SinghVikram97)   | FullStack                           |
+| [@aayush-05](https://github.com/aayush-05)           | Design + Frontend Development                 |
 | [@vaishali614](https://github.com/vaishali614)       | Design + Frontend Development       |
 | [@praveenscience](https://github.com/praveenscience) | Frontend Development                |
-| [@Manvityagi](https://github.com/Manvityagi)         | Backend Development + Documentation |
+
+
+<h2 align="center">Copyright and license</h2>
+
+Code released under the [MIT License](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/blob/develop/LICENSE).
