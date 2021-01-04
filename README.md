@@ -7,6 +7,8 @@ In a world teeming with possibilities due to the rapid growth of technology ever
 GCI is here to help you navigate your way through the amazing world of computers and coding. 😍  
 So what are you waiting for? Come join us! 😊 ✨
 
+![CI/CD](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/workflows/CI/CD/badge.svg)
+
 ## Setup
 
 ```
@@ -19,10 +21,10 @@ npm run start
 
 ## Mentors
 
-| GitHub Usernames                                     | Domain                             |
-| ---------------------------------------------------- | ---------------------------------- |
-| [@SinghVikram97](https://github.com/SinghVikram97)   | Fullstack                          |
-| [@aayush-05](https://github.com/aayush-05)           | Design + Fullstack                 |
-| [@vaishali614](https://github.com/vaishali614)       | Design + Frontend Development      |
-| [@praveenscience](https://github.com/praveenscience) | Frontend Development               |
+| GitHub Usernames                                     | Domain                              |
+| ---------------------------------------------------- | ----------------------------------- |
+| [@SinghVikram97](https://github.com/SinghVikram97)   | Fullstack                           |
+| [@aayush-05](https://github.com/aayush-05)           | Design + Fullstack                  |
+| [@vaishali614](https://github.com/vaishali614)       | Design + Frontend Development       |
+| [@praveenscience](https://github.com/praveenscience) | Frontend Development                |
 | [@Manvityagi](https://github.com/Manvityagi)         | Backend Development + Documentation |
