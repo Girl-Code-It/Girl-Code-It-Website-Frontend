@@ -64,4 +64,4 @@ To get started have a look at our [documentation on contributing](https://github
 
 <h2 align="center">Copyright and license</h2>
 
-Code released under the [MIT License](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/blob/develop/LICENSE).
+Code released under the [GNU General Public License v3.0](https://github.com/Girl-Code-It/Girl-Code-It-Website-Frontend/blob/develop/LICENSE).
