@@ -5,7 +5,7 @@ var ImpactData = [
     imgUrl: "image1.svg",
     para1: "Know right Opportunities",
     para2: "at right time!",
-    link: "/oppcalender"
+    link: "https://happy-shockley-488e36.netlify.app/"
   },
   {
     id: 2,
@@ -23,21 +23,21 @@ var ImpactData = [
       "Get your journey in open-source started with our open-source projects!",
     para2: ""
   },
-  {
-    id: 4,
-    name: "Daily Leetcoding ",
-    imgUrl: "image4.svg",
-    para1: "Solve Leetcode challenges ",
-    para2: "every day with our coders!"
-  },
-  {
-    id: 5,
-    name: "Get Career guidance",
-    imgUrl: "image5.svg",
-    para1:
-      "Confused about your career in tech, Get Personal guidance from experts",
-    para2: ""
-  },
+  // {
+  //   id: 4,
+  //   name: "Daily Leetcoding ",
+  //   imgUrl: "image4.svg",
+  //   para1: "Solve Leetcode challenges ",
+  //   para2: "every day with our coders!"
+  // },
+  // {
+  //   id: 5,
+  //   name: "Get Career guidance",
+  //   imgUrl: "image5.svg",
+  //   para1:
+  //     "Confused about your career in tech, Get Personal guidance from experts",
+  //   para2: ""
+  // },
   {
     id: 6,
     name: "Build Linkedin Profile",

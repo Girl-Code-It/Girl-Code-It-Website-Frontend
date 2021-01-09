@@ -17,22 +17,41 @@ export default function AboutUs({ id }) {
           </Col>
           <Col md={"auto"} lg={5}>
             <p className={styles.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate.
+              <i> "Knowledge is the only thing that grows when shared." </i>
+
               <br />
               <br />
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              
+              Girl Code It aka GCI, is a group of people who firmly 
+              believe in this statement and are eager to build a 
+              healthy coding culture among young coders. In a world 
+              teeming with possibilities due to the rapid growth of 
+              technology everywhere, let's not get left behind in the 
+              rush! GCI is here to help you navigate your way through 
+              the amazing world of computers and coding. 
+
+              <br />
+              <br />
+
+              The best thing about the internet is that there is no 
+              shortage of information; but sometimes, there is just 
+              too much information, which can be overwhelming. To 
+              streamline the amount of information in the right way 
+              can be a taxing process, but here is where we can be 
+              of assistance! Our codemaps are specially structured 
+              according to common needs and are easy to follow! All 
+              you need to bring with you is the will to learn! 
+              
+              <br />
+              <br />
+              
+              So what are you waiting for? Come join us!
+
             </p>
             <br />
             <br />
             <div className={styles.rectangle} />
-            <button className={styles.knowMore}>Know More</button>
+            <button className={styles.knowMore}> Meet our Team </button>
           </Col>
         </Row>
       </Container>
