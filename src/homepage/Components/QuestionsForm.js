@@ -6,44 +6,67 @@ import {
   Row,
   Col,
   Form,
-  Button
+  Button,
+  Alert,
 } from "react-bootstrap";
 import styles from "../CSS/QuestionsForm.module.css";
 import questionsForm from "../assets/questionsForm.png";
+
+const FORMSPREE_URL = "https://formspree.io/f/mqkgwley";
 
 export default class QuestionsForm extends Component {
   constructor(props) {
     super(props);
 
+    // state
     this.state = {
-      name: "",
-      email: "",
-      question: ""
+      error: null,
+      hasSubmissionSucceed: false,
     };
+
+    // refs
+    this.submitButtonRef = React.createRef();
+    this.formRef = React.createRef();
   }
 
-  handleChange = (event) => {
-    let itemValue = event.target.value;
-    this.setState({
-      [event.target.name]: itemValue
-    });
-  };
-
-  handleSubmit = (event) => {
+  handleSubmit = async (event) => {
     event.preventDefault();
-    alert(
-      `${this.state.name} ${this.state.email} ${this.state.question}`
-    );
-    this.setState({
-      name: "",
-      email: "",
-      question: ""
-    });
+    const formData = new FormData(event.target);
+    const doc = {};
+
+    for (let [key, val] of formData) {
+      doc[key] = val;
+    }
+
+    this.submitButtonRef.current.innerText = "Submitting...";
+
+    try {
+      const resp__raw = await fetch(FORMSPREE_URL, {
+        method: "POST",
+        body: JSON.stringify(doc),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!resp__raw.ok) {
+        this.setState({
+          error: "Something went wrong while submitting data",
+          hasSubmissionSucceed: false,
+        });
+      }
+
+      this.setState({ error: null, hasSubmissionSucceed: true });
+      this.formRef.current.reset();
+    } catch (err) {
+      console.log(err.message);
+      this.setState({ error: err.message, hasSubmissionSucceed: false });
+    } finally {
+      this.submitButtonRef.current.innerText = "Submit";
+    }
   };
 
   render() {
-    const { name, email, question } = this.state;
-
     return (
       <Jumbotron
         id="contact"
@@ -61,23 +84,33 @@ export default class QuestionsForm extends Component {
               <Image src={questionsForm} alt="QuestionsForm" fluid />
             </Col>
             <Col lg={5}>
-              <Form onSubmit={this.handleSubmit}>
+              {/* feedback messages */}
+              {this.state.hasSubmissionSucceed && (
+                <Alert variant="success">
+                  Successfully Submitted Your Query
+                </Alert>
+              )}
+
+              {this.state.error && (
+                <Alert variant="danger">{this.state.error}</Alert>
+              )}
+
+              <Form onSubmit={this.handleSubmit} ref={this.formRef}>
                 <Form.Group>
                   <Form.Control
                     type="text"
                     name="name"
-                    value={name}
+                    defaultValue=""
                     placeholder="Name"
-                    onChange={this.handleChange}
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Control
                     type="email"
                     name="email"
-                    value={email}
+                    defaultValue=""
                     placeholder="What's your email?"
-                    onChange={this.handleChange}
+                    required
                   />
                 </Form.Group>
                 <Form.Group>
@@ -85,13 +118,17 @@ export default class QuestionsForm extends Component {
                     as="textarea"
                     rows="3"
                     name="question"
-                    value={question}
+                    defaultValue=""
                     placeholder="Your question..."
-                    onChange={this.handleChange}
+                    required
                   />
                 </Form.Group>
                 <Form.Group>
-                  <Button className={styles.Button} type="submit">
+                  <Button
+                    ref={this.submitButtonRef}
+                    className={styles.Button}
+                    type="submit"
+                  >
                     Send Message
                   </Button>
                 </Form.Group>
