@@ -26,6 +26,7 @@ export default class QuestionsForm extends Component {
 
     // refs
     this.submitButtonRef = React.createRef();
+    this.formRef = React.createRef();
   }
 
   handleSubmit = async (event) => {
@@ -56,6 +57,7 @@ export default class QuestionsForm extends Component {
       }
 
       this.setState({ error: null, hasSubmissionSucceed: true });
+      this.formRef.current.reset();
     } catch (err) {
       console.log(err.message);
       this.setState({ error: err.message, hasSubmissionSucceed: false });
@@ -93,7 +95,7 @@ export default class QuestionsForm extends Component {
                 <Alert variant="danger">{this.state.error}</Alert>
               )}
 
-              <Form onSubmit={this.handleSubmit}>
+              <Form onSubmit={this.handleSubmit} ref={this.formRef}>
                 <Form.Group>
                   <Form.Control
                     type="text"
