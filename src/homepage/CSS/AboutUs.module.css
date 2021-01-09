@@ -43,7 +43,7 @@
   text-align: center;
   border-radius: 50px;
   font-size: 16px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 15px 5px 15px;
   margin-top: 5px;
   position: relative;
   float: left;
@@ -56,8 +56,8 @@
 .knowMore:focus,
 .knowMore:active {
   background-color: #008dc8;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 430px) {

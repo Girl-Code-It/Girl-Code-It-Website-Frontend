@@ -32,9 +32,11 @@ export default function ImpactCard(props) {
             {props.impact.para1} <br />
             {props.impact.para2}
           </Card.Text>
-          <Link to={props.impact.link}>
-            <button className={styles.knowMore}>Know More</button>
-          </Link>
+          <button className={styles.knowMore}>
+            <a href = {props.impact.link} style = {{color: "white"}}> 
+              Know More
+            </a>
+          </button>
         </Card.Body>
       </Card>
     </div>

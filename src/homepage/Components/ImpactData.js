@@ -5,7 +5,7 @@ var ImpactData = [
     imgUrl: "image1.svg",
     para1: "Know right Opportunities",
     para2: "at right time!",
-    link: "/oppcalender"
+    link: "https://happy-shockley-488e36.netlify.app/"
   },
   {
     id: 2,

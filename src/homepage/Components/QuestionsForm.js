@@ -16,8 +16,7 @@ export default class QuestionsForm extends Component {
     super(props);
 
     this.state = {
-      firstName: "",
-      lastName: "",
+      name: "",
       email: "",
       question: ""
     };
@@ -33,18 +32,17 @@ export default class QuestionsForm extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     alert(
-      `${this.state.firstName} ${this.state.lastName} ${this.state.email} ${this.state.question}`
+      `${this.state.name} ${this.state.email} ${this.state.question}`
     );
     this.setState({
-      firstName: "",
-      lastName: "",
+      name: "",
       email: "",
       question: ""
     });
   };
 
   render() {
-    const { firstName, lastName, email, question } = this.state;
+    const { name, email, question } = this.state;
 
     return (
       <Jumbotron
@@ -67,18 +65,9 @@ export default class QuestionsForm extends Component {
                 <Form.Group>
                   <Form.Control
                     type="text"
-                    name="firstName"
-                    value={firstName}
-                    placeholder="First Name"
-                    onChange={this.handleChange}
-                  />
-                </Form.Group>
-                <Form.Group>
-                  <Form.Control
-                    type="text"
-                    name="lastName"
-                    value={lastName}
-                    placeholder="Last Name"
+                    name="name"
+                    value={name}
+                    placeholder="Name"
                     onChange={this.handleChange}
                   />
                 </Form.Group>
