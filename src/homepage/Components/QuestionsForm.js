@@ -99,17 +99,9 @@ export default class QuestionsForm extends Component {
                 <Form.Group>
                   <Form.Control
                     type="text"
-                    name="firstName"
+                    name="name"
                     defaultValue=""
-                    placeholder="First Name"
-                  />
-                </Form.Group>
-                <Form.Group>
-                  <Form.Control
-                    type="text"
-                    name="lastName"
-                    defaultValue=""
-                    placeholder="Last Name"
+                    placeholder="Name"
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
