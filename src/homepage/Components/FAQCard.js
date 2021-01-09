@@ -7,6 +7,10 @@ import arrowup from "../assets/arrowup.png";
 export default function FAQCard(props) {
   const { open } = props.item;
 
+  let PrintLink;
+  if(props.item.link.length !== 0)
+    PrintLink = <a href = {props.item.link} style = {{color: "#008dc8"}}> link. </a>
+
   return (
     <div key={props.item.id} onClick={() => props.handleChange(props.item.id)}>
       <Container>
@@ -30,6 +34,7 @@ export default function FAQCard(props) {
               className={`${open ? styles.faqAnsweropen : styles.faqAnswer}`}
             >
               {props.item.answer}
+              {PrintLink}
             </div>
           </Col>
         </Row>
