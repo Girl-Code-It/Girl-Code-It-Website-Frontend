@@ -14,7 +14,7 @@ export default class Homepage extends Component {
         <AboutUs />
         <Impact />
         <Testimonial />
-        <FAQS />a
+        <FAQS />
         <QuestionsForm />
       </div>
     );
