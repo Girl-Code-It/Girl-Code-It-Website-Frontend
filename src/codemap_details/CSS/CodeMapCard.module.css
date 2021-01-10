@@ -1,6 +1,7 @@
 .card {
   border: none;
   background: #f4f5f6;
+  margin-bottom: 5rem;
 }
 
 .topbar {
@@ -10,4 +11,10 @@
 
 .img {
   max-width: 90px;
+}
+
+@media (max-width: 900px) {
+  .card {
+    margin-bottom: 1rem;
+  }
 }

@@ -1,0 +1,33 @@
+.row_c1 {
+  padding-left: 4rem;
+}
+
+.row_c2 {
+  padding-right: 4rem;
+}
+
+.row3_c1 {
+  margin-right: 4rem;
+}
+
+.row3_c2 {
+  margin-left: 4rem;
+}
+
+@media (max-width: 900px) {
+  .row_c1 {
+    padding-left: 1rem;
+  }
+
+  .row_c2 {
+    padding-right: 1rem;
+  }
+
+  .row3_c1 {
+    margin-right: 0rem;
+  }
+
+  .row3_c2 {
+    margin-left: 0rem;
+  }
+}

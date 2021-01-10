@@ -4,7 +4,10 @@ import styles from "../CSS/CodeMapCard.module.css";
 
 export default function CodeMapCard(props) {
   return (
-    <Card style={{ margin: "0 0 3rem 0" }} className={styles.card}>
+    <Card
+      className={`${styles.card} ${props.className}`}
+    >
+      {console.log("PROPS", props.className || "")}
       <div className={styles.topbar}></div>
       <Row className="align-items-center">
         <Col xs="auto" style={{ textAlign: "center" }}>
