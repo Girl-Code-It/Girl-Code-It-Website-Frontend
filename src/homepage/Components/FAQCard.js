@@ -34,7 +34,7 @@ export default function FAQCard(props) {
               className={`${open ? styles.faqAnsweropen : styles.faqAnswer}`}
             >
               {props.item.answer}
-              {PrintLink}
+              <span className = {styles.onHover} > {PrintLink} </span>
             </div>
           </Col>
         </Row>

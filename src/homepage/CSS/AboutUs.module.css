@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 .Jumbotron {
   padding-top: 0px;
   background-color: #ffffff;
@@ -7,7 +10,7 @@
   letter-spacing: 0px;
   font-size: 2.3rem;
   font-weight: 390;
-  font-family: Arial;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -23,8 +26,14 @@
   color: #008dc8;
 }
 
+.AboutImage {
+  margin-top: 25%;
+}
+
 .description {
-  text-align: left;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
 }
 
 .rectangle {
@@ -33,6 +42,7 @@
   background-color: #008dc8;
   position: relative;
   bottom: 22px;
+  margin-left: 83%;
   float: right;
 }
 
@@ -44,11 +54,12 @@
   border-radius: 50px;
   font-size: 16px;
   padding: 5px 15px 5px 15px;
-  margin-top: 5px;
   position: relative;
   float: left;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
 
@@ -61,38 +72,53 @@
 }
 
 @media screen and (max-width: 430px) {
+  .AboutImage {
+    margin-top: 0;
+  }
   .rectangle {
     display: none;
   }
   .knowMore {
     position: absolute;
     right: 35%;
-    margin-top: -42px;
+    /* margin-top: -42px; */
   }
 }
 
 @media screen and (max-width: 991px) {
+  .AboutImage {
+    margin-top: 0;
+  }
   .description {
     margin-top: 10%;
   }
 }
 
 @media screen and (max-width: 320px) {
+  .AboutImage {
+    margin-top: 0;
+  }
   .knowMore {
     position: absolute;
-    left: 30%;
-    margin-top: -42px;
+    left: 20%;
+    /* margin-top: -55px; */
   }
 }
 
 @media screen and (max-width: 360px) {
+  .AboutImage {
+    margin-top: 0;
+  }
   .knowMore {
     top: 100%;
-    margin-top: -42px;
+    /* margin-top: -52px; */
   }
 }
 
 @media screen and (max-width: 1192px) and (min-width: 992px) {
+  .AboutImage {
+    margin-top: 0;
+  }
   .description {
     font-size: 90%;
   }
