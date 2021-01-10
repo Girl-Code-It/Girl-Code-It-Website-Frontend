@@ -1,0 +1,13 @@
+.card {
+  border: none;
+  background: #f4f5f6;
+}
+
+.topbar {
+  background: #008dc8;
+  height: 20px;
+}
+
+.img {
+  max-width: 90px;
+}
