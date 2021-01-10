@@ -4,9 +4,7 @@ import styles from "../CSS/CodeMapCard.module.css";
 
 export default function CodeMapCard(props) {
   return (
-    <Card
-      className={`${styles.card} ${props.className}`}
-    >
+    <Card className={`${styles.card} ${props.className}`}>
       <div className={styles.topbar}></div>
       <Row className="align-items-center">
         <Col xs="auto" style={{ textAlign: "center" }}>
@@ -21,11 +19,7 @@ export default function CodeMapCard(props) {
         <Col xs="auto">
           <Card.Body style={{ paddingLeft: 0 }}>
             <Card.Title>{props.codeMap.name}</Card.Title>
-            <Button
-              style={{ backgroundColor: "#008DC8", borderRadius: "1.2rem" }}
-            >
-              Know More
-            </Button>
+            <button className={styles.button}>Know More</button>
           </Card.Body>
         </Col>
       </Row>
