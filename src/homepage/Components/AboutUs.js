@@ -13,7 +13,7 @@ export default function AboutUs({ id }) {
         </h1>
         <Row>
           <Col md={"auto"} lg={7}>
-            <Image src={AboutUsImg} fluid />
+            <Image className = {styles.AboutImage} src={AboutUsImg} fluid />
           </Col>
           <Col md={"auto"} lg={5}>
             <p className={styles.description}>

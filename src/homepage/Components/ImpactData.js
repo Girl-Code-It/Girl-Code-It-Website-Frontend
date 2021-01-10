@@ -5,7 +5,7 @@ var ImpactData = [
     imgUrl: "image1.svg",
     para1: "Know right Opportunities",
     para2: "at right time!",
-    link: "https://happy-shockley-488e36.netlify.app/"
+    link: "/opportunity"
   },
   {
     id: 2,
@@ -21,7 +21,8 @@ var ImpactData = [
     imgUrl: "image3.svg",
     para1:
       "Get your journey in open-source started with our open-source projects!",
-    para2: ""
+    para2: "",
+    link: "https://github.com/Girl-Code-It"
   },
   // {
   //   id: 4,
@@ -43,7 +44,8 @@ var ImpactData = [
     name: "Build Linkedin Profile",
     imgUrl: "image6.svg",
     para1: "Learn how to make",
-    para2: "an impressive profile!"
+    para2: "an impressive profile!",
+    link: "/linkedin"
   }
 ];
 

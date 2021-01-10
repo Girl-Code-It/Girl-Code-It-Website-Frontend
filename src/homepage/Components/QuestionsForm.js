@@ -38,7 +38,7 @@ export default class QuestionsForm extends Component {
       doc[key] = val;
     }
 
-    this.submitButtonRef.current.innerText = "Submitting...";
+    this.submitButtonRef.current.innerText = "Sending...";
 
     try {
       const resp__raw = await fetch(FORMSPREE_URL, {
@@ -62,7 +62,7 @@ export default class QuestionsForm extends Component {
       console.log(err.message);
       this.setState({ error: err.message, hasSubmissionSucceed: false });
     } finally {
-      this.submitButtonRef.current.innerText = "Submit";
+      this.submitButtonRef.current.innerText = "Send Message";
     }
   };
 

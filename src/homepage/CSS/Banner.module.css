@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 .Jumbotron {
   padding-bottom: 60px;
   background-color: #fff;
@@ -33,6 +36,8 @@
   left: 115px;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
 a:hover{

@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 .Jumbotron {
     margin: 0px;
     padding: 20px;
@@ -20,7 +23,7 @@
 
 h5 {
     color: #008dc8;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 0px;
 }
 
@@ -59,7 +62,7 @@ h5 {
 
 p {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
     margin-top: 10px;
 }
 

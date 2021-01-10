@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import styles from "../CSS/Impact.module.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function ImpactCard(props) {
   return (
@@ -28,7 +28,7 @@ export default function ImpactCard(props) {
           </Card.Title>
           <hr className={styles.line} />
 
-          <Card.Text>
+          <Card.Text className = {styles.Para}>
             {props.impact.para1} <br />
             {props.impact.para2}
           </Card.Text>
