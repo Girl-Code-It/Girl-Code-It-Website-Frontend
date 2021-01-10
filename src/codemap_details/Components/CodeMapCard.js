@@ -7,7 +7,6 @@ export default function CodeMapCard(props) {
     <Card
       className={`${styles.card} ${props.className}`}
     >
-      {console.log("PROPS", props.className || "")}
       <div className={styles.topbar}></div>
       <Row className="align-items-center">
         <Col xs="auto" style={{ textAlign: "center" }}>

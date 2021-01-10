@@ -31,7 +31,7 @@ export default class CodeMap extends Component {
           name: "Advanced C++",
         },
         {
-          imgUrl: "https://img.icons8.com/carbon-copy/100/000000/react.png",
+          imgUrl: "https://img.icons8.com/carbon-copy/50/000000/react.png",
           name: "Frontend (ReactJS)",
         },
       ],
