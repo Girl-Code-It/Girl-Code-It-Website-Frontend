@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.head {
+  margin-top: 50px;
+  letter-spacing: 0px;
+  font-size: 2.3rem;
+  font-weight: 390;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.query {
+  color: #008dc8;
+}
+.jumbo {
+  background-color: #ffffff;
+}
+.para {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  margin-top: 5%;
+  margin-left: 9%;
+  font-size: 1.2rem;
+}
+.img {
+  height: auto;
+  width: 96%;
+}
+.line {
+  height: 4px;
+  width: 45%;
+  background-color: #008dc8;
+  position: relative;
+  bottom: -3px;
+  float: left;
+}
+.small {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .container {
+    display: none;
+  }
+  .small {
+    display: block;
+  }
+  .head {
+    position: inherit;
+    align-content: center;
+    text-align: center;
+  }
+  .line {
+    width: 40%;
+    float: right;
+  }
+  .para {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .img {
+    width: 60%;
+    margin: auto;
+    margin-left: 17%;
+  }
+}
+@media screen and (max-width: 675px) {
+  .head {
+    margin-top: 13%;
+  }
+  .img {
+    width: 64%;
+    margin-left: 12%;
+  }
+  .para {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .head {
+    margin-top: 20%;
+  }
+}

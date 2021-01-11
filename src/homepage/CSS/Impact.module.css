@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+}
+
+.Heading {
+  letter-spacing: 0px;
+  font-size: 2.3rem;
+  font-weight: 390;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: -20px;
+  max-width: 100%;
+}
+
+.one {
+  padding: 2px;
+  height: 270px;
+  margin: 5%;
+  margin-top: 3%;
+}
+
+.line {
+  align-items: right;
+  text-align: left;
+  width: 80%;
+  height: 3px;
+  background-color: rgb(0, 141, 200);
+  opacity: 1;
+  border: none;
+  margin-left: 1%;
+}
+
+.girls {
+  transform: translateY(40%);
+}
+
+.content {
+  transform: translateY(-130%);
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  margin-left: 45%;
+}
+
+.Para {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.knowMore {
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 5px 15px 5px 15px;
+  margin-top: 28px;
+  position: absolute;
+  float: left;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  top: 150%;
+  left: 45%;
+}
+
+.knowMore:hover,
+.knowMore:focus,
+.knowMore:active {
+  background-color: #008dc8;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.line1 {
+  top: 2767px;
+  width: 900px;
+  margin: 20%;
+  margin-bottom: 0px;
+  margin-top: 60px;
+  border: 1px solid #707070;
+}
+@media only screen and (max-width: 400px) {
+  .one {
+    width: 85%;
+    height: 90%;
+    margin-left: 9%;
+  }
+  .knowMore {
+    font-size: 13px;
+    top: 110%;
+    left: 45%;
+  }
+  .girls {
+    margin-top: 5%;
+    transform: translateX(50%);
+  }
+  .content {
+    margin-top: 3%;
+    transform: translateY(-50%);
+    margin-left: 2%;
+    width: 120%;
+    padding-right: 20%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 477px) {
+  .one {
+    width: 75%;
+    height: 86%;
+    margin-left: 13%;
+  }
+  .knowMore {
+    font-size: 13px;
+    top: 98%;
+    left: 60%;
+  }
+  .girls {
+    margin-top: 20%;
+    transform: translateX(50%);
+  }
+  .content {
+    margin-top: 3%;
+    width: 100%;
+    transform: translateY(-35%);
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 478px) and (max-width: 533px) {
+  .one {
+    width: 350px;
+    height: 270px;
+    margin-left: 15%;
+    margin-right: 50%;
+  }
+  .knowMore {
+    top: 155%;
+  }
+  .line1 {
+    margin-left: 24%;
+  }
+  .content {
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 534px) and (max-width: 555px) {
+  .one {
+    width: 350px;
+    height: 250px;
+    margin-left: 19%;
+    margin-right: 50%;
+  }
+  .knowMore {
+    top: 168%;
+  }
+  .line1 {
+    margin-left: 30%;
+  }
+  .content {
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 556px) and (max-width: 767px) {
+  .one {
+    width: 350px;
+    height: 250px;
+    margin-left: 18%;
+    margin-right: 22%;
+  }
+  .knowMore {
+    top: 170%;
+  }
+  .line1 {
+    width: 2000px;
+    margin-left: 20%;
+  }
+  .content {
+    margin-top: 2%;
+  }
+}
