@@ -1,6 +1,8 @@
 .card {
   position: relative;
   margin-top: 4.4rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
 }
 
 .imgWrapper {
@@ -20,6 +22,15 @@
 
 .cardBody {
   margin: 4rem 0 2rem 0;
+}
+
+.cardTitle {
+  text-align: center;
+  background-color: #008dc8;
+  margin-bottom: 0;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 0.8rem;
+  color: #fff;
 }
 
 .cardText {

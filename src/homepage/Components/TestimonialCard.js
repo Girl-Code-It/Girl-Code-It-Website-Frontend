@@ -15,6 +15,7 @@ function TestimonialCard(props) {
           </Card.Text>
         </div>
       </Card.Body>
+      <Card.Title className={styles.cardTitle}>{props.user.name}</Card.Title>
     </Card>
   );
 }

@@ -15,7 +15,7 @@ class Testimonial extends Component {
       centerPadding: "30px",
       slidesToShow: 3,
       speed: 500,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 3000,
       pauseOnHover: true,
       responsive: [
