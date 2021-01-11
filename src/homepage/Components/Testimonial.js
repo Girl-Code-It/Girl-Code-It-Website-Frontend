@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import TestimonialCard from "./TestimonialCard";
-import data from "../assets/data.json";
+import TestimonialContent from "./TestimonialContent";
 
 class Testimonial extends Component {
   render() {
@@ -55,15 +55,10 @@ class Testimonial extends Component {
           style={{ minWidth: "97%" /* `fluid` would make viewport overflow */ }}
         >
           <Slider {...sliderSettings}>
-            {data.map((user, i) => {
+            {TestimonialContent.map((user, i) => {
               return (
                 <div className="container">
-                  <TestimonialCard
-                    user={{
-                      imgUrl: `https://ui-avatars.com/api/?size=128&background=008DC8&name=${user.name}`,
-                      ...user,
-                    }}
-                  />
+                  <TestimonialCard {...user} />
                 </div>
               );
             })}
