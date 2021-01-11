@@ -15,7 +15,7 @@ class Testimonial extends Component {
       centerPadding: "30px",
       slidesToShow: 3,
       speed: 500,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 3000,
       pauseOnHover: true,
       responsive: [
@@ -46,7 +46,7 @@ class Testimonial extends Component {
               fontFamily: "Poppins, sans-serif",
             }}
           >
-            What Our <span>Students </span>Say?
+            What Our <span style={{ color: "#008dc8" }}>Students </span>Say?
           </h1>
         </Container>
 
