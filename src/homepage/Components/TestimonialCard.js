@@ -8,6 +8,7 @@ function TestimonialCard(props) {
       <div className={styles.imgWrapper}>
         <Card.Img src={props.user.imgUrl} className={styles.img} />
       </div>
+      <div style={{ flexGrow: 1 }}></div>
       <Card.Body className={styles.cardBody}>
         <div className={styles.flex}>
           <Card.Text className={styles.cardText}>
@@ -15,6 +16,7 @@ function TestimonialCard(props) {
           </Card.Text>
         </div>
       </Card.Body>
+      <div style={{ flexGrow: 1 }}></div>
       <Card.Title className={styles.cardTitle}>{props.user.name}</Card.Title>
     </Card>
   );

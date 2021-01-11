@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import TestimonialCard from "./TestimonialCard";
-import Data from "../assets/data.json";
+import data from "../assets/data.json";
 
 class Testimonial extends Component {
   render() {
     const sliderSettings = {
+      adaptiveHeight: false,
       dots: true,
       className: "centered",
       lazyLoad: true,
@@ -20,7 +21,7 @@ class Testimonial extends Component {
       pauseOnHover: true,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1200,
           settings: {
             centerMode: true,
             slidesToShow: 2,
@@ -54,7 +55,7 @@ class Testimonial extends Component {
           style={{ minWidth: "97%" /* `fluid` would make viewport overflow */ }}
         >
           <Slider {...sliderSettings}>
-            {Data.map((user, i) => {
+            {data.map((user, i) => {
               return (
                 <div className="container">
                   <TestimonialCard

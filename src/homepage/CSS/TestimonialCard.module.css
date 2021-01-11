@@ -1,8 +1,9 @@
 .card {
+  min-height: 400px;
   position: relative;
   margin-top: 4.4rem;
   align-self: stretch;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .imgWrapper {
@@ -28,7 +29,7 @@
   text-align: center;
   background-color: #008dc8;
   margin-bottom: 0;
-  border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0 0 1rem 1rem;
   padding: 0.8rem;
   color: #fff;
 }
@@ -46,8 +47,8 @@
   background-repeat: no-repeat;
   display: block;
   line-height: 0.1;
-  min-width: 70px;
-  min-height: 70px;
+  min-width: 60px;
+  min-height: 60px;
   align-self: flex-start;
   margin-right: 1.5rem;
   margin-top: -2rem;
@@ -57,4 +58,12 @@
   transform: rotate(180deg);
   align-self: flex-start;
   margin: auto 0 -1.3rem 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .cardText::before,
+  .cardText::after {
+    min-width: 30px;
+    min-height: 30px;
+  }
 }
