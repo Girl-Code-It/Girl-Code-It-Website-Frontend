@@ -84,10 +84,12 @@ body {
   top: 2767px;
   width: 900px;
   margin: 20%;
-  margin-bottom: 0px;
-  margin-top: 60px;
-  border: 1px solid #707070;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 @media only screen and (max-width: 400px) {
   .one {
     width: 85%;
