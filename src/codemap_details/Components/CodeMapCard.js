@@ -19,7 +19,9 @@ export default function CodeMapCard(props) {
         <Col xs="auto">
           <Card.Body style={{ paddingLeft: 0 }}>
             <Card.Title>{props.codeMap.name}</Card.Title>
-            <button className={styles.button}>Know More</button>
+            <a href="/onecodemap" className={styles.button}>
+              Know More
+            </a>
           </Card.Body>
         </Col>
       </Row>
