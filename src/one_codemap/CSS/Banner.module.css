@@ -31,6 +31,16 @@
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
 
+.vp__lt__1000px {
+  display: none;
+  margin-top: 2.5rem;
+}
+
+.vp__lt__1000px > *:last-child {
+  margin-right: 0;
+  margin-top: 0.5rem;
+}
+
 .button:hover,
 .button:focus,
 .button:active {
@@ -61,5 +71,10 @@
 
   .buttonWrapper {
     text-align: center;
+    display: none;
+  }
+
+  .vp__lt__1000px {
+    display: block !important;
   }
 }

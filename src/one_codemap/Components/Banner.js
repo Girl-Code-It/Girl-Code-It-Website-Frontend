@@ -16,13 +16,21 @@ export default function Banner(props) {
 
             <hr className={styles.hr} />
           </div>
-          <div className={styles.buttonWrapper}>
+
+          {/* large screens */}
+          <p className={styles.buttonWrapper}>
             <button className={styles.button}>View Content</button>
             <button className={styles.button}>View Milstones</button>
-          </div>
+          </p>
         </Col>
         <Col className={styles.img}>
           <img style={{ maxWidth: "100%", width: "100%" }} src={Img} alt="" />
+
+          {/* small screens */}
+          <p className={`${styles.buttonWrapper} ${styles.vp__lt__1000px}`}>
+            <button className={styles.button}>View Content</button>
+            <button className={styles.button}>View Milstones</button>
+          </p>
         </Col>
       </Row>
 
