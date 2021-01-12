@@ -1,0 +1,69 @@
+.card {
+  min-height: 400px;
+  position: relative;
+  margin-top: 4.4rem;
+  align-self: stretch;
+  border-radius: 1rem;
+}
+
+.imgWrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-width: 110px;
+  display: block;
+  margin: -0.8rem auto auto auto;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.cardBody {
+  margin: 4rem 0 2rem 0;
+}
+
+.cardTitle {
+  text-align: center;
+  background-color: #008dc8;
+  margin-bottom: 0;
+  border-radius: 0 0 1rem 1rem;
+  padding: 0.8rem;
+  color: #fff;
+}
+
+.cardText {
+  display: flex;
+}
+
+.cardText::before,
+.cardText::after {
+  content: "";
+  background-image: url(https://svgshare.com/i/T1J.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  line-height: 0.1;
+  min-width: 60px;
+  min-height: 60px;
+  align-self: flex-start;
+  margin-right: 1.5rem;
+  margin-top: -2rem;
+}
+
+.cardText::after {
+  transform: rotate(180deg);
+  align-self: flex-start;
+  margin: auto 0 -1.3rem 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .cardText::before,
+  .cardText::after {
+    min-width: 30px;
+    min-height: 30px;
+  }
+}

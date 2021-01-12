@@ -15,6 +15,7 @@ export default class Impact extends Component {
     let ImpactData = this.state.ImpactData.map((impact) => {
       return <ImpactCard key={impact.id} impact={impact} />;
     });
+
     return (
       <Jumbotron style={{ backgroundColor: "#ffffff" }}>
         <Container fluid="sm">
