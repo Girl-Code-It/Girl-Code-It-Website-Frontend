@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row, Col, Button } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import styles from "../CSS/CodeMapCard.module.css";
 
 export default function CodeMapCard(props) {

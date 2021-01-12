@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import CodeMap from "./codemap_details/Components/CodeMap";
 import Navbar from "./commons/Components/Navbar";
 import Footer from "./commons/Components/Footer";
 import Homepage from "./all_components/Homepage";
