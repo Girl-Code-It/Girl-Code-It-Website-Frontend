@@ -42,6 +42,15 @@ export default class App extends Component {
                 </div>
               )}
             />
+            <Route
+              exact
+             path="/onecodemap"
+              render={(props) => (
+                <div>
+                  <OneCodeMapDetails />
+                </div>
+              )}
+            />
           </Switch>
           <Footer />
         </div>

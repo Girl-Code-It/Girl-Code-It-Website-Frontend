@@ -1,6 +1,13 @@
 import React from "react";
-import styles from "../CSS/OneCodeMap.module.css";
+import { Container } from "react-bootstrap";
+import Banner from "./Banner.js";
+import MilestoneCard from "./MilestoneCard";
+//import styles from "../CSS/OneCodeMap.module.css";
 
 export default function OneCodeMap() {
-  return <React.Fragment />;
+  return (
+    <Container>
+      <Banner />
+    </Container>
+  );
 }

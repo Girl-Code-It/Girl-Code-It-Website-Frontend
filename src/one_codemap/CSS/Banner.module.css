@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.container {
+  margin-top: 4rem;
+}
+
+.heading {
+  font-family: Poppins, sans-serif;
+  font-size: 3.6em;
+}
+
+.containersmall {
+  margin-top: 50px;
+  display: none;
+}
+.button {
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0.4rem 1.2rem;
+  margin: 2rem 0.4rem 0 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #008dc8;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/*.hr {*/
+  /*margin: 1rem auto;*/
+  /*border: none;*/
+  /*border-bottom: 3px solid #008dc8;*/
+  /*width: 30%;*/
+/*}*/
+
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container > *:nth-child(2) {
+    margin-top: 2rem;
+  }
+}
