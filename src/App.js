@@ -6,6 +6,7 @@ import Homepage from "./all_components/Homepage";
 import OppCalendarDetails from "./all_components/OppCalendarDetails";
 import CodeMapDetails from "./all_components/CodeMapDetails";
 import OneCodeMapDetails from "./all_components/OneCodeMapDetails";
+import MeetTeam from "./all_components/MeetTeam";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default class App extends Component {
@@ -39,6 +40,15 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <CodeMapDetails />
+                </div>
+              )}
+            />
+            <Route
+              exact
+              path="/meettheteam"
+              render={(props) => (
+                <div>
+                  <MeetTeam />
                 </div>
               )}
             />
