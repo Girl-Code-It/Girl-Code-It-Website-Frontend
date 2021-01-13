@@ -4,7 +4,10 @@ import styles from "../CSS/MilestoneCard.module.css";
 
 export default function MilestoneCard(props) {
   return (
-    <Card>
+    <Card
+      onClick={() => (window.location.href = props.link || "#")}
+      style={{ cursor: "pointer" }}
+    >
       <Card.Body style={{ borderBottom: "1px solid lightgray" }}>
         <Card.Title style={{ marginBottom: 0 }}>
           Milestone {props.id}
