@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Background {
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: 2000px 500px;
+    padding: 200px;
+}
+
+.Title {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.Para {
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: justify;
+}

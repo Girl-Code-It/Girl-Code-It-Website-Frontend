@@ -5,7 +5,7 @@ import styles from "../CSS/CodeMapMilestone.module.css";
 
 export default function CodeMapMilestone({ data, error }) {
   return (
-    <Container style={{ maxWidth: "100rem" }} fluid>
+    <Container id = "content" style={{ maxWidth: "100rem" }} fluid>
       <h1 style={{ textAlign: "center", margin: "3rem 0" }}>
         CodeMap{" "}
         <span style={{ color: "#1D82B5", fontFamily: "Poppins, sans-serif" }}>

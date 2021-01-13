@@ -18,7 +18,7 @@ function Banner() {
                 <br></br>
                 right way!
             </h2>
-            <a href = "/viewopportunity/fulltime">
+            <a href = "#codemaps">
               <button className = {styles.Button}>
                 Explore
               </button>

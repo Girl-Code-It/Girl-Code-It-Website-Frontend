@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Jumbotron{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    padding-top: 0px;
+}
+
+.Title {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.SubTitle {
+    font-family: "Poppins", sans-serif;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    text-align: center;
+}
