@@ -2,6 +2,11 @@ import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import styles from "../CSS/CodeMapCard.module.css";
 
+function finalUri(id) {
+  // when changing the `/onecodemap` page, change it here as well.
+  return `/onecodemap?id=${encodeURIComponent(id)}`;
+}
+
 export default function CodeMapCard(props) {
   return (
     <Card className={`${styles.card} ${props.className}`}>
@@ -19,7 +24,10 @@ export default function CodeMapCard(props) {
         <Col xs="auto">
           <Card.Body style={{ paddingLeft: 0 }}>
             <Card.Title>{props.codeMap.name}</Card.Title>
-            <a href="/onecodemap" className={styles.button}>
+            <a
+              href={finalUri(props.codeMap.onecodemapLink) || "#"}
+              className={styles.button}
+            >
               Know More
             </a>
           </Card.Body>

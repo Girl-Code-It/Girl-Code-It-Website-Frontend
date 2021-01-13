@@ -43,7 +43,7 @@ export default class App extends Component {
             />
             <Route
               exact
-             path="/onecodemap"
+              path="/onecodemap"
               render={(props) => (
                 <div>
                   <OneCodeMapDetails />

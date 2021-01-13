@@ -10,8 +10,8 @@ export default function Banner(props) {
         <Col>
           <div>
             <h1 className={styles.heading}>
-              <span style={{ color: "#008dc8" }}>{props.title || "C++"}</span>{" "}
-              for Beginners
+              <span style={{ color: "#008dc8" }}>{props.title}</span> for
+              Beginners
             </h1>
 
             <hr className={styles.hr} />

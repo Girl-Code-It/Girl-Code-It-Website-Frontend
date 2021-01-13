@@ -1,0 +1,35 @@
+{
+  "name": "Java: Advanced",
+  "milestones": [
+    {
+      "topic": "Advance Java",
+      "duration": "2 Weeks",
+      "resources": 1231,
+      "imgSrc": "https://picsum.photos/200?113"
+    },
+    {
+      "topic": "Loops",
+      "duration": "1 Weeks",
+      "resources": 31,
+      "imgSrc": "https://picsum.photos/200?1112"
+    },
+    {
+      "topic": "Functions",
+      "duration": "3 Weeks",
+      "resources": 2016,
+      "imgSrc": "https://picsum.photos/200?1"
+    },
+    {
+      "topic": "Structures",
+      "duration": "0 Weeks",
+      "resources": 1223,
+      "imgSrc": "https://picsum.photos/200?1"
+    },
+    {
+      "topic": "Vectors",
+      "duration": "1 Weeks",
+      "resources": 2,
+      "imgSrc": "https://picsum.photos/200?1"
+    }
+  ]
+}
