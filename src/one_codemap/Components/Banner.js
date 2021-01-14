@@ -19,8 +19,16 @@ export default function Banner(props) {
 
           {/* large screens */}
           <p className={styles.buttonWrapper}>
-            <button className={styles.button}>View Content</button>
-            <button className={styles.button}>View Milstones</button>
+            <button className={styles.button}>
+              <a href = "/codemaps" style = {{color: "white"}}> 
+                Go Back 
+              </a>
+            </button>
+            <button className={styles.button}> 
+              <a href = "#content" style = {{color: "white"}}> 
+                View Content
+              </a>
+            </button>
           </p>
         </Col>
         <Col className={styles.img}>
@@ -28,8 +36,16 @@ export default function Banner(props) {
 
           {/* small screens */}
           <p className={`${styles.buttonWrapper} ${styles.vp__lt__1000px}`}>
-            <button className={styles.button}>View Content</button>
-            <button className={styles.button}>View Milstones</button>
+            <button className={styles.button}>
+              <a href = "/codemaps" style = {{color: "white"}}> 
+                Go Back 
+              </a>
+            </button>
+            <button className={styles.button}> 
+              <a href = "#content" style = {{color: "white"}}> 
+                View Content
+              </a>
+            </button>
           </p>
         </Col>
       </Row>
