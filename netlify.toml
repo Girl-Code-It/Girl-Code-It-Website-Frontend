@@ -1,16 +1,20 @@
 # example netlify.toml
 [build]
-  command = "CI= npm run build"
+  command = "npm run build"
   functions = "functions"
   publish = "build"
 
-  ## Uncomment to use this redirect for Single Page Applications like create-react-app.
-  ## Not needed for static site generators.
+  [[redirects]]
+    from = "/milestones/*"
+    to = "/milestones/:splat"
+    status = 200
+    force = true
 
   [[redirects]]
-    from = "https://girlcodeit.netlify.app/codemaps"
-    to = "/*"
+    from = "/*"
+    to = "/"
     status = 200
+    force = false
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/master/docs/netlify-dev.md#project-detection
