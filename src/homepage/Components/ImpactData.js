@@ -5,7 +5,7 @@ var ImpactData = [
     imgUrl: "image1.svg",
     para1: "Know right Opportunities",
     para2: "at right time!",
-    link: "/opportunity"
+    link: "/oppcalendar"
   },
   {
     id: 2,

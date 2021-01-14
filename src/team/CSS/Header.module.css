@@ -20,3 +20,48 @@
     color: white;
     text-align: justify;
 }
+
+@media (max-width: 918px){
+    .Background {
+        background-size: 1200px 350px;
+        padding: 130px 100px 100px 100px;
+    }
+
+    .Title {
+        font-size: 2rem;
+    }
+
+    .Para {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 609px){
+    .Background {
+        background-size: 1000px 300px;
+        padding: 110px 80px 80px 80px;
+    }
+
+    .Title {
+        font-size: 1.8rem;
+    }
+
+    .Para {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 487px){
+    .Background {
+        background-size: 800px 250px;
+        padding: 100px 60px 50px 60px;
+    }
+
+    .Title {
+        font-size: 1.6rem;
+    }
+
+    .Para {
+        font-size: 0.6rem;
+    }
+}

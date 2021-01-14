@@ -26,8 +26,16 @@ function Footer() {
                 <hr className = {styles.line2}/>
                 <Col className = {styles.Column}>
                     <h5 className = {styles.Border}> Products </h5>
-                    <p> CodeMaps </p>
-                    <p> Opportuntiy Calendar </p>
+                    <p> 
+                        <a href = "/codemaps" className = {styles.Link}>
+                            CodeMaps 
+                        </a>
+                    </p>
+                    <p>  
+                        <a href = "/oppcalendar" className = {styles.Link}>
+                            Opportuntiy Calendar 
+                        </a>
+                    </p>
                 </Col>
                 <hr className = {styles.line2}/>
                 <Col className = {styles.Column}>
@@ -61,8 +69,16 @@ function Footer() {
                 </Col>
                 <Col>
                     <h5 style = {{textAlign: "end", textDecoration: "underline"}}> Products </h5>
-                    <p style = {{textAlign: "end"}}> CodeMaps </p>
-                    <p style = {{textAlign: "end"}}> Opportuntiy Calendar </p>
+                    <p style = {{textAlign: "end"}}> 
+                        <a href = "/codemaps" className = {styles.Link}>
+                            CodeMaps 
+                        </a>
+                    </p>
+                    <p style = {{textAlign: "end"}}> 
+                        <a href = "/oppcalendar" className = {styles.Link}>
+                            Opportuntiy Calendar 
+                        </a>
+                    </p>
                 </Col>
             </Row>
             <Row className = {styles.Top2}>
