@@ -1,6 +1,8 @@
 
 {
   "name": "ReactJs for Beginners",
+  "imgUrl": "/milestones/assets/react.png",
+  "content": "Sit maiores neque ad deserunt fugit placeat. Dolorum cumque omnis nulla iste rem Quae laudantium eligendi minus dicta ut Quibusdam odit dicta voluptas veniam illo Nostrum commodi explicabo quos eaque",
   "milestones": [
     {
       "topic": "Introduction to React",
