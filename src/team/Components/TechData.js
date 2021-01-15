@@ -30,16 +30,16 @@ var TechData = [
         id: 4,
         name: "Vikram Singh Bedi",
         imgUrl: "Vikram.jpg",
-        designation: "ReactJs Mentor",
+        designation: "React JS Mentor",
         linkedin: "https://www.linkedin.com/in/vikramsinghbedi",
         github: "https://github.com/singhVikram97",
         bgColor: "grey"
     },
     {
         id: 5,
-        name: "Praveen Kumar Purushottam",
+        name: "Praveen Kumar Purushothaman",
         imgUrl: "Praveen.png",
-        designation: "ReactJs Mentor",
+        designation: "React JS Mentor",
         linkedin: "https://www.linkedin.com/in/praveentech/",
         github: "https://github.com/praveenscience",
         bgColor: "#008cd8"
