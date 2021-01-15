@@ -15,15 +15,15 @@ var ImpactData = [
     para2: "right way!",
     link: "/codemaps"
   },
-  {
-    id: 3,
-    name: "Open-Source Journey",
-    imgUrl: "image3.svg",
-    para1:
-      "Get your journey in open-source started with our open-source projects!",
-    para2: "",
-    link: "https://github.com/Girl-Code-It"
-  },
+  // {
+  //   id: 3,
+  //   name: "Open-Source Journey",
+  //   imgUrl: "image3.svg",
+  //   para1:
+  //     "Get your journey in open-source started with our open-source projects!",
+  //   para2: "",
+  //   link: "https://github.com/Girl-Code-It"
+  // },
   // {
   //   id: 4,
   //   name: "Daily Leetcoding ",
@@ -39,14 +39,14 @@ var ImpactData = [
   //     "Confused about your career in tech, Get Personal guidance from experts",
   //   para2: ""
   // },
-  {
-    id: 6,
-    name: "Build Linkedin Profile",
-    imgUrl: "image6.svg",
-    para1: "Learn how to make",
-    para2: "an impressive profile!",
-    link: "/linkedin"
-  }
+  // {
+  //   id: 6,
+  //   name: "Build Linkedin Profile",
+  //   imgUrl: "image6.svg",
+  //   para1: "Learn how to make",
+  //   para2: "an impressive profile!",
+  //   link: "/linkedin"
+  // }
 ];
 
 export default ImpactData;
