@@ -1,5 +1,7 @@
 {
     "name": "Github Tutorial",
+    "imgUrl": "/milestones/assets/github.png",
+    "content": "Sit maiores neque ad deserunt fugit placeat. Dolorum cumque omnis nulla iste rem Quae laudantium eligendi minus dicta ut Quibusdam odit dicta voluptas veniam illo Nostrum commodi explicabo quos eaque",
     "milestones": [
       {
         "topic": "Advance Java",
@@ -37,5 +39,5 @@
         "link": "#"
       }
     ]
-  }
+}
   

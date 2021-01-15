@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../CSS/Header.module.css";
-import { Container, Jumbotron } from "react-bootstrap";
 
 export default function Header() {
   return (
