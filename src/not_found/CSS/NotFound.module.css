@@ -34,3 +34,60 @@
     width: 25%;
     text-decoration: none;
 }
+
+@media (max-width: 1022px) {
+    .Button {
+        font-size: 1rem;
+        width: 25%;
+    }
+}
+
+@media (max-width: 993px) {
+    .Img {
+        font-size: 10%;
+    }
+
+    .Error {
+        font-size: 1.5rem;
+    }
+
+    .Button {
+        font-size: 1rem;
+        width: 30%;
+    }
+}
+
+@media (max-width: 760px) {
+    .Img {
+        margin-top: 15%;
+    }
+
+    .Error {
+        font-size: 1rem;
+    }
+
+    .Button {
+        font-size: 1rem;
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Img {
+        margin-top: 15%;
+    }
+
+    .Button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 357px) {
+    .Img {
+        margin-top: 20%;
+    }
+
+    .Button {
+        font-size: 0.6rem;
+    }
+}
