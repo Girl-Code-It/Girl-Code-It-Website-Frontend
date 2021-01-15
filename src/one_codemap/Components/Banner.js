@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron, Row, Col } from "react-bootstrap";
 import styles from "../CSS/Banner.module.css";
-import Img from "../assets/image.png";
+import Img from "../assets/cpp.png";
 
 export default function Banner(props) {
   return (
@@ -10,8 +10,7 @@ export default function Banner(props) {
         <Col>
           <div>
             <h1 className={styles.heading}>
-              <span style={{ color: "#008dc8" }}>{props.title}</span> for
-              Beginners
+              <span style={{ color: "#008dc8" }}>{props.title}</span> 
             </h1>
 
             <hr className={styles.hr} />

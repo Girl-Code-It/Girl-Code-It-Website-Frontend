@@ -29,7 +29,7 @@ export default class CodeMap extends Component {
       ],
       [
         {
-          imgUrl: "https://img.icons8.com/wired/64/000000/code.png",
+          imgUrl: "https://www.voicefoundry.com.au/wp-content/uploads/2018/12/code-icon-png-free147-4bf3-b748-6cea8c83ad71.png",
           name: "Frontend Web Development",
           onecodemapLink: "front-end webdev.json",
         },
