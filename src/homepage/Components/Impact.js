@@ -25,8 +25,8 @@ export default class Impact extends Component {
           </h1>
 
           <Row
-            className="justify-content-md-center"
-            style={{ marginTop: "50px" }}
+            // className="justify-content-md-center"
+            style={{ marginTop: "50px", textAlign: "justify" }}
           >
             {ImpactData}
             <hr className={styles.line1} />

@@ -19,7 +19,7 @@ export default class NotFound extends Component {
           </p>
           <Button className = {styles.Button}>
             <a href = "/" style = {{color: "white"}}>
-              Take me to home
+              Take me home
             </a>
           </Button>
         </Container>
