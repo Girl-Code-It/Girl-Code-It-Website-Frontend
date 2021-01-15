@@ -34,3 +34,15 @@
     border: none;
     color: black;
 }
+
+@media (max-width: 576px) {
+    .Title {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 315px) {
+    .Title {
+        margin-top: 25%;
+    }
+}

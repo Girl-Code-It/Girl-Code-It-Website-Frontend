@@ -1,44 +1,39 @@
 import React from "react";
-import { Card, Col } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import styles from "../CSS/Impact.module.css";
 // import { Link } from "react-router-dom";
 
 export default function ImpactCard(props) {
   return (
-    <div id="impact" style={{ width: "510px" }}>
-      <Card
-        style={{
-          backgroundColor: "#f4f5f6",
-          borderRadius: "40px",
-          border: "1px solid #707070"
-        }}
-        className={styles.one}
-      >
-        <Col xs={6} md={6} lg={6}>
-          <Card.Img
-            className={styles.girls}
-            data-assetindex="2"
-            src={require("../assets/" + props.impact.imgUrl)}
-            alt="image1"
-          />
-        </Col>
-        <Card.Body className={styles.content}>
-          <Card.Title style={{ fontSize: "125%", width: "110%" }}>
-            {props.impact.name}
-          </Card.Title>
-          <hr className={styles.line} />
-
-          <Card.Text className = {styles.Para}>
-            {props.impact.para1} <br />
-            {props.impact.para2}
-          </Card.Text>
-          <button className={styles.knowMore}>
-            <a href = {props.impact.link} style = {{color: "white"}}> 
+    <Card id = "impact" className = {styles.Card}>
+      <Card.Body>
+        <Row>
+          <Col xs = {12} md = {12} lg = {4}>
+            <Card.Img 
+              src={require("../assets/" + props.impact.imgUrl)} 
+              className = {styles.Img}
+            />
+          </Col>
+          <Col className = {styles.Content}>
+            <Card.Title className = {styles.Title}>
+              {props.impact.name}
+            </Card.Title>
+            <div className = {styles.line}></div>
+            <Card.Text className = {styles.Para}>
+              {props.impact.para1}
+              <br/>
+              {props.impact.para2}
+            </Card.Text>
+          </Col>
+        </Row>
+        <Row style = {{flex: "end"}}>
+          <button className = {styles.Button}>
+            <a href = {props.impact.link} style = {{color: "white"}}>
               Know More
             </a>
           </button>
-        </Card.Body>
-      </Card>
-    </div>
+        </Row>
+      </Card.Body>
+    </Card>
   );
 }
