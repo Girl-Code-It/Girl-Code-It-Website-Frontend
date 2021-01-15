@@ -86,7 +86,7 @@ function Footer() {
                     <h5 style ={{textDecoration: "underline"}}> Contact Us </h5>
                     <Row>
                         <Col>
-                            <p> <FaPhoneAlt />  (+91) - 83848-13292 </p>
+                            <p> <FaPhoneAlt />  (+91) - 96906-29214 </p>
                         </Col>
                         <Col>
                             <p> <GrMail />  girlcodeit@gmail.com </p>
