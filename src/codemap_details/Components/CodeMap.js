@@ -17,41 +17,34 @@ export default class CodeMap extends Component {
     return [
       [
         {
-          imgUrl: "https://img.icons8.com/ios/50/000000/c-plus-plus-logo.png",
-          name: "C++ for Beginners",
+          imgUrl: "https://img.icons8.com/ios/452/c-plus-plus-logo.png",
+          name: "Data Structures & Algorithms (C++)",
           onecodemapLink: "cpp.json",
         },
         {
-          imgUrl: "https://img.icons8.com/wired/64/000000/code.png",
-          name: "Front-Web Dev",
-          onecodemapLink: "front-end webdev.json",
+          imgUrl: "https://img.icons8.com/wired/64/000000/java-coffee-cup-logo.png",
+          name: "Data Structures & Algorithms (Java)",
+          onecodemapLink: "java.json",
         },
       ],
       [
         {
-          imgUrl: "https://img.icons8.com/ios/50/000000/c-plus-plus-logo.png",
-          name: "Advanced C++",
-          onecodemapLink: "cpp-advanced.json",
+          imgUrl: "https://img.icons8.com/wired/64/000000/code.png",
+          name: "Frontend Web Development",
+          onecodemapLink: "front-end webdev.json",
         },
         {
           imgUrl: "https://img.icons8.com/carbon-copy/50/000000/react.png",
-          name: "Frontend (ReactJS)",
+          name: "ReactJS for Beginners",
           onecodemapLink: "front-end.json",
         },
       ],
       [
         {
-          imgUrl:
-            "https://img.icons8.com/wired/64/000000/java-coffee-cup-logo.png",
-          name: "Java for Beginners",
-          onecodemapLink: "java.json",
-        },
-        {
-          imgUrl:
-            "https://img.icons8.com/wired/64/000000/java-coffee-cup-logo.png",
-          name: "Advanced Java",
-          onecodemapLink: "java-advanced.json",
-        },
+          imgUrl: "https://cdn.iconscout.com/icon/free/png-256/github-brand-logo-47401.png",
+          name: "Github Tutorial",
+          onecodemapLink: "github.json",
+        }
       ],
     ];
   }
@@ -111,6 +104,7 @@ export default class CodeMap extends Component {
               style={{
                 maxWidth: "100%",
                 width: "auto",
+                height: "400px",
                 display: "block",
                 margin: "2rem auto 1rem auto",
               }}
@@ -119,8 +113,6 @@ export default class CodeMap extends Component {
             />
           </Col>
         </Row>
-
-        <hr style={{ width: "50%", textAlign: "center" }} />
       </Container>
     );
   }

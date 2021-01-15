@@ -10,7 +10,14 @@
 }
 
 .img {
-  max-width: 90px;
+  max-width: 100px;
+  height: 70px;
+  width: 70px;
+}
+
+.Title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.15rem;
 }
 
 .button {
@@ -23,6 +30,7 @@
   position: relative;
   transition: all 0.5s;
   cursor: pointer;
+  font-size: 1rem;
   font-family: "Inter", sans-serif;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
