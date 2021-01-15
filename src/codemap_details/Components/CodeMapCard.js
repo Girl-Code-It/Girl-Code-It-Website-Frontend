@@ -23,7 +23,7 @@ export default function CodeMapCard(props) {
         </Col>
         <Col xs="auto">
           <Card.Body style={{ paddingLeft: 0 }}>
-            <Card.Title>{props.codeMap.name}</Card.Title>
+            <Card.Title className = {styles.Title}>{props.codeMap.name}</Card.Title>
             <a
               href={finalUri(props.codeMap.onecodemapLink) || "#"}
               className={styles.button}
