@@ -8,56 +8,64 @@
       "topic": "Introduction to React",
       "duration": "1 Day",
       "resources": 9,
-      "imgSrc": "https://picsum.photos/200?113",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1KT-pRTPv_LnZkk6Ypn1xb1vDUlFRN5Sn-heEskPtd8U/edit?usp=sharing"
     },
     {
       "topic": "Components",
       "duration": "1 Day",
       "resources": 13,
-      "imgSrc": "https://picsum.photos/200?1112",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1XPij1vxtJyGNdqooGrRCJ3o8bgGzaWjiWgct0jttjkU/edit?usp=sharing"
     },
     {
       "topic": "Connected Components",
       "duration": "1 Day",
       "resources": 8,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1B4t56_iO0LY43E4cJJcuxNAfimcsUFa3D6gO70BYda8/edit?usp=sharing "
     },
     {
       "topic": "Props & Types of Components",
       "duration": "1 Day",
       "resources": 7,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1eeJslZOO1siaTmcXX4pRmEVsAOwy1w5DMGWhtzJp6XI/edit?usp=sharing"
     },
     {
       "topic": "Event Handlers and SetState: React",
       "duration": "1 Day",
       "resources": 6,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1jbBdIfzfMPLkgZj_4AkrgBVD5_2-xOUX57T5MRGfnhg/edit?usp=sharing"
     },
     {
       "topic": "React Lifecycle Methods",
       "duration": "1 Day",
       "resources": 10,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1J1vAhUviKsIlq3BO-bRQsLZBFa2jmecYUAmLN8Tkkzc/edit?usp=sharing"
     },
     {
       "topic": "React Forms",
       "duration": "1 Day",
       "resources": 9,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/19Mp26Hq8pscncFHd5RaFQqrxdfpKThn7jR2aa3RjP5w/edit?usp=sharing"
     },
     {
       "topic": "React Hooks",
       "duration": "1 Day",
       "resources": 10,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1Lh5i1eesK_a2BEUoHsza91IztfaZj5j22DrcoJ6oVD4/edit?usp=sharing"
     }
   ]

@@ -7,21 +7,24 @@
       "topic": "Git and Github",
       "duration": "3 days",
       "resources": 3,
-      "imgSrc": "https://picsum.photos/200?113",
+      "imgSrc": "/milestones/assets/github-icon.png",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1ttSYpugYjOH4fIJeBdXxe16ED8td-qQSgOnbwAlPPwM/edit?usp=sharing"
     },
     {
       "topic": "Github Cheatsheet",
       "duration": "1 day",
       "resources": 1,
-      "imgSrc": "https://picsum.photos/200?1112",
+      "imgSrc": "/milestones/assets/github-icon.png",
+      "borderColor": "#bd6997",
       "link": "https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
     },
     {
       "topic": "Few Advanced Concepts",
       "duration": "2 days",
       "resources": 4,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/github-icon.png",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1RC-3h0o8uXmNA_EARXnghVXK8FcrZf8ofaF4p8Rwtw8/edit?usp=sharing"
     }
   ]

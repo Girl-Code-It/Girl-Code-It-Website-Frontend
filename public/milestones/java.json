@@ -7,35 +7,40 @@
       "topic": "Advance Java",
       "duration": "2 Weeks",
       "resources": 1231,
-      "imgSrc": "https://picsum.photos/200?113",
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
       "link": "#"
     },
     {
       "topic": "Loops",
       "duration": "1 Weeks",
       "resources": 31,
-      "imgSrc": "https://picsum.photos/200?1112",
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
       "link": "#"
     },
     {
       "topic": "Functions",
       "duration": "3 Weeks",
       "resources": 2016,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "grey",
       "link": "#"
     },
     {
       "topic": "Structures",
       "duration": "0 Weeks",
       "resources": 1223,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
       "link": "#"
     },
     {
       "topic": "Vectors",
       "duration": "1 Weeks",
       "resources": 2,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
       "link": "#"
     }
   ]
