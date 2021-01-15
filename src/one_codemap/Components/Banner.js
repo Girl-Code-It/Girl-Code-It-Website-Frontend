@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron, Row, Col } from "react-bootstrap";
 import styles from "../CSS/Banner.module.css";
-import Img from "../assets/image.png";
+import Img from "../assets/cpp.png";
 
 export default function Banner(props) {
   return (
