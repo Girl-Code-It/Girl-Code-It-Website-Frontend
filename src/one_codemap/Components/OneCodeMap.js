@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Banner from "./Banner.js";
 import CodeMapMilestone from "./CodeMapMilestone";
+import NotFound from "../../not_found/Components/NotFound";
 //import styles from "../CSS/OneCodeMap.module.css";
 
 const NOTFOUND = "Requested Resource Not Found";
@@ -36,7 +37,9 @@ export default function OneCodeMap() {
     })();
   }, []);
 
-  return (
+  return error ? (
+    <NotFound />
+  ) : (
     <>
       <Container>
         <Banner title={data && data.name} />
