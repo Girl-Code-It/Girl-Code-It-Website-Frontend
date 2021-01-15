@@ -1,0 +1,36 @@
+.Img {
+    margin: 8% auto auto auto;
+    display: block;
+    width: 50%;
+}
+
+.Error {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Button{
+    background-color: #008dc8;
+    border: none;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    transition: all 0.5s;
+    display: block;
+    margin: 5% auto auto auto;
+    width: 20%;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.Button:hover, .Button:focus, .Button:active{
+    background-color: #008dc8;
+    width: 25%;
+    text-decoration: none;
+}

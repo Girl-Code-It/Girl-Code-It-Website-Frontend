@@ -3,9 +3,11 @@ import Navbar from "./commons/Components/Navbar";
 import Footer from "./commons/Components/Footer";
 import Homepage from "./all_components/Homepage";
 import OppCalendarDetails from "./all_components/OppCalendarDetails";
+import ComingSoon from "./all_components/ComingSoon";
 import CodeMapDetails from "./all_components/CodeMapDetails";
 import OneCodeMapDetails from "./all_components/OneCodeMapDetails";
 import MeetTeam from "./all_components/MeetTeam";
+import Error from "./all_components/Error";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default class App extends Component {
@@ -26,10 +28,10 @@ export default class App extends Component {
             />
             <Route
               exact
-              path="/oppcalender"
+              path="/oppcalendar"
               render={(props) => (
                 <div>
-                  <OppCalendarDetails />
+                  <ComingSoon />
                 </div>
               )}
             />
@@ -57,6 +59,15 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <MeetTeam />
+                </div>
+              )}
+            />
+            <Route
+              exact
+              path="*"
+              render={(props) => (
+                <div>
+                  <Error />
                 </div>
               )}
             />

@@ -1,0 +1,36 @@
+.Img {
+    margin: 8% auto auto auto;
+    display: block;
+    width: 50%;
+}
+
+.Title {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    margin: 5%;
+    text-align: center;
+    color: #008dc8;
+}
+
+.Message {
+    font-family: "Inter", sans-serif;
+    margin: 4%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.SocialLinks {
+    text-align: center;
+    font-size: 2rem;
+    color: #008dc8;
+}
+
+.Shift {
+    color: #008dc8;
+    padding: 1%;
+}
+
+.Shift:hover, .Shift:focus, .Shift:active {
+    border: none;
+    color: black;
+}

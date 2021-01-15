@@ -70,6 +70,15 @@ p {
     padding: 0px;
 }
 
+.Link {
+    color: black;
+}
+
+.Link:hover, .Link:active {
+    color: black;
+    border: none;
+}
+
 .SocialLinks {
     text-align: end;
 }
