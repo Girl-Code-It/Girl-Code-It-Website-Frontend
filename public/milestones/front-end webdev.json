@@ -1,7 +1,7 @@
 {
   "name": "Frontend Web Development",
   "imgUrl": "/milestones/assets/web.png",
-  "content": "Sit maiores neque ad deserunt fugit placeat. Dolorum cumque omnis nulla iste rem Quae laudantium eligendi minus dicta ut Quibusdam odit dicta voluptas veniam illo Nostrum commodi explicabo quos eaque",
+  "content": "<h4>Pre-Requisites</h4>Just you and your will to learn!<h4>What would you gain after completing all the milestones?</h4>A good grasp of the fundamentals as well as the nuances of frontend web development<br />A number of projects for your portfolio!<h4>Doubt Support</h4> You can join our slack group with this link: <a href='https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg'>Join Here</a>",
   "milestones": [
     {
       "topic": "HTML (Part 1)",

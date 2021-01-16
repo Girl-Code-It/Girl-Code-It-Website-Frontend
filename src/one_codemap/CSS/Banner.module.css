@@ -69,6 +69,10 @@
   width: 40%;
 }
 
+.content h4 {
+  margin: 2rem 0 0.2rem 0;
+}
+
 @media (max-width: 1000px) {
   .container {
     flex-direction: column;
