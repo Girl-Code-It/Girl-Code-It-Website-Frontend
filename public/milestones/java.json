@@ -4,44 +4,204 @@
   "content": "Sit maiores neque ad deserunt fugit placeat. Dolorum cumque omnis nulla iste rem Quae laudantium eligendi minus dicta ut Quibusdam odit dicta voluptas veniam illo Nostrum commodi explicabo quos eaque",
   "milestones": [
     {
-      "topic": "Advance Java",
-      "duration": "2 Weeks",
-      "resources": 1231,
+      "topic": "Java Basics",
+      "duration": "2 days",
+      "resources": 15,
       "imgSrc": "/milestones/assets/java-icon.png",
       "borderColor": "#008cd8",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/12NaaMbhHxDBwlseRjZ3RjkbBuUNDBSb8LP78_GkMIMA/edit?usp=sharing"
     },
     {
-      "topic": "Loops",
-      "duration": "1 Weeks",
-      "resources": 31,
+      "topic": "Loops and Conditions",
+      "duration": "10 days",
+      "resources": 17,
       "imgSrc": "/milestones/assets/java-icon.png",
       "borderColor": "#bd6997",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1-MRhNR9R8g1MFPbn2FqxIeEd3jOzzQ9b2nsOyeKROaw/edit?usp=sharing"
     },
     {
-      "topic": "Functions",
-      "duration": "3 Weeks",
-      "resources": 2016,
+      "topic": "Assignment-1",
+      "duration": "10 days",
+      "resources": 5,
       "imgSrc": "/milestones/assets/java-icon.png",
       "borderColor": "grey",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1ARS0wZ4R5WKi-JsRUkzqdK0pBIGMrZo95ZK1RjH9IJQ/edit?usp=sharing"
     },
     {
-      "topic": "Structures",
-      "duration": "0 Weeks",
-      "resources": 1223,
+      "topic": "Star Pattern",
+      "duration": "2 days",
+      "resources": 1,
       "imgSrc": "/milestones/assets/java-icon.png",
       "borderColor": "#008cd8",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1xzjzwmblO-rAX2A1ExgSNjrESuye8eqbhd9PbOg-6S0/edit?usp=sharing"
     },
     {
-      "topic": "Vectors",
-      "duration": "1 Weeks",
-      "resources": 2,
+      "topic": "Number Pattern List",
+      "duration": "2 days",
+      "resources": 1,
       "imgSrc": "/milestones/assets/java-icon.png",
       "borderColor": "#bd6997",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1x1mHr1amsKBo-IsC0UcCn2W9OgVpAKc-WmsiYSQhork/edit?usp=sharing"
+    },
+    {
+      "topic": "Classes and Methods",
+      "duration": "1 Week",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1EmTj_svOBOSuoOAn0tsaVBU9Jta4BW6wJ6XdIGBXJsU/edit?usp=sharing"
+    },
+    {
+      "topic": "Inheritance",
+      "duration": "10 days",
+      "resources": 14,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1rSuGAz3oYX4afarfez248PIt0DRavzVKNujTDd-tmfc/edit?usp=sharing"
+    },
+    {
+      "topic": "Arrays",
+      "duration": "7 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1JaBGG5hWTMCKJImYjfO-cE89ZLaS9EYmE9fBeeMTAzU/edit?usp=sharing"
+    },
+    {
+      "topic": "Multi Dimensional Array",
+      "duration": "7 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1UMRihGveLkE5HH9MSwicvfMEnIbHXfM4-E5tqF4Ccy0/edit?usp=sharing"
+    },
+    {
+      "topic": "Inheritance",
+      "duration": "10 days",
+      "resources": 14,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1rSuGAz3oYX4afarfez248PIt0DRavzVKNujTDd-tmfc/edit?usp=sharing"
+    },
+    {
+      "topic": "Time and Space Complexity",
+      "duration": "5 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1Fx736-XMmS-Q4_v3VTI0q4oZ2gs8q5GBw3tUMJ8WhHM/edit?usp=sharing"
+    },
+    {
+      "topic": "Strings",
+      "duration": "10 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1YuFjq45SokErXSc7dTyHlCBSpFQCFowe5Tjr5cjCywQ/edit?usp=sharing"
+    },
+    {
+      "topic": "Searching and Algorithms",
+      "duration": "7 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1e2fyRfyU0oy56N7LqM15p9FJ1hdsuTcaYtifImGKWb8/edit?usp=sharing"
+    },
+    {
+      "topic": "Recursion",
+      "duration": "7 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1hvP02iv69TdP8uhS0gUkWDERAuahzV00VAYr3-RPG7E/edit?usp=sharing"
+    },
+    {
+      "topic": "Assignment-2",
+      "duration": "4 days",
+      "resources": 9,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1SHDUl7tusUgGGNyeKTUFN-hwbi-81-rG7ng5Jfo18rk/edit?usp=sharing"
+    },
+    {
+      "topic": "Sorting Algorithms",
+      "duration": "7 days",
+      "resources": 9,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1CtxDsOOKTiHRr1JVqbztPVhjJ9UlEItfFVrrthaOPnM/edit?usp=sharing"
+    },
+    {
+      "topic": "Bit Manipulation",
+      "duration": "7 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1wRUTDAglfXIqxq9HqT0ClVrTPoW3CBPBofFVNLGN_M4/edit?usp=sharing"
+    },
+    {
+      "topic": "Dynamic Programming and Greedy",
+      "duration": "7 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1ZBk3x5AAhYPAAT5jvy8R6XGBeUXWyXB5u5SYVbCLeXM/edit?usp=sharing"
+    },
+    {
+      "topic": "OOPS",
+      "duration": "1 days",
+      "resources": 1,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1lvRWlgVTEplWD1sVIYHocpeKgCbpgOh1C8p2JijmmwU/edit?usp=sharing"
+    },
+    {
+      "topic": "Stacks and Queues",
+      "duration": "3 days",
+      "resources": 1,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1E6vUKSz0cZglAaTuFqCS2JKP7E2-tKVC0S4GNNsb2kE/edit?usp=sharing"
+    },
+    {
+      "topic": "Linked Lists",
+      "duration": "4 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#grey",
+      "link": "https://docs.google.com/document/d/1_Fw7Om1ABcShWLfS_IvbjBW2teB_xJB54hIzjCX8K6c/edit?usp=sharing"
+    },
+    {
+      "topic": "Trees",
+      "duration": "4 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1ZMFyybjLBIIQCLkEi8nZHLHoxBaeCWEGILt8Peqapwo/edit?usp=sharing"
+    },
+    {
+      "topic": "Trees-2",
+      "duration": "7 days",
+      "resources": 26,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/11TX90C0NZzUlXsYi2ZcO7MwpD5-8XHmPHyvsiVRJQ6A/edit?usp=sharing"
+    },
+    {
+      "topic": "N-ary Trees",
+      "duration": "14 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/15FyCBWvaFYxBwktqDXGgG_TJQIkGhNLy3RxIXRsL9Yg/edit?usp=sharing"
+    },
+    {
+      "topic": "Binary Search Trees",
+      "duration": "7 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/java-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1XmYCKuw77U6e-DVCS6A0munPfRZQiNIT45qmBASKLv8/edit?usp=sharing"
     }
   ]
 }

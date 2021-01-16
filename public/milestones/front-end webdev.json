@@ -4,44 +4,117 @@
   "content": "Sit maiores neque ad deserunt fugit placeat. Dolorum cumque omnis nulla iste rem Quae laudantium eligendi minus dicta ut Quibusdam odit dicta voluptas veniam illo Nostrum commodi explicabo quos eaque",
   "milestones": [
     {
-      "topic": "Basics of Web Development",
-      "duration": "2 Weeks",
-      "resources": 1231,
+      "topic": "HTML (Part 1)",
+      "duration": "3 days",
+      "resources": 4,
       "imgSrc": "/milestones/assets/web-icon.png",
       "borderColor": "#008cd8",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1ufd07PNHgDaXm6O1Zl50ikrb4n2OVXsZhQowkkoGr3Y/edit?usp=sharing"
     },
     {
-      "topic": "Loops in JavaScript",
-      "duration": "1 Weeks",
-      "resources": 31,
+      "topic": "HTML (Part 2)",
+      "duration": "3 days",
+      "resources": 4,
       "imgSrc": "/milestones/assets/web-icon.png",
       "borderColor": "#bd6997",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1PGeT6V7eTdYSju4BnLl90WK0WiIAYIHjxEoMLwihnF0/edit?usp=sharing"
     },
     {
-      "topic": "Functions  in JavaScript",
-      "duration": "3 Weeks",
-      "resources": 2016,
+      "topic": "HTML5",
+      "duration": "3 days",
+      "resources": 3,
       "imgSrc": "/milestones/assets/web-icon.png",
       "borderColor": "grey",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/15YtoJXtxoY1DAXJLbqn_LALalJkFN86K7ReZs4EGtrc/edit?usp=sharing"
     },
     {
-      "topic": "Arrays",
-      "duration": "0 Weeks",
-      "resources": 1223,
+      "topic": "CSS",
+      "duration": "8 days",
+      "resources": 3,
       "imgSrc": "/milestones/assets/web-icon.png",
       "borderColor": "#008cd8",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1vBOiI4EdEFSPhkxIyvGlkVm2YrvMFn1fBbUUUvsEzIw/edit?usp=sharing"
     },
     {
-      "topic": "Error Handling",
-      "duration": "1 Weeks",
-      "resources": 2,
+      "topic": "Bootstrap",
+      "duration": "4 days",
+      "resources": 3,
       "imgSrc": "/milestones/assets/web-icon.png",
       "borderColor": "#bd6997",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1RLxxiN6TO3J1y15g2iBghLbZlv4LBDOw7CL5zqzn6o8/edit?usp=sharing"
+    },
+    {
+      "topic": "Bootstrap Project",
+      "duration": "4 days",
+      "resources": 4,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1tm0v87kVvun74qui11DdPlgjd9Fm5yJzGxVSM6gJ-sc/edit?usp=sharing"
+    },
+    {
+      "topic": "Javascript (Part 1)",
+      "duration": "2 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1O75_gqcTvOTYxbaUtRI9HBLxhaFIVmvs0vaqLBIb5ns/edit?usp=sharing"
+    },
+    {
+      "topic": "Javascript (Part 2)",
+      "duration": "3 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1YxcDo3IY_OuXfS_tf4r2D8aPt8mxRwTGPbaPQcYu0cM/edit?usp=sharing"
+    },
+    {
+      "topic": "Javascript (Part 3)",
+      "duration": "2 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/18RArrtzsPj25VIFFAFpKjEkHrORfbfm8XhFjdaKGkDM/edit?usp=sharing"
+    },
+    {
+      "topic": "Javascript DOM Manipulation",
+      "duration": "3 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1CqN5emWTaHzHW8xCFDH3akOvp0QNxYO-uEtebUwXhi4/edit?usp=sharing"
+    },
+    {
+      "topic": "Javascript Events",
+      "duration": "4 days",
+      "resources": 4,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1PL11GyhuB2_Vn8XPAOlkgbBYsjmv91Vo4nsvcRU3j0Q/edit?usp=sharing"
+    },
+    {
+      "topic": "Javascript ES6",
+      "duration": "3 days",
+      "resources": 3,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1EkxK9Hp7vBPCJM7jlpRK11XNA1dgb11y3wHsijrVsy8/edit?usp=sharing"
+    },
+    {
+      "topic": "Javascript Projects",
+      "duration": "5 days",
+      "resources": 1,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/19JKLSI1MIRncJ7vYelDJoR_a5RmAgVZFLXKDpYe-HKU/edit?usp=sharing"
+    },
+    {
+      "topic": "Webpage Cloning Projects",
+      "duration": "3 days",
+      "resources": 0,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/12e-teM3SsRp4fMraOZ1SE4FaksrDFAUfPbrJiGad8A4/edit?usp=sharing"
     }
+
   ]
 }
