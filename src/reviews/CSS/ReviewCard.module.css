@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Jumbotron {
+  background-color: white;
+}
+
+.Title {
+  margin-top: 7%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+    width: 20rem;
+    height: 32rem;
+    /* min-height: 300px; */
+    position: relative;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    align-self: stretch;
+    border-radius: 1rem;
+  }
+  
+  .imgWrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img {
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: -4rem auto -4rem -10rem;
+    padding: 4px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .cardBody {
+    margin: 4rem 0 2rem 0;
+  }
+  
+  .cardTitle {
+    text-align: center;
+    background-color: #008dc8;
+    margin-bottom: 0;
+    border-radius: 0 0 1rem 1rem;
+    padding: 0.8rem;
+    color: #fff;
+  }
+  
+  .cardText {
+    text-align: justify;
+    display: flex;
+    margin-top: -1rem;
+    font-size: 0.9rem;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .Reviews {
+    text-align: center;
+    color: grey;
+  }
+  
+  .Reviews:hover {
+    color: #008dc8;
+  }
+  
+  @media (max-width: 400px){
+    .card {
+      height: fit-content;
+    }
+  }
