@@ -20,7 +20,11 @@ function Footer() {
                 </Col>
                 <Col className = {styles.Column}>
                     <h5 className = {styles.Border}> Links </h5>
-                    <p> Terms and Condition </p>
+                    <p> 
+                        <a href = "https://drive.google.com/file/d/1ClkojwFYH0MJOsPqYhPkjUO1gR-AU1aM/view?usp=sharing" className = {styles.Link}>
+                            Credits 
+                        </a>
+                    </p>
                     <p> Privacy Policy </p>
                 </Col>
                 <hr className = {styles.line2}/>
@@ -64,7 +68,11 @@ function Footer() {
             <Row className = {styles.Top2}>
                 <Col>
                     <h5 style ={{textDecoration: "underline"}}> Links </h5>
-                    <p> Terms and Condition </p>
+                    <p> 
+                        <a href = "https://drive.google.com/file/d/1ClkojwFYH0MJOsPqYhPkjUO1gR-AU1aM/view?usp=sharing" className = {styles.Link}>
+                            Credits 
+                        </a>
+                    </p>
                     <p> Privacy Policy </p>
                 </Col>
                 <Col>

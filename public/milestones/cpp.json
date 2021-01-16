@@ -32,7 +32,7 @@
       "duration": "7 days",
       "resources": 1,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/17ieJfjujO759TmY7RmaHYnf33aABEyJi4RKrDY8vTfw/edit?usp=sharing"
     },
     {
@@ -40,7 +40,7 @@
       "duration": "7 days",
       "resources": 1,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1k7cVVp6h53VOE0qy8lOPwNMwru7I3Svnd83Baytt3co/edit?usp=sharing"
     },
     {
@@ -48,7 +48,7 @@
       "duration": "3 days",
       "resources": 8,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1C6nsmewjqGIfA7A6cKXJ6h2VlH7dypLxXHvKYPU39pc/edit?usp=sharing"
     },
     {
@@ -56,7 +56,7 @@
       "duration": "7 days",
       "resources": 12,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1N9xL__1iPnRRQS1b0BfRIWX0aX9wtcO8EfqHQaYKgbI/edit?usp=sharing"
     },
     {
@@ -64,7 +64,7 @@
       "duration": "7 days",
       "resources": 10,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1bWJzROHXglOF45r7_LNsv7gSZkHJ3KGbdyFyugraXmA/edit?usp=sharing"
     },
     {
@@ -72,7 +72,7 @@
       "duration": "7 days",
       "resources": 8,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1GBt2CPrkHaOqwpWjMJ8iFk5IECpb6yDIJ-cBB-EzPgs/edit?usp=sharing"
     },
     {
@@ -104,7 +104,7 @@
       "duration": "7 days",
       "resources": 9,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1LR4mKR-cKS-iPMMN3WNgo5Lt78pBWGkB76szaXvjFOM/edit?usp=sharing"
     },
     {
@@ -112,7 +112,7 @@
       "duration": "4 days",
       "resources": 11,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1vJ9kEXBKlhlYmTClNrJRizFQAEqaFbyLxaXYLZUHnL0/edit?usp=sharing"
     },
     {
@@ -120,7 +120,7 @@
       "duration": "2 days",
       "resources": 2,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1BYMo99sHqOhaMoMh6sMv1zr7hhO28ue5Py9QltdCE3A/edit?usp=sharing"
     },
     {
@@ -128,7 +128,7 @@
       "duration": "10 days",
       "resources": 14,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1nxCUhPCihLLh_GPLehXRzRnW4SY8EQLGlt9LiGcXrNM/edit?usp=sharing"
     },
     {
@@ -136,7 +136,7 @@
       "duration": "7 days",
       "resources": 6,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1XmtxctOTsuhb7_8PACIHQnK-IFTF1wVCzzeXP648PQQ/edit?usp=sharing"
     },
     {
@@ -144,7 +144,7 @@
       "duration": "10 days",
       "resources": 13,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1NOapOcIhgoeuBNra7hqbEXAxJUCtFHjIYoqMEO5ffqw/edit?usp=sharing"
     },
     {
@@ -176,7 +176,7 @@
       "duration": "3 days",
       "resources": 11,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1kOJEqL1iEDzf-xuKivJNCwj3ZGQR4jUaH9RKbTRzwO0/edit?usp=sharing"
     },
     {
@@ -184,7 +184,7 @@
       "duration": "3 days",
       "resources": 10,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/15_NOzf6GWRSRUJqOpg2qQZwKcdHV1UpncIgkwQVgM_M/edit?usp=sharing"
     },
     {
@@ -192,7 +192,7 @@
       "duration": "7 days",
       "resources": 6,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1tRNXLFPSP8WF08cRZtdIH2zB1kUOILQxwZfvr1n-_DE/edit?usp=sharing"
     },
     {
@@ -200,7 +200,7 @@
       "duration": "3 days",
       "resources": 11,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1VQhTg_ErfeZ2RImQbzph_Lkzql0y2eYtx_SJqAlt2xs/edit?usp=sharing"
     },
     {
@@ -208,7 +208,7 @@
       "duration": "3 days",
       "resources": 10,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1fn4LFUXzvYXGOxWd-xtxGS598akj8OF1Vt05JYqzo0M/edit?usp=sharing"
     },
     {
@@ -216,7 +216,7 @@
       "duration": "2 days",
       "resources": 6,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1IwvEu3_G6sDBvOY1M1rheCKB7az0houSY5ylzXwN1Hk/edit?usp=sharing"
     },
     {
@@ -248,7 +248,7 @@
       "duration": "10 days",
       "resources": 11,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1j28CkDWdPV2Tx5WuVWjgHLnBC4q4peWj1HHNxd2XnKY/edit?usp=sharing"
     },
     {
@@ -256,7 +256,7 @@
       "duration": "14 days",
       "resources": 6,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1kmJR90qjQh9gwGqb_o9WTp1TeAlJlP-gwPoBLy7c6fE/edit?usp=sharing"
     },
     {
@@ -264,7 +264,7 @@
       "duration": "8 days",
       "resources": 8,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/18jZTc46T981ZqhH36UYWOOkMtvqIGxMXZLO62f9xh8g/edit?usp=sharing"
     },
     {
@@ -272,7 +272,7 @@
       "duration": "5 days",
       "resources": 10,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1r0VXc8lCWC0939V7UAi9VP3q_cy4kO5mCtrsVV51XSk/edit?usp=sharing"
     },
     {
@@ -280,7 +280,7 @@
       "duration": "10 days",
       "resources": 25,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/149b_oXH-kSPvFWXDkKJbNm_ksXB8Gju44EO0PGPlLjA/edit?usp=sharing"
     },
     {
@@ -288,7 +288,7 @@
       "duration": "3 days",
       "resources": 6,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/11lF0tAkTty_N8_Cunj98a6flfjXS5IdAbxSPjLVPfCs/edit?usp=sharing"
     },
     {
@@ -320,7 +320,7 @@
       "duration": "14 days",
       "resources": 31,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/spreadsheets/d/1mlmeZo1Ax4dkWw_omjkbXlHo7oXieJLwL_-9xeI0NgA/edit?usp=sharing"
     },
     {
@@ -328,7 +328,7 @@
       "duration": "4 days",
       "resources": 5,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1V4pgJs4Q-JvtFWPYZB0YLwt428IBoPHyUF0PXqqE-74/edit?usp=sharing"
     },
     {
@@ -336,7 +336,7 @@
       "duration": "10 days",
       "resources": 22,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1qMiDoVhbR_FZeKEfccNELxe70-VyBGhkGnjAF-tl7gE/edit?usp=sharing"
     },
     {
@@ -344,7 +344,7 @@
       "duration": "12 days",
       "resources": 29,
       "imgSrc": "/milestones/assets/cpp-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "grey",
       "link": "https://docs.google.com/spreadsheets/d/1l43B2vYX-pod7yj_rzSkEnY9Ropjb6_ELN5heUKn1Pw/edit?usp=sharing"
     }
   ]
