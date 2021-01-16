@@ -27,11 +27,9 @@ export default function ImpactCard(props) {
           </Col>
         </Row>
         <Row style = {{flex: "end"}}>
-          <button className = {styles.Button}>
-            <a href = {props.impact.link} style = {{color: "white"}}>
-              Know More
-            </a>
-          </button>
+          <a href = {props.impact.link} className = {styles.Button}>
+            Know More
+          </a>
         </Row>
       </Card.Body>
     </Card>

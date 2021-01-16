@@ -46,6 +46,7 @@ export default function OneCodeMap() {
           title = {data && data.name} 
           img = {data && data.imgUrl} 
           content = {data && data.content}
+          submit = {data && data.submit}
         />
       </Container>
 

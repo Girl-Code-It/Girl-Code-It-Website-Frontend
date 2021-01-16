@@ -37,7 +37,7 @@ function Footer() {
                     </p>
                     <p>  
                         <a href = "/oppcalendar" className = {styles.Link}>
-                            Opportuntiy Calendar 
+                            Opportunity Calendar 
                         </a>
                     </p>
                 </Col>
@@ -84,7 +84,7 @@ function Footer() {
                     </p>
                     <p style = {{textAlign: "end"}}> 
                         <a href = "/oppcalendar" className = {styles.Link}>
-                            Opportuntiy Calendar 
+                            Opportunity Calendar 
                         </a>
                     </p>
                 </Col>

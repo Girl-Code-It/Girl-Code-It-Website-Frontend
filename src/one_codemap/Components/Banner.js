@@ -18,16 +18,12 @@ export default function Banner(props) {
 
           {/* large screens */}
           <p className={styles.buttonWrapper}>
-            <button className={styles.button}>
-              <a href = "/codemaps" style = {{color: "white"}}> 
-                Go Back 
-              </a>
-            </button>
-            <button className={styles.button}> 
-              <a href = "#content" style = {{color: "white"}}> 
-                View Content
-              </a>
-            </button>
+            <a href = "/codemaps" className = {styles.button}> 
+              Go Back 
+            </a>
+            <a href = "#content" className = {styles.button}> 
+              View Content
+            </a>
           </p>
         </Col>
         <Col className={styles.img}>
@@ -35,16 +31,12 @@ export default function Banner(props) {
 
           {/* small screens */}
           <p className={`${styles.buttonWrapper} ${styles.vp__lt__1000px}`}>
-            <button className={styles.button}>
-              <a href = "/codemaps" style = {{color: "white"}}> 
-                Go Back 
-              </a>
-            </button>
-            <button className={styles.button}> 
-              <a href = "#content" style = {{color: "white"}}> 
-                View Content
-              </a>
-            </button>
+            <a href = "/codemaps" className = {styles.button}> 
+              Go Back 
+            </a>
+            <a href = "#content" className = {styles.button}> 
+              View Content
+            </a>
           </p>
         </Col>
       </Row>
@@ -54,6 +46,16 @@ export default function Banner(props) {
           {props.content}
         </p>
       </div>
+
+      <br className = {props.submit !== "" ? styles.Display : styles.noDisplay}/>
+      <br className = {props.submit !== "" ? styles.Display : styles.noDisplay}/>
+
+      <a 
+        href = {props.submit} 
+        className = {props.submit !== "" ? styles.button : styles.noDisplay}
+      > 
+        Submit here 
+      </a>
     </Jumbotron>
   );
 }
