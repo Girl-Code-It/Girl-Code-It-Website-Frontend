@@ -144,22 +144,6 @@
       "duration": "7 days",
       "resources": 2,
       "imgSrc": "/milestones/assets/java-icon.png",
-      "borderColor": "grey",
-      "link": "https://docs.google.com/document/d/1ZBk3x5AAhYPAAT5jvy8R6XGBeUXWyXB5u5SYVbCLeXM/edit?usp=sharing"
-    },
-    {
-      "topic": "OOPS",
-      "duration": "1 days",
-      "resources": 1,
-      "imgSrc": "/milestones/assets/java-icon.png",
-      "borderColor": "#008cd8",
-      "link": "https://docs.google.com/document/d/1lvRWlgVTEplWD1sVIYHocpeKgCbpgOh1C8p2JijmmwU/edit?usp=sharing"
-    },
-    {
-      "topic": "Stacks and Queues",
-      "duration": "3 days",
-      "resources": 1,
-      "imgSrc": "/milestones/assets/java-icon.png",
       "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1ZBk3x5AAhYPAAT5jvy8R6XGBeUXWyXB5u5SYVbCLeXM/edit?usp=sharing"
     },
