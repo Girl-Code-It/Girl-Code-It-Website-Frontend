@@ -73,6 +73,10 @@
   margin: 2rem 0 0.2rem 0;
 }
 
+.content a {
+  color: #008cd8;
+}
+
 @media (max-width: 1000px) {
   .container {
     flex-direction: column;
