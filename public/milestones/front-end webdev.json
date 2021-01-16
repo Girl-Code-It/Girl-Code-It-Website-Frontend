@@ -7,35 +7,40 @@
       "topic": "Basics of Web Development",
       "duration": "2 Weeks",
       "resources": 1231,
-      "imgSrc": "https://picsum.photos/200?113",
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#008cd8",
       "link": "#"
     },
     {
       "topic": "Loops in JavaScript",
       "duration": "1 Weeks",
       "resources": 31,
-      "imgSrc": "https://picsum.photos/200?1112",
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#bd6997",
       "link": "#"
     },
     {
       "topic": "Functions  in JavaScript",
       "duration": "3 Weeks",
       "resources": 2016,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "grey",
       "link": "#"
     },
     {
       "topic": "Arrays",
       "duration": "0 Weeks",
       "resources": 1223,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#008cd8",
       "link": "#"
     },
     {
       "topic": "Error Handling",
       "duration": "1 Weeks",
       "resources": 2,
-      "imgSrc": "https://picsum.photos/200?1",
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#bd6997",
       "link": "#"
     }
   ]
