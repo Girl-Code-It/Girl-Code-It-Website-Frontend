@@ -47,11 +47,9 @@ export default function AboutUs({ id }) {
             <br />
             <br />
             <div className={styles.rectangle} />
-            <button className={styles.knowMore}> 
-              <a href = "/meettheteam" style = {{color: "white"}}>
-                Meet our Team 
-              </a>
-            </button>
+            <a href = "/meettheteam" className = {styles.knowMore}>
+              Meet our Team 
+            </a>
           </Col>
         </Row>
       </Container>

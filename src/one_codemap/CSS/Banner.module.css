@@ -45,8 +45,17 @@
 .button:focus,
 .button:active {
   background-color: #008dc8;
-  padding-right: 40px;
-  padding-left: 40px;
+  color: white;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+.Display {
+  display: inline;
+}
+
+.noDisplay {
+  display: none;
 }
 
 .img {
