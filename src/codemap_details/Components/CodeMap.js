@@ -22,26 +22,26 @@ export default class CodeMap extends Component {
           onecodemapLink: "cpp.json",
         },
         {
-          imgUrl: "https://img.icons8.com/wired/64/000000/java-coffee-cup-logo.png",
+          imgUrl: "https://img.icons8.com/wired/2x/java-coffee-cup-logo.png",
           name: "Data Structures & Algorithms (Java)",
           onecodemapLink: "java.json",
         },
       ],
       [
         {
-          imgUrl: "https://www.voicefoundry.com.au/wp-content/uploads/2018/12/code-icon-png-free147-4bf3-b748-6cea8c83ad71.png",
+          imgUrl: "https://img.icons8.com/wired/2x/code.png",
           name: "Frontend Web Development",
           onecodemapLink: "front-end webdev.json",
         },
         {
-          imgUrl: "https://img.icons8.com/carbon-copy/50/000000/react.png",
+          imgUrl: "https://img.icons8.com/carbon-copy/2x/react.png",
           name: "ReactJS for Beginners",
           onecodemapLink: "front-end.json",
         },
       ],
       [
         {
-          imgUrl: "https://cdn.iconscout.com/icon/free/png-256/github-brand-logo-47401.png",
+          imgUrl: "https://img.icons8.com/wired/2x/github.png",
           name: "Github Tutorial",
           onecodemapLink: "github.json",
         }
