@@ -2,66 +2,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .Background {
-    background-image: url("../assets/background.png");
-    background-repeat: no-repeat;
-    background-size: 2000px 500px;
-    padding: 200px;
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 4rem;
+  margin: 5rem 0;
+}
+
+.Title,
+.Para {
+  max-width: 70rem;
+  margin: auto;
 }
 
 .Title {
-    font-family: "Poppins", sans-serif;
-    font-size: 2.3rem;
-    color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.3rem;
+  color: white;
+  margin-bottom: 1rem;
 }
 
 .Para {
-    font-family: "Inter", sans-serif;
-    font-size: 1.25rem;
-    color: white;
-    text-align: justify;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  text-align: justify;
 }
 
-@media (max-width: 918px){
+@media (max-width: 900px) {
     .Background {
-        background-size: 1200px 350px;
-        padding: 130px 100px 100px 100px;
-    }
-
-    .Title {
-        font-size: 2rem;
-    }
-
-    .Para {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 609px){
-    .Background {
-        background-size: 1000px 300px;
-        padding: 110px 80px 80px 80px;
-    }
-
-    .Title {
-        font-size: 1.8rem;
-    }
-
-    .Para {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 487px){
-    .Background {
-        background-size: 800px 250px;
-        padding: 100px 60px 50px 60px;
-    }
-
-    .Title {
-        font-size: 1.6rem;
-    }
-
-    .Para {
-        font-size: 0.6rem;
+        padding: 2rem;
     }
 }
