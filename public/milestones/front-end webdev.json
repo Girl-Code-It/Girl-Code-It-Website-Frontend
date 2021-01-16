@@ -32,7 +32,7 @@
       "duration": "8 days",
       "resources": 3,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/1vBOiI4EdEFSPhkxIyvGlkVm2YrvMFn1fBbUUUvsEzIw/edit?usp=sharing"
     },
     {
@@ -40,7 +40,7 @@
       "duration": "4 days",
       "resources": 3,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1RLxxiN6TO3J1y15g2iBghLbZlv4LBDOw7CL5zqzn6o8/edit?usp=sharing"
     },
     {
@@ -48,7 +48,7 @@
       "duration": "4 days",
       "resources": 4,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1tm0v87kVvun74qui11DdPlgjd9Fm5yJzGxVSM6gJ-sc/edit?usp=sharing"
     },
     {
@@ -56,7 +56,7 @@
       "duration": "2 days",
       "resources": 5,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/1O75_gqcTvOTYxbaUtRI9HBLxhaFIVmvs0vaqLBIb5ns/edit?usp=sharing"
     },
     {
@@ -64,7 +64,7 @@
       "duration": "3 days",
       "resources": 5,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "#008cd8",
       "link": "https://docs.google.com/document/d/1YxcDo3IY_OuXfS_tf4r2D8aPt8mxRwTGPbaPQcYu0cM/edit?usp=sharing"
     },
     {
@@ -72,7 +72,7 @@
       "duration": "2 days",
       "resources": 6,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "grey",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/18RArrtzsPj25VIFFAFpKjEkHrORfbfm8XhFjdaKGkDM/edit?usp=sharing"
     },
     {
@@ -104,7 +104,7 @@
       "duration": "5 days",
       "resources": 1,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "#008cd8",
+      "borderColor": "#bd6997",
       "link": "https://docs.google.com/document/d/19JKLSI1MIRncJ7vYelDJoR_a5RmAgVZFLXKDpYe-HKU/edit?usp=sharing"
     },
     {
@@ -112,7 +112,7 @@
       "duration": "3 days",
       "resources": 0,
       "imgSrc": "/milestones/assets/web-icon.png",
-      "borderColor": "#bd6997",
+      "borderColor": "grey",
       "link": "https://docs.google.com/document/d/12e-teM3SsRp4fMraOZ1SE4FaksrDFAUfPbrJiGad8A4/edit?usp=sharing"
     }
 
