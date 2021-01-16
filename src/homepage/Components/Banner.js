@@ -16,19 +16,15 @@ export default function Banner() {
               <span style={{ color: "#008dc8" }}> dreams </span>
             </h1>
             <div className={styles.rectangle} />
-            <button className={styles.Button}> 
-              <a href = "https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform" style = {{color: "white"}}> 
-                Volunteer Us 
-              </a>
-            </button>
+            <a href = "https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform" className = {styles.Button}> 
+              Volunteer
+            </a>
             <br className={styles.set} />
             <br className={styles.align} />
             <br className={styles.align} />
-            <button style={{ marginLeft: "80px" }} className={styles.Button}>
-              <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" style = {{color: "white"}}>
-                Join our community
-              </a>
-            </button>
+            <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" className={styles.Button} style = {{marginLeft: "80px"}}>
+              Join our community
+            </a>
           </Col>
           <Col md={6} lg={5}>
             <Image className={styles.code} src={code} alt="code" fluid />
@@ -51,8 +47,12 @@ export default function Banner() {
         />
         <br />
         <br />
-        <button className={styles.Button}>About Us</button>
-        <button className={styles.Button}>Join GCI</button>
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform" className = {styles.Button}> 
+          Volunteer
+        </a>
+        <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" className={styles.Button}>
+          Join GCI
+        </a>
       </Container>
     </Jumbotron>
   );
