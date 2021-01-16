@@ -19,7 +19,7 @@ export default function MilestoneCard(props) {
         </div>
         <div>
           <Card.Text className={styles.cardText}>
-            <div>Topic: {props.topic}</div>
+            <div style={{ color: "#000" }}>Topic: {props.topic}</div>
             <div>Duration: {props.duration}</div>
             <div>Resources: {props.resources}</div>
           </Card.Text>
