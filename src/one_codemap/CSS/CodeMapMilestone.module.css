@@ -5,6 +5,17 @@
   grid-gap: 2rem;
 }
 
+.Display {
+  margin-top: 11rem;
+  color: grey;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+}
+
+.noDisplay {
+  display: none;
+}
+
 @media (max-width: 1150px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);

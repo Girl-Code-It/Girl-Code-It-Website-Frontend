@@ -18,7 +18,7 @@ export default class Team extends Component {
 
     return (
       <Jumbotron className = {styles.Jumbotron}>
-        <Container>
+        <Container className = {styles.Container}>
           <h1 className = {styles.Title}>
             What they <span style = {{color: "#008dc8"}}> say about us </span>
           </h1>

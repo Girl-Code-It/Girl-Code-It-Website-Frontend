@@ -17,8 +17,7 @@
     height: 32rem;
     /* min-height: 300px; */
     position: relative;
-    margin-top: 5rem;
-    margin-right: 3rem;
+    margin: 5rem 1.5rem 0rem 1.5rem;
     align-self: stretch;
     border-radius: 1rem;
   }
@@ -70,9 +69,40 @@
   .Reviews:hover {
     color: #008dc8;
   }
-  
-  @media (max-width: 400px){
+
+  @media (max-width: 769px){
+    .card {
+      margin: 15% 15% 0% 20%;
+    }
+  }
+
+  @media (max-width: 560px){
+    .Title {
+      margin-top: 20%;
+    }
+  }
+
+  @media (max-width: 445px){
     .card {
       height: fit-content;
+    }
+    .img {
+      margin: -4rem auto -4rem -5rem;
+    }
+  }
+
+  @media (max-width: 350px){
+    .card {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  @media (max-width: 300px){
+    .Title {
+      margin-top: 40%;
+    }
+    .card {
+      margin: 25% 0% 0% 9%;
     }
   }

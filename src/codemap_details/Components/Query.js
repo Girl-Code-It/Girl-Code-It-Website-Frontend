@@ -27,6 +27,9 @@ export default function Query() {
                 <br />
                 <hr className={styles.line} />
               </p>
+              <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" className = {styles.Button}>
+                Ask here
+              </a>
             </Col>
             <Col lg={6}>
               <Image src={query} className={styles.img} fluid />
