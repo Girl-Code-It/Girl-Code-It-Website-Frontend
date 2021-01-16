@@ -42,7 +42,11 @@ export default function OneCodeMap() {
   ) : (
     <>
       <Container>
-        <Banner title={data && data.name} />
+        <Banner 
+          title = {data && data.name} 
+          img = {data && data.imgUrl} 
+          content = {data && data.content}
+        />
       </Container>
 
       {/* keep it out of Container*/}

@@ -15,7 +15,7 @@ export default function MilestoneCard(props) {
       </Card.Body>
       <Card.Body className={styles.flex}>
         <div>
-          <Card.Img src={props.imgSrc} alt="" className={styles.img} />
+          <Card.Img src={props.imgSrc} alt="" className={styles.img} style = {{backgroundColor: `${props.borderColor}`, padding: "20px"}} />
         </div>
         <div>
           <Card.Text className={styles.cardText}>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Image, Jumbotron, Container, Button } from "react-bootstrap";
+import { Image, Jumbotron, Container } from "react-bootstrap";
 import { FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa";
 import styles from "../CSS/Coming.module.css";
 import ComingImg from "../assets/coming.svg";

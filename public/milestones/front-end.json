@@ -1,40 +1,72 @@
+
 {
   "name": "ReactJs for Beginners",
+  "imgUrl": "/milestones/assets/react.png",
+  "content": "Sit maiores neque ad deserunt fugit placeat. Dolorum cumque omnis nulla iste rem Quae laudantium eligendi minus dicta ut Quibusdam odit dicta voluptas veniam illo Nostrum commodi explicabo quos eaque",
   "milestones": [
     {
-      "topic": "Advance C++",
-      "duration": "2 Weeks",
-      "resources": 1231,
-      "imgSrc": "https://picsum.photos/200?113",
-      "link": "#"
+      "topic": "Introduction to React",
+      "duration": "1 Day",
+      "resources": 9,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1KT-pRTPv_LnZkk6Ypn1xb1vDUlFRN5Sn-heEskPtd8U/edit?usp=sharing"
     },
     {
-      "topic": "Loops",
-      "duration": "1 Weeks",
-      "resources": 31,
-      "imgSrc": "https://picsum.photos/200?1112",
-      "link": "#"
+      "topic": "Components",
+      "duration": "1 Day",
+      "resources": 13,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1XPij1vxtJyGNdqooGrRCJ3o8bgGzaWjiWgct0jttjkU/edit?usp=sharing"
     },
     {
-      "topic": "Functions",
-      "duration": "3 Weeks",
-      "resources": 2016,
-      "imgSrc": "https://picsum.photos/200?1",
-      "link": "#"
+      "topic": "Connected Components",
+      "duration": "1 Day",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1B4t56_iO0LY43E4cJJcuxNAfimcsUFa3D6gO70BYda8/edit?usp=sharing "
     },
     {
-      "topic": "Structures",
-      "duration": "0 Weeks",
-      "resources": 1223,
-      "imgSrc": "https://picsum.photos/200?1",
-      "link": "#"
+      "topic": "Props & Types of Components",
+      "duration": "1 Day",
+      "resources": 7,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1eeJslZOO1siaTmcXX4pRmEVsAOwy1w5DMGWhtzJp6XI/edit?usp=sharing"
     },
     {
-      "topic": "Vectors",
-      "duration": "1 Weeks",
-      "resources": 2,
-      "imgSrc": "https://picsum.photos/200?1",
-      "link": "#"
+      "topic": "Event Handlers and SetState: React",
+      "duration": "1 Day",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1jbBdIfzfMPLkgZj_4AkrgBVD5_2-xOUX57T5MRGfnhg/edit?usp=sharing"
+    },
+    {
+      "topic": "React Lifecycle Methods",
+      "duration": "1 Day",
+      "resources": 10,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1J1vAhUviKsIlq3BO-bRQsLZBFa2jmecYUAmLN8Tkkzc/edit?usp=sharing"
+    },
+    {
+      "topic": "React Forms",
+      "duration": "1 Day",
+      "resources": 9,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/19Mp26Hq8pscncFHd5RaFQqrxdfpKThn7jR2aa3RjP5w/edit?usp=sharing"
+    },
+    {
+      "topic": "React Hooks",
+      "duration": "1 Day",
+      "resources": 10,
+      "imgSrc": "/milestones/assets/react-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1Lh5i1eesK_a2BEUoHsza91IztfaZj5j22DrcoJ6oVD4/edit?usp=sharing"
     }
   ]
 }
