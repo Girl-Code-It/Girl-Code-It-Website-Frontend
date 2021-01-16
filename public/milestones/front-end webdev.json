@@ -4,12 +4,12 @@
   "content": "Sit maiores neque ad deserunt fugit placeat. Dolorum cumque omnis nulla iste rem Quae laudantium eligendi minus dicta ut Quibusdam odit dicta voluptas veniam illo Nostrum commodi explicabo quos eaque",
   "milestones": [
     {
-      "topic": "Basics of Web Development",
-      "duration": "2 Weeks",
-      "resources": 1231,
+      "topic": "HTML (Part 1)",
+      "duration": "3 days",
+      "resources": 4,
       "imgSrc": "/milestones/assets/web-icon.png",
       "borderColor": "#008cd8",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1ufd07PNHgDaXm6O1Zl50ikrb4n2OVXsZhQowkkoGr3Y/edit?usp=sharing"
     },
     {
       "topic": "Loops in JavaScript",

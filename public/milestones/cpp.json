@@ -5,43 +5,347 @@
   "milestones": [
     {
       "topic": "Basics of C++",
-      "duration": "2 Weeks",
-      "resources": 1231,
+      "duration": "4 days",
+      "resources": 19,
       "imgSrc": "/milestones/assets/cpp-icon.png",
       "borderColor": "#008cd8",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1zhYStEj1c2oky9pzPSgmrMIo7973vxXXfP6bOyGEFxc/edit?usp=sharing"
     },
     {
       "topic": "Loops",
-      "duration": "1 Weeks",
-      "resources": 31,
+      "duration": "3 days",
+      "resources": 14,
       "imgSrc": "/milestones/assets/cpp-icon.png",
       "borderColor": "#bd6997",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1PiFocRH7jBIT12wudcUExC9Ew7q896bkFIdKBvsHID0/edit?usp=sharing"
+    },
+    {
+      "topic": "Practice for Loops",
+      "duration": "20 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1nbQ2nKlTMkkX1E91OKZVfBkP1namD3gkoC6XiEn6l7g/edit?usp=sharing"
+    },
+    {
+      "topic": "Star Patterns",
+      "duration": "7 days",
+      "resources": 1,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/17ieJfjujO759TmY7RmaHYnf33aABEyJi4RKrDY8vTfw/edit?usp=sharing"
+    },
+    {
+      "topic": "Number Patterns",
+      "duration": "7 days",
+      "resources": 1,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1k7cVVp6h53VOE0qy8lOPwNMwru7I3Svnd83Baytt3co/edit?usp=sharing"
     },
     {
       "topic": "Functions",
-      "duration": "3 Weeks",
-      "resources": 2016,
+      "duration": "3 days",
+      "resources": 8,
       "imgSrc": "/milestones/assets/cpp-icon.png",
       "borderColor": "grey",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1C6nsmewjqGIfA7A6cKXJ6h2VlH7dypLxXHvKYPU39pc/edit?usp=sharing"
     },
     {
-      "topic": "Structures",
-      "duration": "0 Weeks",
-      "resources": 1223,
+      "topic": "1 Dimensional Array",
+      "duration": "7 days",
+      "resources": 12,
       "imgSrc": "/milestones/assets/cpp-icon.png",
       "borderColor": "#008cd8",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1N9xL__1iPnRRQS1b0BfRIWX0aX9wtcO8EfqHQaYKgbI/edit?usp=sharing"
     },
     {
-      "topic": "Vectors",
-      "duration": "1 Weeks",
-      "resources": 2,
+      "topic": "Multidimensional Array",
+      "duration": "7 days",
+      "resources": 10,
       "imgSrc": "/milestones/assets/cpp-icon.png",
       "borderColor": "#bd6997",
-      "link": "#"
+      "link": "https://docs.google.com/document/d/1bWJzROHXglOF45r7_LNsv7gSZkHJ3KGbdyFyugraXmA/edit?usp=sharing"
+    },
+    {
+      "topic": "Strings",
+      "duration": "7 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1GBt2CPrkHaOqwpWjMJ8iFk5IECpb6yDIJ-cBB-EzPgs/edit?usp=sharing"
+    },
+    {
+      "topic": "Pointers",
+      "duration": "1 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1OAhRJYcpDJie7bB7TqPVK2PRDb2RlXWUzRrxqJhxWjA/edit?usp=sharing"
+    },
+    {
+      "topic": "Dynamic Memory Allocation",
+      "duration": "1 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1VRzs-AdoaJkyJU2GTU2_dDsiDUpO0RcCzGFE2nBudmk/edit?usp=sharing"
+    },
+    {
+      "topic": "Searching Algorithms",
+      "duration": "5 days",
+      "resources": 4,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1_fuAIv4zzsmPBewYluqA_0AxnBfYJsvprKzfUfiJc-o/edit?usp=sharing"
+    },
+    {
+      "topic": "Recursion-1",
+      "duration": "7 days",
+      "resources": 9,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1LR4mKR-cKS-iPMMN3WNgo5Lt78pBWGkB76szaXvjFOM/edit?usp=sharing"
+    },
+    {
+      "topic": "Recursion-2",
+      "duration": "4 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1vJ9kEXBKlhlYmTClNrJRizFQAEqaFbyLxaXYLZUHnL0/edit?usp=sharing"
+    },
+    {
+      "topic": "Time and Space Complexity",
+      "duration": "2 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1BYMo99sHqOhaMoMh6sMv1zr7hhO28ue5Py9QltdCE3A/edit?usp=sharing"
+    },
+    {
+      "topic": "Sorting Algorithms",
+      "duration": "10 days",
+      "resources": 14,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1nxCUhPCihLLh_GPLehXRzRnW4SY8EQLGlt9LiGcXrNM/edit?usp=sharing"
+    },
+    {
+      "topic": "Bit Manipulation",
+      "duration": "7 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1XmtxctOTsuhb7_8PACIHQnK-IFTF1wVCzzeXP648PQQ/edit?usp=sharing"
+    },
+    {
+      "topic": "Introduction to Data Structures and Linked Lists",
+      "duration": "10 days",
+      "resources": 13,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1NOapOcIhgoeuBNra7hqbEXAxJUCtFHjIYoqMEO5ffqw/edit?usp=sharing"
+    },
+    {
+      "topic": "Linked Lists",
+      "duration": "4 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1dD_V5Ahbc7ln-b7a5YSAnAj4ZCpABMUlcsw4_MDxNzM/edit?usp=sharing"
+    },
+    {
+      "topic": "Linked Lists 2",
+      "duration": "3 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/16ccji785QdmWOjlsPNI0xib07URCrtbmD-f1wE8Sw00/edit?usp=sharing"
+    },
+    {
+      "topic": "Stacks 1",
+      "duration": "8 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1Up2nwKt2OD18-9jCjCWkUiTIBYx2iqL0_PyR5PVrQxc/edit?usp=sharing"
+    },
+    {
+      "topic": "Stacks 2",
+      "duration": "3 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1kOJEqL1iEDzf-xuKivJNCwj3ZGQR4jUaH9RKbTRzwO0/edit?usp=sharing"
+    },
+    {
+      "topic": "Stacks 3",
+      "duration": "3 days",
+      "resources": 10,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/15_NOzf6GWRSRUJqOpg2qQZwKcdHV1UpncIgkwQVgM_M/edit?usp=sharing"
+    },
+    {
+      "topic": "Queues 1",
+      "duration": "7 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1tRNXLFPSP8WF08cRZtdIH2zB1kUOILQxwZfvr1n-_DE/edit?usp=sharing"
+    },
+    {
+      "topic": "Queues 2",
+      "duration": "3 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1VQhTg_ErfeZ2RImQbzph_Lkzql0y2eYtx_SJqAlt2xs/edit?usp=sharing"
+    },
+    {
+      "topic": "Queues 3",
+      "duration": "3 days",
+      "resources": 10,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1fn4LFUXzvYXGOxWd-xtxGS598akj8OF1Vt05JYqzo0M/edit?usp=sharing"
+    },
+    {
+      "topic": "Standard Template Library",
+      "duration": "2 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1IwvEu3_G6sDBvOY1M1rheCKB7az0houSY5ylzXwN1Hk/edit?usp=sharing"
+    },
+    {
+      "topic": "Standard Template Library 2",
+      "duration": "6 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1CferT3HGtb2Gz3G1Yt_NrRelNdlricsxZ9IVus4Fgmg/edit?usp=sharing"
+    },
+    {
+      "topic": "Introduction to Trees ",
+      "duration": "3 days",
+      "resources": 12,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1kaGZNTb3XeRXRntP1NP6yc8P3BL2Iph80OXcsOjOrm4/edit?usp=sharing"
+    },
+    {
+      "topic": "Binary Trees ",
+      "duration": "15 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1X1lp6OLNjYtKbi4P_C49zBZxpbehfKk6stpbOuXOaAw/edit?usp=sharing"
+    },
+    {
+      "topic": "Binary Trees Practice",
+      "duration": "10 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1j28CkDWdPV2Tx5WuVWjgHLnBC4q4peWj1HHNxd2XnKY/edit?usp=sharing"
+    },
+    {
+      "topic": "N-ary Trees",
+      "duration": "14 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1kmJR90qjQh9gwGqb_o9WTp1TeAlJlP-gwPoBLy7c6fE/edit?usp=sharing"
+    },
+    {
+      "topic": "Binary Search Trees",
+      "duration": "8 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/18jZTc46T981ZqhH36UYWOOkMtvqIGxMXZLO62f9xh8g/edit?usp=sharing"
+    },
+    {
+      "topic": "HashMaps 1",
+      "duration": "5 days",
+      "resources": 10,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1r0VXc8lCWC0939V7UAi9VP3q_cy4kO5mCtrsVV51XSk/edit?usp=sharing"
+    },
+    {
+      "topic": "HashMaps 2",
+      "duration": "10 days",
+      "resources": 25,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/149b_oXH-kSPvFWXDkKJbNm_ksXB8Gju44EO0PGPlLjA/edit?usp=sharing"
+    },
+    {
+      "topic": "HashMaps 3",
+      "duration": "3 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/11lF0tAkTty_N8_Cunj98a6flfjXS5IdAbxSPjLVPfCs/edit?usp=sharing"
+    },
+    {
+      "topic": "BackTracking",
+      "duration": "12 days",
+      "resources": 15,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1no1Eo37Zx4I2NBwiFYwkno_gxHD6efmz8mNUlOsC2ho/edit?usp=sharing"
+    },
+    {
+      "topic": "Dynamic Programming 1",
+      "duration": "7 days",
+      "resources": 14,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1yJcoj9G_kQvgOFUItJheMnmLZta0Yppg6ZQbfJmKTAc/edit?usp=sharing"
+    },
+    {
+      "topic": "Dynamic Programming 2",
+      "duration": "14 days",
+      "resources": 16,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/13yYq7Am4mhGhypoVs4a7hyG9WofXYSMu9g72aCfz7mU/edit?usp=sharing"
+    },
+    {
+      "topic": "Dynamic Programming 3",
+      "duration": "14 days",
+      "resources": 31,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/spreadsheets/d/1mlmeZo1Ax4dkWw_omjkbXlHo7oXieJLwL_-9xeI0NgA/edit?usp=sharing"
+    },
+    {
+      "topic": "Introduction to Graphs",
+      "duration": "4 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1V4pgJs4Q-JvtFWPYZB0YLwt428IBoPHyUF0PXqqE-74/edit?usp=sharing"
+    },
+    {
+      "topic": "Graphs Algorithms 1",
+      "duration": "10 days",
+      "resources": 22,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1qMiDoVhbR_FZeKEfccNELxe70-VyBGhkGnjAF-tl7gE/edit?usp=sharing"
+    },
+    {
+      "topic": "Graph Algorithms 2",
+      "duration": "12 days",
+      "resources": 29,
+      "imgSrc": "/milestones/assets/cpp-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/spreadsheets/d/1l43B2vYX-pod7yj_rzSkEnY9Ropjb6_ELN5heUKn1Pw/edit?usp=sharing"
     }
   ]
 }
