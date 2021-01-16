@@ -41,12 +41,14 @@
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
 a:hover{
+  border: none;
   text-decoration: none;
 }
 .Button:hover,
 .Button:focus,
 .Button:active {
   background-color: #008dc8;
+  color: white;
   padding-right: 40px;
   padding-left: 40px;
 }

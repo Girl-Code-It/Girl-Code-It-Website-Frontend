@@ -75,6 +75,7 @@ body {
 
 .Button:hover, .Button:focus, .Button:active{
   background-color: #008dc8;
+  color: white;
   width: 30%;
   padding: 5px 15px 5px 15px;
   text-decoration: none;

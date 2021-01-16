@@ -57,7 +57,7 @@ var TechData = [
         id: 7,
         name: "Khushi Bansal",
         imgUrl: "Khushi.jpg",
-        designation: "Assisstant Mentor",
+        designation: "Assistant Mentor",
         linkedin: "https://www.linkedin.com/in/khushi-bansal-8a3000153/",
         github: "https://github.com/khushib12",
         bgColor: "#BD6997"
@@ -66,7 +66,7 @@ var TechData = [
         id: 8,
         name: "Divya Chopra",
         imgUrl: "Divya.jpeg",
-        designation: "Assisstant Mentor",
+        designation: "Assistant Mentor",
         linkedin: "https://www.linkedin.com/in/divya-chopra-720500190/",
         github: "https://github.com/divya1509",
         bgColor: "grey"
@@ -75,7 +75,7 @@ var TechData = [
         id: 9,
         name: "Nirbhay Luthra",
         imgUrl: "Nirbhay.jpg",
-        designation: "Assisstant Mentor",
+        designation: "Assistant Mentor",
         linkedin: "https://www.linkedin.com/in/nirbhay-luthra-70ab7b111/",
         github: "https://github.com/nirbhayluthra",
         bgColor: "#008cd8"
