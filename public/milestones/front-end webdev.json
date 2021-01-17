@@ -114,6 +114,14 @@
       "imgSrc": "/milestones/assets/web-icon.png",
       "borderColor": "grey",
       "link": "https://docs.google.com/document/d/12e-teM3SsRp4fMraOZ1SE4FaksrDFAUfPbrJiGad8A4/edit?usp=sharing"
+    },
+    {
+      "topic": "Bonus - Namaste Javascript",
+      "duration": "3 days",
+      "resources": 1,
+      "imgSrc": "/milestones/assets/web-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
     }
   ],
   "submit": "https://github.com/Girl-Code-It/Web-Development-Submissions"

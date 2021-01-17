@@ -20,6 +20,11 @@ export default function CodeMapMilestone({ data }) {
             m.id = i + 1;
             return <MilestoneCard {...m} key={i} />;
           })}
+          <p
+            className={data && data.name === "Data Structures & Algorithms in Java" ? styles.Display : styles.noDisplay}
+          >
+            More milestones coming soon...
+          </p>
       </div>
     </Container>
   );

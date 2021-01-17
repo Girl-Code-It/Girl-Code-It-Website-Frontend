@@ -38,6 +38,32 @@
 .small {
   display: none;
 }
+
+.Button {
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 5px 30px 5px 30px;
+  margin-top: 20px;
+  margin-right: 10%;
+  position: relative;
+  float: right;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.Button:hover {
+  color: white;
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
 @media only screen and (max-width: 991px) {
   .container {
     display: none;
