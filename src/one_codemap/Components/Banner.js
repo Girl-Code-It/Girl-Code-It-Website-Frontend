@@ -67,7 +67,7 @@ export default function Banner(props) {
         href={props.submit}
         className={props.submit !== "" ? styles.button : styles.noDisplay}
       >
-        Submit here
+        Submit Solutions here
       </a>
     </Jumbotron>
   );
