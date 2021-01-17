@@ -15,7 +15,7 @@ export default function Query() {
             <Col lg={6}>
               <p className={styles.para}>
                 When you join a codemap, you will also be invited to join a 
-                whatsapp group which will have your mentors as well as others 
+                Slack channel which will have your mentors as well as others 
                 who are on the same journey as you.
                 <br />
                 <br />
@@ -43,7 +43,7 @@ export default function Query() {
           <Image src={query} className={styles.img} fluid />
           <p className={styles.para}>
             When you join a codemap, you will also be invited to join a 
-            whatsapp group which will have your mentors as well as others 
+            Slack channel which will have your mentors as well as others 
             who are on the same journey as you.
             <br />
             <br />

@@ -46,7 +46,7 @@ function Footer() {
                     <h5 className = {styles.Border}> Contact Us </h5>
                     <Row>
                         <Col md = {10}>
-                            <p> <FaPhoneAlt />  (+91) - 83848-13292 </p>
+                            <p> <FaPhoneAlt />  (+91) - 96906-29214 </p>
                         </Col>
                     </Row>
                     <Row>
