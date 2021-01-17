@@ -1,7 +1,12 @@
+.row {
+  display: flex;
+}
+
 .card {
   border: none;
   background: #f4f5f6;
   margin-bottom: 5rem;
+  flex-wrap: nowrap;
 }
 
 .topbar {
