@@ -60,6 +60,15 @@
   margin: auto 0 -1.3rem 1.5rem;
 }
 
+.Reviews {
+  text-align: center;
+  color: grey;
+}
+
+.Reviews:hover {
+  color: #008dc8;
+}
+
 @media (max-width: 900px) {
   .cardText::before,
   .cardText::after {

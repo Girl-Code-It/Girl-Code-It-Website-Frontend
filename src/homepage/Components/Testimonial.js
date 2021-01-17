@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import TestimonialCard from "./TestimonialCard";
 import TestimonialContent from "./TestimonialContent";
+import styles from "../CSS/TestimonialCard.module.css"
 
 class Testimonial extends Component {
   render() {
@@ -63,6 +64,17 @@ class Testimonial extends Component {
               );
             })}
           </Slider>
+        </Container>
+
+        <Container>
+          <br/>
+          <br/>
+
+          <a href = "/reviews">
+            <p className = {styles.Reviews}>
+              View more reviews
+            </p>
+          </a>
         </Container>
       </>
     );

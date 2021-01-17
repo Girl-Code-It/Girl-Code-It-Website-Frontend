@@ -36,7 +36,7 @@ export default class CodeMap extends Component {
         {
           imgUrl: "https://img.icons8.com/carbon-copy/2x/react.png",
           name: "ReactJS for Beginners",
-          onecodemapLink: "front-end.json",
+          onecodemapLink: "react.json",
         },
       ],
       [
