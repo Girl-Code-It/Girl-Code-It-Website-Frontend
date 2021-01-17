@@ -90,6 +90,15 @@
     margin: auto;
     margin-left: 17%;
   }
+  .Button {
+    margin-right: 14rem;
+  }
+}
+@media (max-width: 768px){
+  .Button {
+    margin-right: 21.5rem;
+    margin-top: -2rem;
+  }
 }
 @media screen and (max-width: 675px) {
   .head {
@@ -106,5 +115,18 @@
 @media screen and (max-width: 570px) {
   .head {
     margin-top: 20%;
+  }
+}
+@media (max-width: 516px){
+  .Button {
+    width: 35%;
+    margin-right: 16rem;
+  }
+}
+@media (max-width: 436px){
+  .Button {
+    margin-top: 1rem;
+    margin-right: 1.8rem;
+    width: 70%;
   }
 }
