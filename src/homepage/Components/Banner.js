@@ -16,14 +16,14 @@ export default function Banner() {
               <span style={{ color: "#008dc8" }}> dreams </span>
             </h1>
             <div className={styles.rectangle} />
-            <a href = "https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform" className = {styles.Button}> 
-              Volunteer
+            <a href = "#about" className = {styles.Button}> 
+              About Us
             </a>
             <br className={styles.set} />
             <br className={styles.align} />
             <br className={styles.align} />
-            <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" className={styles.Button} style = {{marginLeft: "80px"}}>
-              Join our community
+            <a href = "https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform" className={styles.Button} style = {{marginLeft: "80px"}}>
+              Volunteer
             </a>
           </Col>
           <Col md={6} lg={5}>
@@ -47,11 +47,11 @@ export default function Banner() {
         />
         <br />
         <br />
-        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform" className = {styles.Button}> 
-          Volunteer
+        <a href = "#about" className = {styles.Button}> 
+          About Us
         </a>
-        <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" className={styles.Button}>
-          Join GCI
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform/" className={styles.Button}>
+          Volunteer
         </a>
       </Container>
     </Jumbotron>
