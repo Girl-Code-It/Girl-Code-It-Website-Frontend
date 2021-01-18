@@ -13,7 +13,7 @@ var ContentData = [
     name: "Himanshi Singla",
     imgUrl: "Himanshi.jpg",
     designation: "Content Team",
-    linkedin: "https://www.linkedin.com/in/tania-joseph-58444a149/",
+    linkedin: "https://www.linkedin.com/in/himanshisingla/",
     github: "",
     bgColor: "#008cd8",
   },
