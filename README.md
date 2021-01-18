@@ -15,7 +15,7 @@ So what are you waiting for? Come join us! 😊 ✨
 4. [Bugs and Feature Requests](#Bugs-and-Feature-Requests)
 5. [Contributing](#contributing)
 6. [Mentors](#mentors)
-6. [Copyright and license](#copyright-and-license)
+7. [Copyright and license](#copyright-and-license)
 
 <h2 align="center">Install</h2>
 
@@ -32,7 +32,7 @@ $ npm start
 
 <h2 align="center">Technology Stack</h2>
 
-- **HTML, CSS, Javascript** 
+- **HTML, CSS, Javascript**
 - **Wireframing & Designing** - AdobeXD
 - **Library** - ReactJs
 - **Framework** - React-Bootstrap
@@ -40,7 +40,6 @@ $ npm start
 <h2 align="center">Designs</h2>
  
 -   [**All Designs here**](https://docs.google.com/spreadsheets/d/1_HQy1a_iSKqPIQlZTjnkcZxoTZgElAHMyYxEjnIi0AY/edit?usp=sharing)
-
 
 <h2 align="center">Bugs and Feature Requests</h2>
 
@@ -53,14 +52,13 @@ To get started have a look at our [documentation on contributing](https://github
 
 <h2 align="center">Mentors</h2>
 
-| GitHub Usernames                                     | Domain                              |
-| ---------------------------------------------------- | ----------------------------------- |
-| [@Manvityagi](https://github.com/Manvityagi)         | FullStack + Documentation |
-| [@SinghVikram97](https://github.com/SinghVikram97)   | FullStack                           |
-| [@aayush-05](https://github.com/aayush-05)           | Design + Frontend Development                 |
-| [@vaishali614](https://github.com/vaishali614)       | Design + Frontend Development       |
-| [@praveenscience](https://github.com/praveenscience) | Frontend Development                |
-
+| GitHub Usernames                                   | Domain                        |
+| -------------------------------------------------- | ----------------------------- |
+| [@Manvityagi](https://github.com/Manvityagi)       | FullStack + Documentation     |
+| [@abdus](https://github.com/abdus)                 | Frontend Development          |
+| [@vaishali614](https://github.com/vaishali614)     | Design + Frontend Development |
+| [@SinghVikram97](https://github.com/SinghVikram97) | FullStack                     |
+| [@aayush-05](https://github.com/aayush-05)         | Design                        |
 
 <h2 align="center">Copyright and license</h2>
 
