@@ -15,7 +15,7 @@ var ContentData = [
     designation: "Content Team",
     linkedin: "https://www.linkedin.com/in/himanshisingla/",
     github: "",
-    bgColor: "#008cd8",
+    bgColor: "grey",
   },
   {
     id: 3,
