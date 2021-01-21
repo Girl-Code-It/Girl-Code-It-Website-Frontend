@@ -9,6 +9,7 @@
   font-weight: 500;
   font-size: 17px;
   margin: auto 8px;
+  
 }
 
 .Brand:hover {
@@ -41,5 +42,14 @@ a:global(.active) {
     position: relative;
     left: -20px;
     font-size: 2rem;
+  } 
+}
+
+@media screen and (max-width: 991px){
+  .Links{
+    background-color: rgba(104, 104, 104, 0.096);
+    padding: 5px 0 5px 25px;
+    border-radius: 5px;
   }
 }
+
