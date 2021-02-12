@@ -125,7 +125,7 @@ body {
 @media (max-width: 444px) {
   .Button {
     width: 40%;
-    margin-left: 35%;
+    margin-left: 30%;
   }
 }
 
@@ -137,5 +137,11 @@ body {
     width: 50%;
     margin-left: 30%;
     margin-bottom: 5%;
+  }
+}
+@media (max-width: 320px) {
+  .Button {
+    width: 50%;
+    margin-left: 26%;
   }
 }
