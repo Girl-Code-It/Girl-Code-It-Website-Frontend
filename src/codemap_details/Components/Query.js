@@ -27,7 +27,7 @@ export default function Query() {
                 <br />
                 <hr className={styles.line} />
               </p>
-              <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" className = {styles.Button}>
+              <a href = "https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-ntpa7kh3-wfOeslRHv8uIc_edEgaGxw" className = {styles.Button}>
                 Ask here
               </a>
             </Col>
@@ -55,7 +55,7 @@ export default function Query() {
             <br />
             <hr className={styles.line} />
           </p>
-          <a href = "https://girlcodeitdou-cuj7899.slack.com/join/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg#/" className = {styles.Button}>
+          <a href = "https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-ntpa7kh3-wfOeslRHv8uIc_edEgaGxw" className = {styles.Button}>
             Ask here
           </a>
         </Container>

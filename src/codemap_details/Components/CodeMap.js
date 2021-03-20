@@ -44,14 +44,14 @@ export default class CodeMap extends Component {
           imgUrl: "https://img.icons8.com/wired/2x/github.png",
           name: "Github Tutorial",
           onecodemapLink: "github.json",
-        }
+        },
       ],
     ];
   }
 
   render() {
     return (
-      <Container id = "codemaps">
+      <Container id="codemaps">
         <hr style={{ width: "50%", textAlign: "center" }} />
         <h1
           style={{
