@@ -84,11 +84,24 @@ a:hover {
   }
   .knowMore {
     position: absolute;
-    right: 35%;
+    right: 30%;
     /* margin-top: -42px; */
   }
 }
 
+@media screen and (max-width: 375px) {
+  .AboutImage {
+    margin-top: 0;
+  }
+  .rectangle {
+    display: none;
+  }
+  .knowMore {
+    position: absolute;
+    right: 26%;
+    /* margin-top: -42px; */
+  }
+}
 @media screen and (max-width: 991px) {
   .AboutImage {
     margin-top: 0;
@@ -104,7 +117,7 @@ a:hover {
   }
   .knowMore {
     position: absolute;
-    left: 20%;
+    left: 21.987%;
     /* margin-top: -55px; */
   }
 }

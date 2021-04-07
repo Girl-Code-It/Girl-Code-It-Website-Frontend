@@ -191,7 +191,7 @@ a:hover{
 }
 @media screen and (max-width: 629px) {
   .Button {
-    left: 33%;
+    left: 24%;
   }
 }
 @media screen and (max-width: 503px) {
@@ -207,16 +207,21 @@ a:hover{
 }
 @media screen and (max-width: 450px) {
   .Button {
-    left: 26%;
+    left: 20%;
   }
 }
 @media screen and (max-width: 390px) {
   .Button {
-    left: 22%;
+    left: 18%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Button {
+    left: 10%;
   }
 }
 @media screen and (max-width: 280px) {
   .Button {
-    left: 10%;
+    left: 4%;
   }
 }
