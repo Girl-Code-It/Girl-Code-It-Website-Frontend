@@ -1,50 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
+.cardContent {
+  min-height: 395px;
+  max-height: 395px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(168, 192, 235, 0.898);
+}
+
+.cardContent:hover {
+  transform: scale(1.1);
+}
+
 .Profile {
-    text-align: end;
-    padding: 10px;
+  text-align: end;
+  padding: 10px;
 }
 
-.Linkedin, .Github{
-    margin-right: 10px;
-    margin-bottom: 0;
-    font-size: 22px;
-    color: grey;
+.Linkedin,
+.Github {
+  margin-right: 10px;
+  margin-bottom: 0;
+  font-size: 22px;
+  color: grey;
 }
 
-.Linkedin:hover, .Github:hover{
-    border: none;
-    color: #008dc8;
+.Linkedin:hover,
+.Github:hover {
+  border: none;
+  color: #008dc8;
 }
-  
+
 .imgWrapper {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
-  
+
+.imgWrapper:hover {
+  transform: scale(1.1);
+}
+
 .img {
-    height: 150px;
-    width: 150px;
-    padding: 5px;
-    /* background-color: #BD6997; */
-    background-color: grey;
-    border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  /* background-color: #BD6997; */
+  background-color: grey;
+  border-radius: 50%;
 }
 
 .Tag {
-    text-align: center;
-    font-family: "Inter", sans-serif;
+  text-align: center;
+  font-family: "Inter", sans-serif;
 }
 
 .Name {
-    font-size: 2rem;
-    color: #008dc8;
+  font-size: 2rem;
+  color: #008dc8;
 }
 
 .Designation {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
