@@ -29,26 +29,26 @@ export default class CodeMap extends Component {
       ],
       [
         {
-          imgUrl: "https://img.icons8.com/wired/2x/code.png",
-          name: "Frontend Web Development",
-          onecodemapLink: "front-end webdev.json",
-        },
-        {
           imgUrl: "https://img.icons8.com/carbon-copy/2x/react.png",
           name: "ReactJS for Beginners",
           onecodemapLink: "react.json",
         },
+        {
+            imgUrl: "https://img.icons8.com/wired/2x/github.png",
+            name: "Github Tutorial",
+            onecodemapLink: "github.json",
+        },
       ],
       [
         {
-          imgUrl: "https://img.icons8.com/wired/2x/github.png",
-          name: "Github Tutorial",
-          onecodemapLink: "github.json",
+            imgUrl: "https://img.icons8.com/wired/512/000000/python.png",
+            name: "Python Programming for Beginners",
+            onecodemapLink: "python.json",
         },
         {
-            imgUrl: "https://img.icons8.com/wired/512/000000/python.png",
-            name: "Python for Beginners",
-            onecodemapLink: "python.json",
+            imgUrl: "https://img.icons8.com/wired/2x/code.png",
+            name: "Frontend Web Development",
+            onecodemapLink: "front-end webdev.json",
         },
       ],
     ];
@@ -78,7 +78,7 @@ export default class CodeMap extends Component {
               ))}
             </Col>     
             <Col xs={12} md={6}>
-            {this.state.cardRows[1].map((card, i) => (
+            {this.state.cardRows[2].map((card, i) => (
               <CodeMapCard
                 className={i % 2 !== 0 ? styles.row3_c1 : styles.row3_c2}
                 key={i}
@@ -90,7 +90,7 @@ export default class CodeMap extends Component {
 
         <Row>
             <Col xs={12} md={6}>
-            {this.state.cardRows[2].map((card, i) => (
+            {this.state.cardRows[1].map((card, i) => (
               <CodeMapCard 
               className={i % 2 === 0 ? styles.row3_c1 : styles.row3_c2}
               key={i}
