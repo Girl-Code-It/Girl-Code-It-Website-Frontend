@@ -1,0 +1,249 @@
+{
+  "name": "Data Structures & Algorithms in Python",
+  "imgUrl": "/milestones/assets/python.png",
+  "content": "<h4>Prerequisites</h4>Just you and your will to learn!<h4>What would you gain after completing all the milestones?</h4>Stellar Problem Solving skills<br />Clear understanding of all important Data Structures and Algorithms<br />This codemap also covers standard Interview Questions.<h4>Doubt Support</h4>You can join our Slack group with this link: <a href='https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-ntpa7kh3-wfOeslRHv8uIc_edEgaGxw'>Join Here</a>",
+  "milestones": [
+    {
+      "topic": "Introduction to Python",
+      "duration": "2 days",
+      "resources": 21,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1BXqAevvO8SmUriI3e1qVRlzplHs-AJ0mLDjsYLv1wAo/edit?usp=sharing"
+    },
+    {
+      "topic": "Python Basics",
+      "duration": "3 days",
+      "resources": 11,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1AXfW0HQd_Ew_PMmz3DE2wSGRSay5CMsrYkUSPL5N9xM/edit?usp=sharing"
+    },
+    {
+      "topic": "Conditionals and Loops",
+      "duration": "4 days",
+      "resources": 8,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/18LUO6i-riEMKcZN7jmvKTJ63e8yJ8rSRAjW8s5VzYe0/edit?usp=sharing"
+    },
+    {
+      "topic": "Functions",
+      "duration": "3 days",
+      "resources": 7,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1kup_FKzbV0RQDTU8AaSkTszXi1hEGv1Kd4PtQSAaI7s/edit?usp=sharing"
+    },
+    {
+      "topic": "Practice Questions",
+      "duration": "6 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1Ly7dzu1dLsuHXyxW7te6JB2FD4TXb9cmFn3jPOjsrbM/edit?usp=sharing"
+    },
+    {
+      "topic": "Arrays and Lists",
+      "duration": "5 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1JKx9NFa4g7MKTphCk4HndvtkQB4vVX70xVXWZhaqLGI/edit?usp=sharing"
+    },
+    {
+      "topic": "Searching and Sorting",
+      "duration": "14 days",
+      "resources": 13,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1JHzCGuNkWe5o7qpNSL2ZFbseaiMeFRToYOJ41jII358/edit?usp=sharing"
+    },
+    {
+      "topic": "Strings",
+      "duration": "3 days",
+      "resources": 3,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1_urBDQw35bsBS-V1xzqL2i9Xa6evOS97uWqh4RAGKNA/edit?usp=sharing"
+    },
+    {
+      "topic": "2D Lists",
+      "duration": "6 days",
+      "resources": 4,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1mudpQnngs2-lu9oVWss0lIV-8iXxMisnxEMSVBuiT6Y/edit?usp=sharing"
+    },
+    {
+      "topic": "Dictionary, Sets and Tuples",
+      "duration": "6 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/14B57a2zIApMA_KVNy7AOWyk6pGn4fTrs4JpP1VRZgR0/edit?usp=sharing"
+    },
+    {
+      "topic": "Practise Questions",
+      "duration": "15 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/15WzOoWC5kDeCvJtuPRkHDDWMOVE09DGrqoO_FO_VSpk/edit?usp=sharing"
+    },
+    {
+      "topic": "Searching Algorithms",
+      "duration": "5 days",
+      "resources": 4,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1_fuAIv4zzsmPBewYluqA_0AxnBfYJsvprKzfUfiJc-o/edit?usp=sharing"
+    },
+    {
+      "topic": "Recursion 1",
+      "duration": "5 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1UAszoDW5aIUEBb-8sDds0lLN_BqBAvwzvhFjOuk1Wak/edit?usp=sharing"
+    },
+    {
+      "topic": "Recursion 2",
+      "duration": "5 days",
+      "resources": 18,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1FsAjY8Uvs-705XEQqx_98Rks2k-lkU0k6iWMH3YFWsY/edit?usp=sharing"
+    },
+    {
+      "topic": "Space and Time Complexity",
+      "duration": "5 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1GC51bulSkuZO7eLmlN0diUtGRZCgM0xysWtjEzFWss0/edit?usp=sharing"
+    },
+    {
+      "topic": "Practice Questions",
+      "duration": "15 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1urcG5LKzHAEAmjUwZeh7-V1K-iPCFYX51iLVwbQOuEQ/edit?usp=sharing"
+    },
+    {
+      "topic": "OOPS 1",
+      "duration": "10 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1yKDRj0eNYVG380VuV26JW-WnuSaNOIIAmAz6ii0XFIg/edit?usp=sharing"
+    },
+    {
+      "topic": "OOPS 2",
+      "duration": "7 days",
+      "resources": 7,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1_o5Qp1P-79Jeox1Arae5KzrMNYEnS3Jw87IrVYifaQk/edit?usp=sharing"
+    },
+    {
+      "topic": " Practice Questions",
+      "duration": "15 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1QTA77_LCOg-PT-lArRRkymtdMHD6NmPOKRh5q8XJKkY/edit?usp=sharing"
+    },
+    {
+      "topic": "Linked Lists",
+      "duration": "6 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1IebDKz_c--t9-KjxVi-JOoMroMlFyzTRwZdir10eYvw/edit?usp=sharing"
+    },
+    {
+      "topic": "Stacks & Queues",
+      "duration": "6 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1U5PI3997X0C0xKvm5IBKlRyDKo2hTiffIi_NR-OBmUc/edit?usp=sharing"
+    },
+    {
+      "topic": "Trees 1",
+      "duration": "6 days",
+      "resources": 4,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1I6b0ASz3BueyivVLKjCxRyosuyt2ycsszl64tXYslVo/edit?usp=sharing"
+    },
+    {
+      "topic": "Trees 2",
+      "duration": "6 days",
+      "resources": 6,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1TfXx3-0BA8gdTXATdeeMFWSxEIsPe-0HMX4HEPi2fQw/edit?usp=sharing"
+    },
+    {
+      "topic": "Priority Queue and Heaps",
+      "duration": "4 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/1kWKmCxyU_mGRPaP4bv76xxgdCKGaZVlwb5CTGMaws_E/edit?usp=sharing"
+    },
+    {
+      "topic": "Practice Questions",
+      "duration": "15 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1_OLI5z_5Znnq6O3Hv2x7WAtC-DBvhScxW4MxM6ZGmno/edit?usp=sharing"
+    },
+    {
+      "topic": "Tries and Huffman Coding",
+      "duration": "7 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1UAu8REOWOekFc7Tj-KPUqY3s9e8EsuAPu6NsfpUjFvA/edit?usp=sharing"
+    },
+    {
+      "topic": "Dynamic Programming ",
+      "duration": "15 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#bd6997",
+      "link": "https://docs.google.com/document/d/1K7hw19utrf0ody2xt5HIIMzkzthzRcvqgXJoNgxQY8Q/edit?usp=sharing"
+    },
+    {
+      "topic": "Graphs",
+      "duration": "10 days",
+      "resources": 5,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/15Ao9-kHSaOmar7VwV7IZcyf7M0yJDWRWhdx_qzOH__Y/edit?usp=sharing"
+    },
+    {
+      "topic": "Practice Questions",
+      "duration": "15 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "#008cd8",
+      "link": "https://docs.google.com/document/d/10lWWrvcCL7RVdQO4ORV9BXAHTZ8SUhUBW4WS9145cXk/edit?usp=sharing"
+    },
+    {
+      "topic": "Projects",
+      "duration": "15 days",
+      "resources": 2,
+      "imgSrc": "/milestones/assets/python-icon.png",
+      "borderColor": "grey",
+      "link": "https://docs.google.com/document/d/1oIIwq16N9eVy6Y2x0sEQ5cr_cgxuWYvgBNNGcE9fEn8/edit?usp=sharing"
+    }
+  ],
+  "submit": "https://github.com/Girl-Code-It/Beginner-Python-Submissions"
+}
+
