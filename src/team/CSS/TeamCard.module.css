@@ -6,6 +6,8 @@
   max-height: 395px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(168, 192, 235, 0.898);
+  width: 20rem;
+  margin: 20px;
 }
 
 .cardContent:hover {
@@ -64,4 +66,11 @@
 
 .Designation {
   font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .cardContent {
+    width: 25rem;
+    margin: 50px;
+  }
 }
