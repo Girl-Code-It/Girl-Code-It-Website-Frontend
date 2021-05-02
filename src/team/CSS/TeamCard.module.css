@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .cardContent {
-  min-height: 395px;
-  max-height: 395px;
+  min-height: 400px;
+  max-height: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(168, 192, 235, 0.898);
   width: 20rem;
@@ -71,6 +71,21 @@
 @media (max-width: 767px) {
   .cardContent {
     width: 25rem;
-    margin: 50px;
+    margin: 35px 85px 35px 85px;
+  }
+}
+
+@media (max-width: 494px) {
+  .cardContent {
+    width: 25rem;
+    margin: 35px 60px 35px 60px;
+    max-height: fit-content;
+  }
+}
+
+@media (max-width: 430px) {
+  .cardContent {
+    width: 25rem;
+    margin: 35px 30px 35px 30px;
   }
 }
