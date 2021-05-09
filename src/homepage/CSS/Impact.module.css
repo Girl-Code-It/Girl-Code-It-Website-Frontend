@@ -18,6 +18,20 @@ body {
   max-width: 100%;
 }
 
+.Jumbotron {
+  padding-top: 0px;
+  background-color: #ffffff;
+}
+
+.Jumbotron::before{
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 .Card {
   width: 32rem;
   margin: 14px 28px 14px 28px;

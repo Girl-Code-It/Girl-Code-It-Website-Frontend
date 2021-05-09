@@ -18,7 +18,7 @@ export default function navbar() {
         <Nav className="ml-auto">
           <Nav.Link href="/#home"  >Home</Nav.Link>
           <Nav.Link href="/#about" >About Us</Nav.Link>
-          <Nav.Link href="/#impact" >What we Do?</Nav.Link>
+          <Nav.Link href="/#impacts" >What we Do?</Nav.Link>
           <Nav.Link href="/#reviews" >Reviews</Nav.Link>
           <Nav.Link href="/#faqs" >FAQs</Nav.Link>
           <Nav.Link href="/#contact" >Contact Us</Nav.Link>

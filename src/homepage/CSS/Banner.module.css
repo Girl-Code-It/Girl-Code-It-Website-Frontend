@@ -8,6 +8,14 @@
 .container {
   margin-top: 40px;
 }
+.Jumbotron::before{
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
 .heading {
   font-family: "Arial";
   font-weight: normal;

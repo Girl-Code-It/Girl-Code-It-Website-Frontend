@@ -54,6 +54,28 @@
   margin-top: -2rem;
 }
 
+.Jumbotron {
+  padding-top: 0px;
+  background-color: #ffffff;
+}
+
+.Jumbotron::before{
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+div#reviews h1{
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 .cardText::after {
   transform: rotate(180deg);
   align-self: flex-start;

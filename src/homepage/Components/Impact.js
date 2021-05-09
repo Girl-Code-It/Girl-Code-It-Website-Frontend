@@ -17,9 +17,9 @@ export default class Impact extends Component {
     });
 
     return (
-      <Jumbotron style={{ backgroundColor: "#ffffff" }}>
+      <Jumbotron id="impacts" className={styles.Jumbotron} style={{ backgroundColor: "#ffffff" }}>
         <Container fluid="sm">
-          <h1 className={styles.Heading}>
+          <h1  className={styles.Heading}>
             How are we creating an{" "}
             <span style={{ color: "#008dc8" }}>Impact</span>?
           </h1>

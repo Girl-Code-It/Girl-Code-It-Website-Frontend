@@ -12,6 +12,20 @@
 .onHover:hover{
   text-decoration: none;
 }
+.Jumbotron {
+  padding-top: 0px;
+  background-color: #ffffff;
+}
+
+.Jumbotron::before{
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 .image {
     background-repeat: no-repeat;
     background-size: contain;

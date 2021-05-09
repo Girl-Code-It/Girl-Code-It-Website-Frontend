@@ -31,7 +31,7 @@ export default class FAQS extends Component {
     ));
 
     return (
-      <div id="faqs" style={{ marginBottom: "100px" }}>
+      <div id="faqs" className={styles.Jumbotron} style={{ marginBottom: "100px" }}>
         <Container sm="fluid">
           <h1 className={`${styles.head}`}>
             Frequently Asked{" "}

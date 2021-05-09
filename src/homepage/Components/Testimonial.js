@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import TestimonialCard from "./TestimonialCard";
 import TestimonialContent from "./TestimonialContent";
 import styles from "../CSS/TestimonialCard.module.css"
+import { Jumbotron } from "react-bootstrap";
 
 class Testimonial extends Component {
   render() {
@@ -40,7 +41,7 @@ class Testimonial extends Component {
     };
     return (
       <>
-        <Container id="reviews">
+        <Container id="reviews" className={styles.Jumbotron}>
           <h1
             style={{
               textAlign: "center",
