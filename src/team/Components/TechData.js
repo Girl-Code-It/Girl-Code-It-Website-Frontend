@@ -1,15 +1,33 @@
 var TechData = [
     {
         id: 1,
+        name: "Rishit Nagpal",
+        imgUrl: "Rishit_Nagpal.jpg",
+        designation: "Python Mentor",
+        linkedin: "https://www.linkedin.com/in/rishit-nagpal",
+        github: "https://github.com/Rishit19",
+        bgColor: "#008cd8"
+    },
+    {
+        id: 2,
+        name: "Shreya Garg",
+        imgUrl: "Shreya_Garg.jpeg",
+        designation: "Python Mentor",
+        linkedin: "https://www.linkedin.com/in/-shreyagarg",
+        github: "https://github.com/einhawking",
+        bgColor: "#BD6997"
+    },
+    {
+        id: 3,
         name: "Aayush Gupta",
         imgUrl: "Aayush.jpg",
-        designation: "Web Development Mentor & Design Head",
+        designation: "Web Development Mentor",
         linkedin: "https://www.linkedin.com/in/aayush-gupta-447978164/",
         github: "https://github.com/aayush-05",
         bgColor: "#008cd8"
     },
     {
-        id: 2,
+        id: 4,
         name: "Diksha Purswani",
         imgUrl: "Diksha.png",
         designation: "Web Development Mentor",
@@ -18,7 +36,7 @@ var TechData = [
         bgColor: "#BD6997"
     },
     {
-        id: 3,
+        id: 5,
         name: "Bhawna Aggarwal",
         imgUrl: "Bhawna.jpg",
         designation: "Java Mentor",
@@ -27,7 +45,7 @@ var TechData = [
         bgColor: "grey"
     },
     {
-        id: 4,
+        id: 6,
         name: "Vikram Singh Bedi",
         imgUrl: "Vikram.jpg",
         designation: "React JS Mentor",
@@ -36,7 +54,7 @@ var TechData = [
         bgColor: "grey"
     },
     {
-        id: 5,
+        id: 7,
         name: "Praveen Kumar Purushothaman",
         imgUrl: "Praveen.png",
         designation: "React JS Mentor",
@@ -45,7 +63,7 @@ var TechData = [
         bgColor: "#008cd8"
     },
     {
-        id: 6,
+        id: 8,
         name: "Tripti Shukla",
         imgUrl: "Tripti.jpg",
         designation: "ReactJs Mentor",
@@ -54,7 +72,7 @@ var TechData = [
         bgColor: "#BD6997"
     },
     {
-        id: 7,
+        id: 9,
         name: "Khushi Bansal",
         imgUrl: "Khushi.jpg",
         designation: "Assistant Mentor",
@@ -63,7 +81,7 @@ var TechData = [
         bgColor: "#BD6997"
     },
     {
-        id: 8,
+        id: 10,
         name: "Divya Chopra",
         imgUrl: "Divya.jpeg",
         designation: "Assistant Mentor",
@@ -72,7 +90,7 @@ var TechData = [
         bgColor: "grey"
     },
     {
-        id: 9,
+        id: 11,
         name: "Nirbhay Luthra",
         imgUrl: "Nirbhay.jpg",
         designation: "Assistant Mentor",
