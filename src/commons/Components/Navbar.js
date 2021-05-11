@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../CSS/Navbar.module.css";
 import { Navbar, Nav } from "react-bootstrap";
-//import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default function navbar() {
   return (
@@ -16,12 +16,12 @@ export default function navbar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav"  className={styles.Links}>
         <Nav className="ml-auto">
-          <Nav.Link href="/#home"  >Home</Nav.Link>
-          <Nav.Link href="/#about" >About Us</Nav.Link>
-          <Nav.Link href="/#impact" >What we Do?</Nav.Link>
-          <Nav.Link href="/#reviews" >Reviews</Nav.Link>
-          <Nav.Link href="/#faqs" >FAQs</Nav.Link>
-          <Nav.Link href="/#contact" >Contact Us</Nav.Link>
+          <Link to="home" offset={-90} duration={1000} >Home</Link>
+          <Link to="about" offset={-90} duration={1000} >About Us</Link>
+          <Link to="impact" offset={-200} duration={1000} >What we Do?</Link>
+          <Link to="reviews" offset={-90} duration={1000} >Reviews</Link>
+          <Link to="faqs" offset={-90} duration={1000} >FAQs</Link>
+          <Link to="contact" offset={-90} duration={1000} >Contact Us</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
