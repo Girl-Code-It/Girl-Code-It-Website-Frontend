@@ -8,6 +8,7 @@
     0 6px 20px 0 rgba(168, 192, 235, 0.898);
   width: 20rem;
   margin: 20px;
+  transition: 0.5s;
 }
 
 .cardContent:hover {
@@ -39,6 +40,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  transition: 0.5s;
 }
 
 .imgWrapper:hover {
