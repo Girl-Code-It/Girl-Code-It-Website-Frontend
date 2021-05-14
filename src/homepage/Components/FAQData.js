@@ -22,14 +22,6 @@ const Data = [
       answer: 
         "We offer two language codemaps that includes C++ and Java and one development codemap i.e. Frontend in ReactJs.",
       link: ""
-    },
-    {
-      id: 4,
-      open: false,
-      question: "How to join us?",
-      answer:
-        "To join Girl Code It, you can go through this",
-      link: "https://github.com/Girl-Code-It/Enrollment-Procedure---Join-GCI"
     }
   ];
   
