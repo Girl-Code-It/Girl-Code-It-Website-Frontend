@@ -11,8 +11,8 @@ export default class Homepage extends Component {
     return (
       <div>
         <Banner />
-        <AboutUs />
         <Impact />
+        <AboutUs />
         <Testimonial />
         <FAQS />
         <QuestionsForm />
