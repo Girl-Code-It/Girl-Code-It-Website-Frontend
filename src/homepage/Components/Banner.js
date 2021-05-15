@@ -4,6 +4,7 @@ import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
 import code from "../assets/code.svg";
 import girl from "../assets/girl.svg";
 import smallscreen from "../assets/smallscreen.png";
+import { Link } from "react-scroll";
 
 export default function Banner() {
   return (
@@ -16,9 +17,9 @@ export default function Banner() {
               <span style={{ color: "#008dc8" }}> dreams </span>
             </h1>
             <div className={styles.rectangle} />
-            <a href = "#about" className = {styles.Button}> 
-              About Us
-            </a>
+            <Link to="impact" offset={-200} duration={1000} ><a href = "#impact" className = {styles.Button}> 
+              Our Impact
+            </a></Link>
             <br className={styles.set} />
             <br className={styles.align} />
             <br className={styles.align} />
