@@ -40,9 +40,13 @@
   font-size: 1.2rem;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
-a:hover{
+a:hover {
   border: none;
   text-decoration: none;
+}
+
+a {
+  offset: -700;
 }
 .Button:hover,
 .Button:focus,

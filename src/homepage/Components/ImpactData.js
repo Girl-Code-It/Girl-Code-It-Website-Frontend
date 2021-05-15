@@ -11,8 +11,8 @@ var ImpactData = [
     id: 2,
     name: "CodeMaps",
     imgUrl: "image2.svg",
-    para1: "Learn everything the",
-    para2: "right way!",
+    para1: "Awesome roadmaps to learn",
+    para2: "to code the right way!",
     link: "/codemaps"
   },
   // {
