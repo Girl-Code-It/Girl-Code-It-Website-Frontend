@@ -18,7 +18,7 @@ export default function Banner() {
             </h1>
             <div className={styles.rectangle} />
             <Link to="impact" offset={-200} duration={1000} ><a href = "#impact" className = {styles.Button}> 
-              Our Impact
+              Our courses
             </a></Link>
             <br className={styles.set} />
             <br className={styles.align} />
