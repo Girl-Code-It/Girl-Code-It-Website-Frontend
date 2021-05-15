@@ -17,8 +17,8 @@ export default function navbar() {
       <Navbar.Collapse id="responsive-navbar-nav"  className={styles.Links}>
         <Nav className="ml-auto">
           <Link to="home" offset={-90} duration={1000} >Home</Link>
-          <Link to="about" offset={-90} duration={1000} >About Us</Link>
           <Link to="impact" offset={-200} duration={1000} >What we Do?</Link>
+          <Link to="about" offset={-90} duration={1000} >About Us</Link>
           <Link to="reviews" offset={-90} duration={1000} >Reviews</Link>
           <Link to="faqs" offset={-90} duration={1000} >FAQs</Link>
           <Link to="contact" offset={-90} duration={1000} >Contact Us</Link>
