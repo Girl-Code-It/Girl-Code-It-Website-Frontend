@@ -17,9 +17,9 @@ export default function Banner() {
               <span style={{ color: "#008dc8" }}> dreams </span>
             </h1>
             <div className={styles.rectangle} />
-            <Link to="impact" offset={-200} duration={1000} ><a href = "#impact" className = {styles.Button}> 
+            <a className = {styles.Button}><Link to="impact" offset={-200} duration={1000} style={{ color: "white"}}> 
               Our courses
-            </a></Link>
+            </Link></a>
             <br className={styles.set} />
             <br className={styles.align} />
             <br className={styles.align} />
