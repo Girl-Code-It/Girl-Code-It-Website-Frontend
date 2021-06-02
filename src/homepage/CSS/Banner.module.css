@@ -8,6 +8,19 @@
 .container {
   margin-top: 40px;
 }
+.SocialLinks1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  position:fixed;
+  top:290px;
+  /* top: 45vh; */
+}
+.Shift1 {
+  color: rgba(14, 13, 13, 0.63);
+  padding: 1%;
+  margin: 14px 11px;
+}
 .heading {
   font-family: "Arial";
   font-weight: normal;

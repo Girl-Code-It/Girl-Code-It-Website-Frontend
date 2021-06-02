@@ -5,15 +5,23 @@ import code from "../assets/code.svg";
 import girl from "../assets/girl.svg";
 import smallscreen from "../assets/smallscreen.png";
 import { Link } from "react-scroll";
+import { FaLinkedinIn, FaInstagram, FaTwitter, FaRegLightbulb, FaGithub } from "react-icons/fa";
 
 export default function Banner() {
   return (
     <Jumbotron id="home" className={styles.Jumbotron} fluid>
+    <div className = {styles.SocialLinks1}>
+                <a href = "https://www.linkedin.com/company/14568052/admin/" className = {styles.Shift1}> <FaLinkedinIn /> </a>
+                <a href = "https://www.instagram.com/girlcodeit/" className = {styles.Shift1}> <FaInstagram /> </a>
+                <a href = "https://twitter.com/GirlCodeIt1" className = {styles.Shift1}> <FaTwitter /> </a>
+                <a href = "https://github.com/GirlCodeIt1" className = {styles.Shift1}> <FaGithub /> </a>
+            </div>
       <Container className={styles.container}>
+      
         <Row>
           <Col md={6} lg={7}>
             <h1 className={styles.heading}>
-              Give wings to <br className={styles.align} /> your
+              Embrace <br className={styles.align} /> your
               <span style={{ color: "#008dc8" }}> dreams </span>
             </h1>
             <div className={styles.rectangle} />
@@ -33,6 +41,7 @@ export default function Banner() {
           </Col>
         </Row>
       </Container>
+     
       <Container className={styles.containersmall} fluid>
         <h1 style={{ textAlign: "center" }} className={styles.heading}>
           Give wings to <br className={styles.align} /> your
