@@ -10,11 +10,13 @@ import { FaLinkedinIn, FaInstagram, FaTwitter, FaRegLightbulb, FaGithub } from "
 export default function Banner() {
   return (
     <Jumbotron id="home" className={styles.Jumbotron} fluid>
+    <div className={styles.wrap}>
     <div className = {styles.SocialLinks1}>
-                <a href = "https://www.linkedin.com/company/14568052/admin/" className = {styles.Shift1}> <FaLinkedinIn /> </a>
-                <a href = "https://www.instagram.com/girlcodeit/" className = {styles.Shift1}> <FaInstagram /> </a>
-                <a href = "https://twitter.com/GirlCodeIt1" className = {styles.Shift1}> <FaTwitter /> </a>
-                <a href = "https://github.com/GirlCodeIt1" className = {styles.Shift1}> <FaGithub /> </a>
+                <a href = "https://www.linkedin.com/company/14568052/admin/" target="_blank" className = {styles.Shift1}> <FaLinkedinIn /> </a>
+                <a href = "https://www.instagram.com/girlcodeit/" target="_blank" className = {styles.Shift1}> <FaInstagram /> </a>
+                <a href = "https://twitter.com/GirlCodeIt1" target="_blank" className = {styles.Shift1}> <FaTwitter /> </a>
+                <a href = "https://github.com/GirlCodeIt1" target="_blank" className = {styles.Shift1}> <FaGithub /> </a>
+            </div>
             </div>
       <Container className={styles.container}>
       
@@ -49,7 +51,7 @@ export default function Banner() {
           <div className={styles.Rectsmall} />
         </h1>
         <Image
-          className="justify-content-md-center"
+          className="justify-content-md-center img"
           style={{ maxWidth: "90%" }}
           src={smallscreen}
           alt="girl code"
