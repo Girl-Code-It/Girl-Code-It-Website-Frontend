@@ -14,14 +14,14 @@ export default function navbar() {
         </a>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
+      <Navbar.Collapse id="responsive-navbar-nav"  className={styles.Links}>
         <Nav className="ml-auto">
-          <a href="/#home">Home</a>
-          <a href="/#about">About Us</a>
-          <a href="/#impact">What we Do?</a>
-          <a href="/#reviews">Reviews</a>
-          <a href="/#faqs">FAQs</a>
-          <a href="/#contact">Contact Us</a>
+          <Nav.Link href="/#home"  >Home</Nav.Link>
+          <Nav.Link href="/#about" >About Us</Nav.Link>
+          <Nav.Link href="/#impact" >What we Do?</Nav.Link>
+          <Nav.Link href="/#reviews" >Reviews</Nav.Link>
+          <Nav.Link href="/#faqs" >FAQs</Nav.Link>
+          <Nav.Link href="/#contact" >Contact Us</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
