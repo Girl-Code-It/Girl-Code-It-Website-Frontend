@@ -38,7 +38,10 @@ export default class FAQS extends Component {
             <span style={{ color: "#008dc8" }}> Questions</span>
           </h1>
           <Row style={{ marginTop: "50px" }}>
-            <div>{FAQCards}</div>
+          <Row> <div>
+          {FAQCards}
+          </div>
+          </Row>
           </Row>
         </Container>
       </div>
