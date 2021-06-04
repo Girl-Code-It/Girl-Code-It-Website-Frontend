@@ -96,8 +96,8 @@ export default function Banner() {
 
       <Container className={styles.containersmall} fluid>
         <h1 style={{ textAlign: "center" }} className={styles.heading}>
-          Give wings to <br className={styles.align} /> your
-          <span style={{ color: "#008dc8" }}> dreams </span>
+          From Will to <br className={styles.align} /> to
+          <span style={{ color: "#008dc8" }}> Skill </span>
           <div className={styles.Rectsmall} />
         </h1>
         <Image
