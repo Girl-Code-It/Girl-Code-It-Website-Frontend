@@ -22,7 +22,17 @@ body {
   width: 32rem;
   margin: 14px 28px 14px 28px;
   border-radius: 25px;
-  background-color: #f5f5f5;
+  box-shadow: 0px 12px 12px -4px #ccc;
+  transition: all 0.6s;
+  background-color: whitesmoke;
+}
+
+.Card:hover {
+  z-index: 99;
+  box-shadow: 2px 4px 30px #b6b6b6;
+  background-color: #ffffff;
+  transform: scale(1.1);
+  transition: all 1s;
 }
 
 .line {
@@ -44,7 +54,7 @@ body {
 .Title {
   letter-spacing: 0px;
   font-size: 1.5rem;
-  font-weight: 390;
+  font-weight: 900;
   font-family: "Poppins", sans-serif;
   max-width: 100%;
 }
@@ -54,7 +64,7 @@ body {
   font-size: 1.15rem;
 }
 
-.Button{
+.Button {
   background-color: #008dc8;
   border: none;
   color: #fff;
@@ -73,7 +83,9 @@ body {
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
 }
 
-.Button:hover, .Button:focus, .Button:active{
+.Button:hover,
+.Button:focus,
+.Button:active {
   background-color: #008dc8;
   color: white;
   width: 30%;
@@ -85,7 +97,7 @@ body {
   .Card {
     margin-left: 23%;
   }
-} 
+}
 
 @media (max-width: 993px) {
   .Img {
@@ -125,7 +137,7 @@ body {
 @media (max-width: 444px) {
   .Button {
     width: 40%;
-    margin-left: 35%;
+    margin-left: 30%;
   }
 }
 
@@ -137,5 +149,11 @@ body {
     width: 50%;
     margin-left: 30%;
     margin-bottom: 5%;
+  }
+}
+@media (max-width: 320px) {
+  .Button {
+    width: 50%;
+    margin-left: 26%;
   }
 }

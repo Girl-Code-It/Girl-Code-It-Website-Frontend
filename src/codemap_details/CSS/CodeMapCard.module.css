@@ -4,9 +4,18 @@
 
 .card {
   border: none;
-  background: #f4f5f6;
+  background: #ececed;
   margin-bottom: 5rem;
   flex-wrap: nowrap;
+  box-shadow: 0px 12px 12px -4px #ccc;
+  transition: all 0.6s;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 30px #b6b6b6;
+  background-color: #ffffff;
+  transform: scale(1.04);
+  transition: all 1s;
 }
 
 .topbar {

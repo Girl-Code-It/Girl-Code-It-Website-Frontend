@@ -21,7 +21,7 @@ export default class Impact extends Component {
         <Container fluid="sm">
           <h1 className={styles.Heading}>
             How are we creating an{" "}
-            <span style={{ color: "#008dc8" }}>Impact</span>?
+            <span style={{ color: "#008dc8", fontWeight: 900 }}>Impact</span>?
           </h1>
 
           <Row

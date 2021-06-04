@@ -30,4 +30,20 @@
   .row3_c2 {
     margin-left: 0rem;
   }
+
+  .imgboy {
+    height: 290px !important;
+  }
+}
+
+@media (max-width: 766px) {
+  .imgboy {
+    display: none !important;
+  }
+}
+
+@media (min-width: 766px) {
+  .small_imgboy {
+    display: none !important;
+  }
 }

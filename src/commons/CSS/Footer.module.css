@@ -1,122 +1,804 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
+body,
+html {
+  /*overflow-x: hidden;*/
+}
 .Jumbotron {
-    margin: 0px;
-    padding: 20px;
-    padding-left: 0px;
-    padding-bottom: 0px;
+  margin: 0px;
+  margin-top: 50px;
+  padding: 20px;
+  padding-left: 0px;
+  /* padding-bottom: 0px; */
+}
+.ImgColumn {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
 }
 
+.ImgColumn a:hover {
+  background-color: transparent;
+  color: transparent;
+  border-bottom: transparent;
+}
+
+.ContactCol {
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.ContactRow {
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 2%;
+}
+.ContactRow p {
+  padding-right: 20px;
+}
 .Logo {
-    height: 180px;
-    width: 200px;
+  justify-content: center;
+  /* height: 180px; */
+  width: 70%;
 }
-
-.Bottom2, .Top2 {
-    display: none;
+.Top1 {
+  align-items: center;
+  margin-bottom: 1px;
 }
-
-.Column {
-    margin-top: 30px;
+.Bottom2,
+.Top2 {
+  display: none;
 }
-
 h5 {
-    color: #008dc8;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 0px;
+  margin-bottom: 0px;
+  color: #008dc8;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.Border {
-    border-bottom: #008dc8 solid 2px;
-    display: table-cell;
-    position: relative;
-}
-
 .Rectangle {
-    border-bottom: 2px #008dc8 solid;
-    position: absolute;
-    /* right: 50%; */
-    /* left: 0; */
-    /* margin-left: 25px; */
+  position: absolute;
+  right: 50%;
+  left: 0;
+  margin-left: 120px;
+  border-bottom: 2px #008dc8 solid;
 }
 
-.line1 {
-    width: 100%;
-    height: 1px;
-    background-color: grey;
-    opacity: 1;
-    border: none;
-    margin-top: 0px;
+.Rectangle2 {
+  position: absolute;
+  right: 60%;
+  left: 0;
+  margin-left: 143px;
+  border-bottom: 2px #008dc8 solid;
 }
-
-.line2 {
-    width: 1px;
-    height: 140px;
-    background-color: grey;
-    opacity: 1;
-    border: none;
-    margin-left: 0px;
-    margin-right: 2%;
+.Rectangle3 {
+  position: absolute;
+  width: 98px;
+  margin-left: 500px;
+  border-bottom: 2px #008dc8 solid;
 }
 
 p {
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    margin-top: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 .Bottom1 {
-    padding: 0px;
+  margin-top: 1px;
+  margin-left: 37%;
+  padding: 0px;
 }
-
-.Link {
-    color: black;
-}
-
-.Link:hover, .Link:active {
-    color: black;
-    border: none;
-}
-
 .SocialLinks {
-    text-align: end;
+  justify-content: center;
+  margin-top: 0px;
+  margin-right: 2px;
+  text-align: end;
 }
-
 .Shift {
-    margin-left: 40px;
-    margin-top: 0px;
-    font-size: 22px;
-    color: black;
+  margin-top: 0px;
+  margin-left: 40px;
+  color: black;
+  font-size: 25px;
 }
-
 .Shift:hover {
-    border: none;
+  border: none;
 }
 
-@media (max-width: 995px){
-    .Bottom1, .Top1, .Phone, .Mail {
-        display: none;
-    }
+a:hover,
+Link:hover {
+  cursor: pointer;
+}
 
-    .Bottom2, .Top2 {
-        display: flex;
-    }
-
-    .Top3 {
-        text-align: center;
-    }
-
-    #Prod {
-        margin-left: 180px;
-    }
-
-    .Para {
-        text-align: center;
-        margin-bottom: 0px;
-    }
-
-    .SocialLinks {
-        text-align: center;
-    }
+@media only screen and (max-width: 1201px) {
+  .Rectangle {
+    margin-left: 128px;
+  }
+  .Rectangle2 {
+    margin-left: 152px;
+  }
+  .Bottom1 {
+    margin-left: 36.5%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .Rectangle {
+    margin-left: 98px;
+  }
+  .Rectangle2 {
+    margin-left: 126px;
+  }
+  .Bottom1 {
+    margin-left: 34%;
+  }
+}
+@media only screen and (max-width: 1167x) {
+  .Bottom1 {
+    margin-left: 35%;
+  }
+}
+@media only screen and (max-width: 1163px) {
+  .Bottom1 {
+    margin-left: 34%;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .Bottom1 {
+    margin-top: 1px;
+    margin-left: 35%;
+    padding: 0px;
+  }
+  .Rectangle {
+    margin-left: 98px;
+  }
+  .Rectangle2 {
+    margin-left: 122px;
+  }
+  .Rectangle3 {
+    margin-left: 405px;
+  }
+  .ContactCol {
+    margin-left: 22px;
+  }
+  .ContactRow {
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  .Bottom1 {
+    margin-left: 35%;
+  }
+  .Rectangle2 {
+    margin-left: 120px;
+  }
+}
+@media (max-width: 992px) {
+  .Rectangle2 {
+    margin-left: 116px;
+  }
+  .Rectangle {
+    margin-left: 92px;
+  }
+  .Bottom1 {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 991px) {
+  .Rectangle2 {
+    margin-left: 80px;
+  }
+  .Rectangle {
+    margin-left: 56px;
+  }
+  .Bottom1 {
+    margin-left: 29%;
+  }
+  .Logo {
+    width: 95%;
+    margin-left: 0px;
+  }
+  .ContactCol {
+    margin-left: 14px;
+  }
+}
+@media (max-width: 970px) {
+  .Rectangle2 {
+    margin-left: 82px;
+  }
+  .Bottom1 {
+    margin-left: 29%;
+  }
+  .ContactCol {
+    margin-left: 12px;
+  }
+  .ContactRow {
+    margin-left: 46px;
+  }
+}
+@media (max-width: 966px) {
+  .Bottom1 {
+    margin-left: 29%;
+  }
+}
+@media (max-width: 956px) {
+  .Rectangle2 {
+    margin-left: 84px;
+  }
+  .Bottom1 {
+    margin-left: 29.5%;
+  }
+}
+@media (max-width: 941px) {
+  .Rectangle {
+    margin-left: 60px;
+  }
+  .Bottom1 {
+    margin-left: 29%;
+  }
+}
+@media (max-width: 931px) {
+  .Rectangle {
+    margin-left: 60px;
+  }
+  .Rectangle2 {
+    margin-left: 82px;
+  }
+  .Rectangle3 {
+    margin-left: 290px;
+  }
+  .ImgColumn {
+    margin-left: 26px;
+  }
+  .Bottom1 {
+    margin-left: 30%;
+  }
+}
+@media (max-width: 866px) {
+  .Top1 {
+    display: flex;
+    justify-content: center;
+  }
+  .Rectangle {
+    margin-left: 60px;
+  }
+  .Rectangle2 {
+    margin-left: 82px;
+  }
+  .Bottom1 {
+    margin-left: 30%;
+  }
+  .ContactCol {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 851px) {
+  .Top1 {
+    margin-left: 1px;
+  }
+  .Rectangle {
+    margin-left: 56px;
+  }
+  .Rectangle2 {
+    margin-left: 80px;
+  }
+  .Bottom1 {
+    margin-left: 30%;
+  }
+  .ContactCol {
+    margin-left: 4px;
+  }
+  .ContactRow {
+    margin-left: 36px;
+  }
+}
+@media (max-width: 769px) {
+  .Top1 {
+    justify-content: space-evenly;
+  }
+  .Column1,
+  .Column2 {
+    font-size: 1px;
+  }
+  .Rectangle {
+    margin-left: 26px;
+  }
+  .Rectangle2 {
+    margin-left: 50px;
+  }
+  .Rectangle3 {
+    margin-left: 283px;
+  }
+  .Logo {
+    width: 165%;
+    margin-left: -61px;
+    padding: 20%;
+  }
+  .Bottom1 {
+    margin-left: 22%;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .Bottom1 {
+    margin-left: 23%;
+  }
+  .ContactRow {
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 618px) {
+  .Top1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .Column1,
+  .Column2 {
+    margin-bottom: 0px;
+    margin-left: 15px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 13px;
+  }
+  .SocialLinks {
+    margin-left: 18px;
+  }
+  .ContactCol {
+    margin-left: 18px;
+  }
+  .ContactRow {
+    margin-left: 78px;
+  }
+  .ImgColumn {
+    width: 45%;
+    height: 10%;
+    margin-left: -12px;
+  }
+  .Logo {
+    width: 150%;
+    height: 90%;
+    margin-left: -11px;
+  }
+  .Rectangle {
+    margin-left: 200px;
+  }
+  .Rectangle2 {
+    margin-left: 226px;
+  }
+  .Rectangle3 {
+    margin-left: 122px;
+  }
+}
+@media (max-width: 596px) {
+  .Rectangle {
+    margin-left: 202px;
+  }
+  .Rectangle2 {
+    margin-left: 226px;
+  }
+  .ContactCol {
+    margin-left: 15px;
+  }
+  .ContactRow {
+    margin-left: 62px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 4px;
+  }
+}
+@media (max-width: 576px) {
+  .Rectangle {
+    margin-left: 208px;
+  }
+  .Rectangle2 {
+    margin-left: 232px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 8px;
+  }
+}
+@media (max-width: 565px) {
+  .Rectangle {
+    margin-left: 204px;
+  }
+  .Rectangle2 {
+    margin-left: 226px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 1px;
+  }
+}
+@media (max-width: 554px) {
+  .Rectangle {
+    margin-left: 196px;
+  }
+  .Rectangle2 {
+    margin-left: 222px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 1px;
+  }
+}
+@media (max-width: 546px) {
+  .Rectangle {
+    margin-left: 192px;
+  }
+  .Rectangle2 {
+    margin-left: 216px;
+  }
+  .Logo {
+    margin-left: -39px;
+  }
+  .Rectangle3 {
+    margin-left: 188px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 1px;
+  }
+}
+@media (max-width: 539px) {
+  .Rectangle {
+    margin-left: 192px;
+  }
+  .Rectangle2 {
+    margin-left: 214px;
+  }
+  .Rectangle3 {
+    margin-left: 189px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 1px;
+  }
+}
+@media (max-width: 530px) {
+  .Rectangle {
+    margin-left: 184px;
+  }
+  .Rectangle2 {
+    margin-left: 210px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 523px) {
+  .Rectangle {
+    margin-left: 182px;
+  }
+  .Rectangle2 {
+    margin-left: 206px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 517px) {
+  .Rectangle {
+    margin-left: 178px;
+  }
+  .Rectangle2 {
+    margin-left: 204px;
+  }
+  .Bottom1 p {
+    max-width: 100%;
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 510px) {
+  .Rectangle {
+    margin-left: 174px;
+  }
+  .Rectangle2 {
+    margin-left: 200px;
+  }
+  .Bottom1 p {
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 507px) {
+  .Rectangle {
+    margin-left: 172px;
+  }
+  .Rectangle2 {
+    margin-left: 198px;
+  }
+  .Bottom1 p {
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 499px) {
+  .Rectangle {
+    margin-left: 170px;
+  }
+  .Rectangle2 {
+    margin-left: 194px;
+  }
+}
+@media (max-width: 490px) {
+  .Rectangle {
+    margin-left: 166px;
+  }
+  .Rectangle2 {
+    margin-left: 190px;
+  }
+}
+@media (max-width: 482px) {
+  .Rectangle {
+    margin-left: 160px;
+  }
+  .Rectangle2 {
+    margin-left: 186px;
+  }
+}
+@media (max-width: 470px) {
+  .Rectangle {
+    margin-left: 154px;
+  }
+  .Rectangle2 {
+    margin-left: 180px;
+  }
+  .ContactRow {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 460px) {
+  .Rectangle {
+    margin-left: 148px;
+  }
+  .Rectangle2 {
+    margin-left: 172px;
+  }
+}
+@media (max-width: 452px) {
+  .Rectangle {
+    margin-left: 144px;
+  }
+  .Rectangle2 {
+    margin-left: 170px;
+  }
+}
+@media (max-width: 444px) {
+  .Rectangle {
+    margin-left: 140px;
+  }
+  .Rectangle2 {
+    margin-left: 166px;
+  }
+}
+@media (max-width: 435px) {
+  .Rectangle {
+    margin-left: 138px;
+  }
+  .Rectangle2 {
+    margin-left: 162px;
+  }
+}
+@media (max-width: 430px) {
+  .Rectangle {
+    margin-left: 134px;
+  }
+  .Rectangle2 {
+    margin-left: 158px;
+  }
+}
+@media (max-width: 420px) {
+  .Rectangle {
+    margin-left: 129px;
+  }
+  .Rectangle2 {
+    margin-left: 154px;
+  }
+}
+@media (max-width: 415px) {
+  .Rectangle {
+    margin-left: 126px;
+  }
+  .Rectangle2 {
+    margin-left: 150px;
+  }
+  .Rectangle3 {
+    margin-left: 123px;
+  }
+  .Logo {
+    margin-left: -23px;
+  }
+}
+@media (max-width: 411px) {
+  .Rectangle {
+    margin-left: 124px;
+  }
+  .Rectangle2 {
+    margin-left: 150px;
+  }
+  .Rectangle3 {
+    margin-left: 124px;
+  }
+  .Logo {
+    margin-left: -25px;
+  }
+}
+@media (max-width: 396px) {
+  .Rectangle {
+    margin-left: 114px;
+  }
+  .Rectangle2 {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 381px) {
+  .Rectangle {
+    margin-left: 110px;
+  }
+  .Rectangle2 {
+    margin-left: 136px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .Rectangle {
+    margin-left: 106px;
+  }
+  .Rectangle2 {
+    margin-left: 132px;
+  }
+  .Rectangle3 {
+    margin-left: 107px;
+  }
+  .Bottom1 p {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .Rectangle {
+    margin-left: 100px;
+  }
+  .Rectangle2 {
+    margin-left: 128px;
+  }
+  .Rectangle3 {
+    margin-left: 106px;
+  }
+  .ImgColumn {
+    margin-left: -34px;
+  }
+  .Logo {
+    margin-left: -5px;
+  }
+  .Bottom1 p {
+    margin-left: 16px;
+  }
+}
+@media only screen and (max-width: 351px) {
+  .Rectangle {
+    margin-left: 96px;
+  }
+  .Rectangle2 {
+    margin-left: 122px;
+  }
+  .Bottom1 p {
+    margin-left: 16px;
+  }
+}
+@media only screen and (max-width: 343px) {
+  .Rectangle {
+    margin-left: 90px;
+  }
+  .Rectangle2 {
+    margin-left: 118px;
+  }
+  .Bottom1 p {
+    margin-left: 16px;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .Rectangle {
+    margin-left: 86px;
+  }
+  .Rectangle2 {
+    margin-left: 112px;
+  }
+  .Bottom1 p {
+    margin-left: 24px;
+  }
+}
+@media only screen and (max-width: 323px) {
+  .Rectangle {
+    margin-left: 80px;
+  }
+  .Rectangle2 {
+    margin-left: 106px;
+  }
+  .Rectangle3 {
+    margin-left: 78px;
+  }
+  .ImgColumn {
+    margin-left: -3px;
+  }
+  .Logo {
+    margin-left: -20px;
+  }
+  .Bottom1 p {
+    margin-left: 24px;
+  }
+}
+@media only screen and (max-width: 313px) {
+  .Rectangle {
+    margin-left: 76px;
+  }
+  .Rectangle2 {
+    margin-left: 100px;
+  }
+  .Bottom1 p {
+    margin-left: 24px;
+  }
+}
+@media only screen and (max-width: 303px) {
+  .Rectangle {
+    margin-left: 68px;
+  }
+  .Rectangle2 {
+    margin-left: 94px;
+  }
+  .Bottom1 p {
+    margin-left: 24px;
+  }
+}
+@media only screen and (max-width: 291px) {
+  .Rectangle {
+    margin-left: 64px;
+  }
+  .Rectangle2 {
+    margin-left: 90px;
+  }
+  .ContactRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 35px;
+  }
+  .Bottom1 p {
+    margin-left: 24px;
+  }
+}
+@media only screen and (max-width: 281px) {
+  .Rectangle {
+    margin-left: 60px;
+  }
+  .Rectangle2 {
+    margin-left: 86px;
+  }
+  .Rectangle3 {
+    margin-left: 58px;
+  }
+  .Logo {
+    margin-left: -13px;
+  }
+}
+@media only screen and (max-width: 271px) {
+  .Rectangle {
+    margin-left: 52px;
+  }
+  .Rectangle2 {
+    margin-left: 80px;
+  }
+  .Rectangle3 {
+    margin-left: 58px;
+  }
+}
+@media only screen and (max-width: 271px) {
+  .Rectangle {
+    margin-left: 42px;
+  }
+  .Rectangle2 {
+    margin-left: 70px;
+  }
 }
