@@ -104,12 +104,13 @@ a {
 }
 .rectangle {
   height: 5px;
-  width: 130px;
+  width: 100px;
   background-color: #008dc8;
   position: relative;
   bottom: 50px;
   float: right;
-  right: 190px;
+  /* right: 160px; */
+  right: 377px;
 }
 
 @media screen and (min-width: 1199px) {
@@ -261,9 +262,7 @@ a {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .Impact_Card__2elw {
-    margin-left: 4rem;
-  }
+ 
  
   /* .SocialLinks1 {
     font-size: 1.15rem;
