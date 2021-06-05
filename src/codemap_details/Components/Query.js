@@ -9,20 +9,15 @@ export default function Query() {
       <Jumbotron className={styles.jumbo} fluid>
         <Container className={styles.container}>
           <h1 className={styles.head}>
-            What if you have a <span className={styles.query}>Query</span>?
+            What if you have a <span className={styles.query}>Doubt</span>?
           </h1>
           <Row>
             <Col lg={6}>
               <p className={styles.para}>
-                Join our{" "}
-                <a href="https://discordgci.netlify.app">Discord Server</a> and
-                post your Doubts
-                <br />
-                <br />
-                All your doubts and queries will be addressed in the group, and
-                any other input you want to give will always be taken into
-                consideration. So never hesitate to speak up if you have
-                something interesting to say!
+                Our discord server is a community-driven place to discuss any
+                doubts while you learn to code. Any other input you want to give
+                will always be taken into consideration. So never hesitate to
+                speak up if you have something interesting to say!
                 <br />
                 <br />
                 <hr className={styles.line} />
@@ -41,18 +36,14 @@ export default function Query() {
         </Container>
         <Container className={styles.small}>
           <h1 className={styles.head}>
-            What if you have a <span className={styles.query}>Query</span>?
+            What if you have a <span className={styles.query}>Doubt</span>?
           </h1>
           <Image src={query} className={styles.img} fluid />
           <p className={styles.para}>
-            Join our <a href="https://discordgci.netlify.app">Discord Server</a>{" "}
-            and post your Doubts
-            <br />
-            <br />
-            All your doubts and queries will be addressed in the group, and any
-            other input you want to give will always be taken into
-            consideration. So never hesitate to speak up if you have something
-            interesting to say!
+            Our discord server is a community-driven place to discuss any doubts
+            while you learn to code. Any other input you want to give will
+            always be taken into consideration. So never hesitate to speak up if
+            you have something interesting to say!
             <br />
             <br />
             <hr className={styles.line} />
