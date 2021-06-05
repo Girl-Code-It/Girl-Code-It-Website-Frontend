@@ -4,11 +4,19 @@ const Data = [
     open: false,
     question: "What is Girl Code It?",
     answer:
-      "We offer Data Structures and Algorithms CodeMap in 3 languages - C++, Python, and Java and two development codemaps i.e. Frontend Web Development and ReactJS for beginners. Check all of them here - ",
-    link: "https://girlcodeit.com/codemaps",
+      "An organisation born from the simple idea of wanting to help people through their coding journey, GCI has come a long way. Simply put, we are here to assist you with your coding woes and turn them into joyful experiences!",
+    link: "",
   },
   {
     id: 2,
+    open: false,
+    question: "How to join Girl Code It as a volunteer/Team Member?",
+    answer:
+      "Fill the volunteer form, if your profile is found suitable and there is a matching requirement, We will contact you. Form -",
+    link: "https://forms.gle/2ysSXN6WBhMtG6v68",
+  },
+  {
+    id: 3,
     open: false,
     question: "Is it only for girls?",
     answer:
@@ -16,15 +24,15 @@ const Data = [
     link: "",
   },
   {
-    id: 3,
+    id: 4,
     open: false,
     question: "What Codemaps do we offer?",
     answer:
-      "We offer two language codemaps that includes C++ and Java and one development codemap i.e. Frontend in ReactJs.",
-    link: "",
+      "We offer Data Structures and Algorithms CodeMap in 3 languages - C++, Python, and Java and two development codemaps i.e. Frontend Web Development and ReactJS for beginners. Check all of them here - ",
+    link: "https://girlcodeit.com/codemaps",
   },
   {
-    id: 4,
+    id: 5,
     open: false,
     question: "Are the courses/codemaps paid?",
     answer:
@@ -32,7 +40,7 @@ const Data = [
     link: "",
   },
   {
-    id: 5,
+    id: 6,
     open: false,
     question: "How to enroll in a course/codemap?",
     answer:

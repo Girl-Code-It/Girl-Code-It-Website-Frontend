@@ -34,21 +34,21 @@ export default class CodeMap extends Component {
           onecodemapLink: "react.json",
         },
         {
-            imgUrl: "https://img.icons8.com/wired/2x/github.png",
-            name: "Github Tutorial",
-            onecodemapLink: "github.json",
+          imgUrl: "https://img.icons8.com/wired/2x/github.png",
+          name: "Github Tutorial",
+          onecodemapLink: "github.json",
         },
       ],
       [
         {
-            imgUrl: "https://img.icons8.com/wired/512/000000/python.png",
-            name: "Python Programming for Beginners",
-            onecodemapLink: "python.json",
+          imgUrl: "https://img.icons8.com/wired/512/000000/python.png",
+          name: "Python Programming for Beginners",
+          onecodemapLink: "python.json",
         },
         {
-            imgUrl: "https://img.icons8.com/wired/2x/code.png",
-            name: "Frontend Web Development",
-            onecodemapLink: "front-end webdev.json",
+          imgUrl: "https://img.icons8.com/wired/2x/code.png",
+          name: "Frontend Web Development",
+          onecodemapLink: "front-end webdev.json",
         },
       ],
     ];
@@ -56,7 +56,7 @@ export default class CodeMap extends Component {
 
   render() {
     return (
-      <Container id = "codemaps">
+      <Container id="codemaps">
         <hr style={{ width: "50%", textAlign: "center" }} />
         <h1
           style={{
@@ -68,16 +68,16 @@ export default class CodeMap extends Component {
           Our <span style={{ color: "rgb(0, 141, 200)" }}>CodeMaps</span>
         </h1>
         <Row>
-            <Col xs={12} md={6}>
+          <Col xs={12} md={6}>
             {this.state.cardRows[0].map((card, i) => (
-              <CodeMapCard 
-              className={i % 2 === 0 ? styles.row3_c1 : styles.row3_c2}
-              key={i}
-              codeMap={card}            
+              <CodeMapCard
+                className={i % 2 === 0 ? styles.row3_c1 : styles.row3_c2}
+                key={i}
+                codeMap={card}
               />
-              ))}
-            </Col>     
-            <Col xs={12} md={6}>
+            ))}
+          </Col>
+          <Col xs={12} md={6}>
             {this.state.cardRows[2].map((card, i) => (
               <CodeMapCard
                 className={i % 2 !== 0 ? styles.row3_c1 : styles.row3_c2}
@@ -85,51 +85,50 @@ export default class CodeMap extends Component {
                 codeMap={card}
               />
             ))}
-          </Col>     
+          </Col>
         </Row>
 
         <Row>
-            <Col xs={12} md={6}>
+          <Col xs={12} md={6}>
             {this.state.cardRows[1].map((card, i) => (
-              <CodeMapCard 
-              className={i % 2 === 0 ? styles.row3_c1 : styles.row3_c2}
-              key={i}
-              codeMap={card}            
+              <CodeMapCard
+                className={i % 2 === 0 ? styles.row3_c1 : styles.row3_c2}
+                key={i}
+                codeMap={card}
               />
-              ))}
-            </Col>
-            <Col md={6} >
-            <img className={styles.imgboy}
+            ))}
+          </Col>
+          <Col md={6}>
+            <img
+              className={styles.imgboy}
               style={{
                 maxWidth: "100%",
                 width: "auto",
                 height: "380px",
                 display: "block",
                 margin: "0rem auto 1rem auto",
-    
               }}
               src={Image__boy}
               alt=""
             />
-          </Col >        
+          </Col>
         </Row>
 
-        <Row>
-
-        </Row>
-        <Col >
-            <img className={styles.small_imgboy}
-              style={{
-                maxWidth: "100%",
-                width: "auto",
-                height: "330px",
-                display: "block",
-                margin: "2rem auto 1rem auto",
-              }}
-              src={Image__boy}
-              alt=""
-            />
-          </Col >   
+        <Row></Row>
+        <Col>
+          <img
+            className={styles.small_imgboy}
+            style={{
+              maxWidth: "100%",
+              width: "auto",
+              height: "330px",
+              display: "block",
+              margin: "2rem auto 1rem auto",
+            }}
+            src={Image__boy}
+            alt=""
+          />
+        </Col>
       </Container>
     );
   }
