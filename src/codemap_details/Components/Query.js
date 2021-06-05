@@ -14,9 +14,9 @@ export default function Query() {
           <Row>
             <Col lg={6}>
               <p className={styles.para}>
-                When you join a codemap, you will also be invited to join a
-                Slack channel which will have your mentors as well as others who
-                are on the same journey as you.
+                Join our{" "}
+                <a href="https://discordgci.netlify.app">Discord Server</a> and
+                post your Doubts
                 <br />
                 <br />
                 All your doubts and queries will be addressed in the group, and
@@ -28,7 +28,7 @@ export default function Query() {
                 <hr className={styles.line} />
               </p>
               <a
-                href="https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-ntpa7kh3-wfOeslRHv8uIc_edEgaGxw"
+                href="https://discordgci.netlify.app/"
                 className={styles.Button}
               >
                 Ask here
@@ -45,9 +45,8 @@ export default function Query() {
           </h1>
           <Image src={query} className={styles.img} fluid />
           <p className={styles.para}>
-            When you join a codemap, you will also be invited to join a Slack
-            channel which will have your mentors as well as others who are on
-            the same journey as you.
+            Join our <a href="https://discordgci.netlify.app">Discord Server</a>{" "}
+            and post your Doubts
             <br />
             <br />
             All your doubts and queries will be addressed in the group, and any
@@ -58,10 +57,7 @@ export default function Query() {
             <br />
             <hr className={styles.line} />
           </p>
-          <a
-            href="https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-ntpa7kh3-wfOeslRHv8uIc_edEgaGxw"
-            className={styles.Button}
-          >
+          <a href="https://discordgci.netlify.app/" className={styles.Button}>
             Ask here
           </a>
         </Container>

@@ -21,7 +21,7 @@ export default class Coming extends Component {
                 <br/>
                 <br/>
                 Opportunity Calendar is running on our social media handles. 
-                Find all the latest opportunities that fit you.
+                Find details about latest jobs, internships, scholarships, events for CS students/professionals.
             </p>
             <div className = {styles.SocialLinks}>
                 <a href = "https://www.linkedin.com/company/14568052/admin/" className = {styles.Shift}> <FaLinkedinIn /> </a>
