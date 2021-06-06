@@ -28,12 +28,16 @@
 
 .AboutImage {
   margin-top: 15%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .description {
   text-align: justify;
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .rectangle {
@@ -86,6 +90,10 @@ a:hover {
     position: absolute;
     right: 30%;
     /* margin-top: -42px; */
+  }
+  .Jumbotron {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 

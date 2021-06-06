@@ -8,6 +8,8 @@
     text-align: center;
     margin-top: 100px;
     letter-spacing: 0;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .onHover:hover{
   text-decoration: none;
@@ -83,8 +85,9 @@
     width: 82%;
     margin-left: 10%;
     padding: 7px;
-    padding-left: 0px;
+    padding-left: 0px; 
   }
+ 
   .faqQuestion{
     font-size: 1.25rem;
   }
