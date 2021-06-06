@@ -62,8 +62,8 @@ export default function Banner() {
         <Row>
           <Col md={6} lg={7}>
             <h1 className={styles.heading}>
-              Give wings  <br className={styles.align} /> to your
-              <span style={{ color: "#008dc8" }}> dreams </span>
+              From Will <br className={styles.align} /> to 
+              <span style={{ color: "#008dc8" }}> Skill </span>
             </h1>
             <div className={styles.rectangle} />
             <a className={styles.Button}>
