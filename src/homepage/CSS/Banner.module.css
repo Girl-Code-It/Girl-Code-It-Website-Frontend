@@ -104,13 +104,13 @@ a {
 }
 .rectangle {
   height: 5px;
-  width: 100px;
+  width: 180px;
   background-color: #008dc8;
   position: relative;
   bottom: 50px;
   float: right;
-  /* right: 160px; */
-  right: 377px;
+  right: 120px;
+  /* right: 377px; */
 }
 
 @media screen and (min-width: 1199px) {

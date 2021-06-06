@@ -62,8 +62,8 @@ export default function Banner() {
         <Row>
           <Col md={6} lg={7}>
             <h1 className={styles.heading}>
-              From Will <br className={styles.align} /> to
-              <span style={{ color: "#008dc8" }}> Skill </span>
+              Give wings  <br className={styles.align} /> to your
+              <span style={{ color: "#008dc8" }}> dreams </span>
             </h1>
             <div className={styles.rectangle} />
             <a className={styles.Button}>
@@ -96,8 +96,8 @@ export default function Banner() {
 
       <Container className={styles.containersmall} fluid>
         <h1 style={{ textAlign: "center" }} className={styles.heading}>
-          From Will to <br className={styles.align} /> to
-          <span style={{ color: "#008dc8" }}> Skill </span>
+          Give wings <br className={styles.align} /> to your
+          <span style={{ color: "#008dc8" }}> dreams </span>
           <div className={styles.Rectsmall} />
         </h1>
         <Image
