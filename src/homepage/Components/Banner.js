@@ -11,6 +11,7 @@ import {
   FaTwitter,
   FaRegLightbulb,
   FaGithub,
+  FaDiscord,
 } from "react-icons/fa";
 
 export default function Banner() {
@@ -39,6 +40,16 @@ export default function Banner() {
         </div>
         <div className={styles.divshift1}>
           <a
+            href="https://discordgci.netlify.app"
+            target="_blank"
+            className={styles.Shift1}
+          >
+            {" "}
+            <FaDiscord />{" "}
+          </a>
+        </div>
+        <div className={styles.divshift1}>
+          <a
             href="https://twitter.com/GirlCodeIt1"
             target="_blank"
             className={styles.Shift1}
@@ -62,7 +73,7 @@ export default function Banner() {
         <Row>
           <Col md={6} lg={7}>
             <h1 className={styles.heading}>
-              Give wings  <br className={styles.align} /> to your
+              Give wings <br className={styles.align} /> to your
               <span style={{ color: "#008dc8" }}> dreams </span>
             </h1>
             <div className={styles.rectangle} />
