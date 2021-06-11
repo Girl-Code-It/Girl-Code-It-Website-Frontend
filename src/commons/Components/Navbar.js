@@ -14,7 +14,9 @@ export default function Navbarr() {
       while (!element) {
         element = window.document.getElementById(elementId);
       }
+
       element && element.scrollIntoView();
+
     })
   }
   return (
