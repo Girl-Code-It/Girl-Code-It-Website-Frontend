@@ -76,3 +76,14 @@
     min-height: 30px;
   }
 }
+
+@media(max-width: 450px) {
+ .card {
+   margin-left: 30px;
+   margin-right: 30px;
+ }
+ .containerfaq {
+   margin-left: 30px;
+   margin-right: 30px;
+ }
+}

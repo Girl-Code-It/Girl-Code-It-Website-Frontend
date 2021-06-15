@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "http://.",
   "name": "girl-code-it-website",
   "version": "0.1.0",
   "private": true,
@@ -53,5 +53,15 @@
     "Community",
     "Coding"
   ],
-  "description": "Official website of Girl Code It"
+  "description": "Official website of Girl Code It",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiyaGupta89/Girl-Code-It-Website-Frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiyaGupta89/Girl-Code-It-Website-Frontend/issues"
+  }
 }
