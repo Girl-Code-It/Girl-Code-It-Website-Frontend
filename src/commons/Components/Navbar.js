@@ -11,8 +11,13 @@ export default function Navbarr() {
 
     let element = window.document.getElementById(elementId);
     setTimeout(() => {
+      let date = new Date();
+      let currentTime = date.getTime();
       while (!element) {
         element = window.document.getElementById(elementId);
+        if (date.getTime() - currentTime > 200) {
+          break;
+        }
       }
 
       element && element.scrollIntoView();
