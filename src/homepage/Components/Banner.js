@@ -62,7 +62,7 @@ export default function Banner() {
         <Row>
           <Col md={6} lg={7}>
             <h1 className={styles.heading}>
-              From will<br className={styles.align} /> to
+              From Will<br className={styles.align} /> to
               <span style={{ color: "#008dc8" }}> Skill </span>
             </h1>
             <div className={styles.rectangle} />
