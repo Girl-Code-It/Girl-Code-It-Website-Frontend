@@ -49,7 +49,7 @@ export default function Banner() {
         </div>
         <div className={styles.divshift1}>
           <a
-            href="https://github.com/GirlCodeIt1"
+             href="https://github.com/Girl-Code-It"
             target="_blank"
             className={styles.Shift1}
           >
