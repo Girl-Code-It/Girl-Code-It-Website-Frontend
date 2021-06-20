@@ -42,11 +42,12 @@ export default function OneCodeMap() {
   ) : (
     <>
       <Container>
-        <Banner 
-          title = {data && data.name} 
-          img = {data && data.imgUrl} 
-          content = {data && data.content}
-          submit = {data && data.submit}
+        <Banner
+          title={data && data.name}
+          img={data && data.imgUrl}
+          content={data && data.content}
+          submit={data && data.submit}
+          doubt={data && data.doubt}
         />
       </Container>
 

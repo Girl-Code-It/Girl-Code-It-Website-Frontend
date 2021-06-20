@@ -69,6 +69,14 @@ export default function Banner(props) {
       >
         Submit Solutions here
       </a>
+
+      <a
+        href={props.doubt}
+        target="_blank"
+        className={props.submit !== "" ? styles.button : styles.noDisplay}
+      >
+        Discuss Doubts here
+      </a>
     </Jumbotron>
   );
 }
