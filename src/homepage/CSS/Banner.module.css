@@ -120,6 +120,7 @@ a {
   }
   .rectangle {
     top: -10px;
+    right: 320px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -132,7 +133,7 @@ a {
     left: 60px;
   }
   .rectangle {
-    right: 100px;
+    right: 320px;
     top: -10px;
   }
   .girl {
@@ -217,7 +218,7 @@ a {
     position: sticky;
     bottom: 0px;
     float: right;
-    right: 50px;
+    right: 100px;
   }
 }
 @media screen and (max-width: 669px) and (min-width: 460px) {
@@ -227,6 +228,7 @@ a {
     right: 300px;
   }
 }
+
 @media screen and (max-width: 629px) {
   .Button {
     left: 24%;
@@ -238,6 +240,12 @@ a {
   #impact {
     margin-left: 30px;
   }
+  .Rectsmall {
+    position: sticky;
+    top: 750px;
+    right: 200px;
+  }
+  
 }
 @media screen and (max-width: 503px) {
   .Button {
@@ -262,7 +270,8 @@ a {
     padding-left: 30px;
     padding-right: 30px;
   }
- 
+  
+  
  
   /* .SocialLinks1 {
     font-size: 1.15rem;
