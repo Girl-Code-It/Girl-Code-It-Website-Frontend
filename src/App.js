@@ -16,7 +16,7 @@ export default class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Navbar />
+          <Navbar style={{ marginBottom: "100px" }} />
           <Switch>
             <Route
               exact

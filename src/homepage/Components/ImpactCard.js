@@ -5,7 +5,7 @@ import styles from "../CSS/Impact.module.css";
 
 export default function ImpactCard(props) {
   return (
-    <Card id = "impact" className = {styles.Card}>
+    <Card className = {styles.Card}>
       <Card.Body>
         <Row>
           <Col xs = {12} md = {12} lg = {4}>
