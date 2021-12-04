@@ -20,6 +20,7 @@ export default function navbar() {
           <a href="/#about">About Us</a>
           <a href="/#impact">What we Do?</a>
           <a href="/#reviews">Reviews</a>
+          <a href="/events">Events</a>
           <a href="/#faqs">FAQs</a>
           <a href="/#contact">Contact Us</a>
         </Nav>
