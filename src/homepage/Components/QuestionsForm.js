@@ -77,11 +77,13 @@ export default class QuestionsForm extends Component {
             Still have some <span style={{ color: "#008dc8" }}>Questions</span>?
           </h1>
           <Row
+          
+
             className="justify-content-md-center"
             style={{ marginTop: "50px" }}
           >
             <Col md={"auto"} lg={6}>
-              <Image src={questionsForm} alt="QuestionsForm" fluid />
+              <Image className={styles.img} src={questionsForm} alt="QuestionsForm" fluid />
             </Col>
             <Col lg={5}>
               {/* feedback messages */}
@@ -95,7 +97,7 @@ export default class QuestionsForm extends Component {
                 <Alert variant="danger">{this.state.error}</Alert>
               )}
 
-              <Form onSubmit={this.handleSubmit} ref={this.formRef}>
+              <Form className={styles.form} onSubmit={this.handleSubmit} ref={this.formRef}>
                 <Form.Group>
                   <Form.Control
                     type="text"

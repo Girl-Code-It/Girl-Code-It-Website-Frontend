@@ -14,7 +14,7 @@ function Banner() {
             </h1>
             <div className = {styles.Rectangle} />
             <h2 className = {styles.TagLine}>
-                Learn everything the
+                Learn to code the
                 <br></br>
                 right way!
             </h2>

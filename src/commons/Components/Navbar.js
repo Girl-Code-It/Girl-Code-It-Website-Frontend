@@ -1,9 +1,29 @@
 import React from "react";
 import styles from "../CSS/Navbar.module.css";
 import { Navbar, Nav } from "react-bootstrap";
-//import { Link } from "react-scroll";
+import { Link, useHistory } from "react-router-dom";
 
-export default function navbar() {
+export default function Navbarr() {
+  const history = useHistory();
+
+  function handleClick(elementId) {
+    history.push(`/`);
+
+    let element = window.document.getElementById(elementId);
+    setTimeout(() => {
+      let date = new Date();
+      let currentTime = date.getTime();
+      while (!element) {
+        element = window.document.getElementById(elementId);
+        if (date.getTime() - currentTime > 200) {
+          break;
+        }
+      }
+
+      element && element.scrollIntoView();
+
+    })
+  }
   return (
     <Navbar fixed="top" bg="light" expand="lg" className={styles.NavBar}>
       <Navbar.Brand className={styles.Logo}>
@@ -14,15 +34,15 @@ export default function navbar() {
         </a>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
+      <Navbar.Collapse id="responsive-navbar-nav" className={styles.Links}>
         <Nav className="ml-auto">
-          <a href="/#home">Home</a>
-          <a href="/#about">About Us</a>
-          <a href="/#impact">What we Do?</a>
-          <a href="/#reviews">Reviews</a>
-          <a href="/events">Events</a>
-          <a href="/#faqs">FAQs</a>
-          <a href="/#contact">Contact Us</a>
+          <Link onClick={() => handleClick("home")} offset={-90} duration={1000} >Home</Link>
+          <Link onClick={() => handleClick("impact")} offset={-90} duration={1000} >What we Do?</Link>
+          <Link onClick={() => handleClick("about")} offset={-90} duration={1000} >About Us</Link>
+          <Link onClick={() => handleClick("reviews")} offset={-90} duration={1000} >Reviews</Link>
+          <Link onClick={() => handleClick("events")} offset={-90} duration={1000} >Events</Link>
+          <Link onClick={() => handleClick("faqs")} offset={-90} duration={1000} >FAQs</Link>
+          <Link onClick={() => handleClick("contact")} offset={-90} duration={90000} >Contact Us</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -1,7 +1,7 @@
 {
   "name": "ReactJs for Beginners",
   "imgUrl": "/milestones/assets/react.png",
-  "content": "<h4>Pre-Requisites</h4>Good understanding of JavaScript.<h4>What would you gain after completing all the milestones?</h4> Fair Understanding of How React works </br> Build and deploy React applications of your own!<br /> <h4>Doubt Support</h4> You can join our slack group with this link: <a href='https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg'>Join Here</a>",
+  "content": "<h4>Pre-Requisites</h4>Good understanding of JavaScript.<h4>What would you gain after completing all the milestones?</h4> Fair Understanding of How React works </br> Build and deploy React applications of your own!<br />",
   "milestones": [
     {
       "topic": "Introduction to React",
@@ -68,5 +68,6 @@
       "link": "https://docs.google.com/document/d/1Lh5i1eesK_a2BEUoHsza91IztfaZj5j22DrcoJ6oVD4/edit?usp=sharing"
     }
   ],
-  "submit": "https://github.com/Girl-Code-It/ReactJS-Submissions"
+  "submit": "https://github.com/Girl-Code-It/ReactJS-Submissions",
+  "doubt": "https://discordgci.netlify.app"
 }

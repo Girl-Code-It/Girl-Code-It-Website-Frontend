@@ -1,7 +1,7 @@
 {
   "name": "Github Tutorial",
   "imgUrl": "/milestones/assets/github.png",
-  "content": "GitHub functions as a sort of social media site for developers and programmers. It allows your work to get out in front of the public. It is one of the largest coding communities around, so using it can provide wide exposure for you and your projects.<h4>Pre-Requisites</h4>Just you and your will to learn!<h4>What would you gain after completing all the milestones?</h4>Clear understanding of the ins and outs of using GitHub<br />Mastery of how and when to use the different services provided by GitHub<br />Knowledge of collaborating using GitHub<h4>Doubt Support</h4> You can join our slack group with this link: <a href='https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg'>Join Here</a>",
+  "content": "GitHub functions as a sort of social media site for developers and programmers. It allows your work to get out in front of the public. It is one of the largest coding communities around, so using it can provide wide exposure for you and your projects.<h4>Pre-Requisites</h4>Just you and your will to learn!<h4>What would you gain after completing all the milestones?</h4>Clear understanding of the ins and outs of using GitHub<br />Mastery of how and when to use the different services provided by GitHub<br />Knowledge of collaborating using GitHub.",
   "milestones": [
     {
       "topic": "Git and Github",
@@ -28,5 +28,6 @@
       "link": "https://docs.google.com/document/d/1RC-3h0o8uXmNA_EARXnghVXK8FcrZf8ofaF4p8Rwtw8/edit?usp=sharing"
     }
   ],
-  "submit": ""
+  "submit": "",
+  "doubt": "https://discordgci.netlify.app"
 }

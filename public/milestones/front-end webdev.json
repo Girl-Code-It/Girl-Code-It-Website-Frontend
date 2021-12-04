@@ -1,7 +1,7 @@
 {
   "name": "Frontend Web Development",
   "imgUrl": "/milestones/assets/web.png",
-  "content": "<h4>Pre-Requisites</h4>Just you and your will to learn!<h4>What would you gain after completing all the milestones?</h4>A good grasp of the fundamentals as well as the nuances of frontend web development<br />A number of projects for your portfolio!<h4>Doubt Support</h4> You can join our slack group with this link: <a href='https://join.slack.com/t/girlcodeitdou-cuj7899/shared_invite/zt-konwwx85-tPNP0mJcnQM2NZjYSSTRxg'>Join Here</a>",
+  "content": "<h4>Pre-Requisites</h4>Just you and your will to learn!<h4>What would you gain after completing all the milestones?</h4>A good grasp of the fundamentals as well as the nuances of frontend web development<br />A number of projects for your portfolio!",
   "milestones": [
     {
       "topic": "HTML (Part 1)",
@@ -124,5 +124,6 @@
       "link": "https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
     }
   ],
-  "submit": "https://github.com/Girl-Code-It/Web-Development-Submissions"
+  "submit": "https://github.com/Girl-Code-It/Web-Development-Submissions",
+  "doubt": "https://discordgci.netlify.app"
 }

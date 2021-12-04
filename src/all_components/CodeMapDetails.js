@@ -11,9 +11,9 @@ export default class CodeMapDetails extends Component {
       <div>
         <Banner />
         <WhyCodeMap />
+        <CodeMap />
         <Query />
         <WhatToPay />
-        <CodeMap />
       </div>
     );
   }

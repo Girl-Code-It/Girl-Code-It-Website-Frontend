@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa"
 
 export default function TeamCard(props) {
   return (
-    <Card style = {{width: "20rem", margin: "20px"}}>
+    <Card className = {styles.cardContent}>
       <div className = {styles.Profile}>
         <a href = {props.data.linkedin} className = {styles.Linkedin}> <FaLinkedinIn/> </a>
         <a href = {props.data.github} className = {styles.Github}> <FaGithub/> </a>
