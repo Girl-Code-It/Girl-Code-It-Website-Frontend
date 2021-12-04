@@ -24,7 +24,7 @@ var EventData = [
         titlePart2: "Community",
         date: "Arpil 4, 2021",
         speaker: "Awarded by Script Foundation",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:6841611577695748096"
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6791258792769175552"
     },
     {
         id: 4,
