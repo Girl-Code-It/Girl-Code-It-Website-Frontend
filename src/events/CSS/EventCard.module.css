@@ -29,6 +29,7 @@
 .img {
     height: 220px;
     width: 320px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .Tag {
