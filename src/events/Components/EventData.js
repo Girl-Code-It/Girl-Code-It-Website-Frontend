@@ -14,7 +14,7 @@ var EventData = [
         titlePart1: "GirlScript ",
         titlePart2: "Summer of Code'21",
         date: "March 8, 2021",
-        speaker: "Owner : Manvi Tyagi",
+        speaker: "Lead by Manvi Tyagi",
         link: "https://gssoc.girlscript.tech/projects.html"
     },
     {
