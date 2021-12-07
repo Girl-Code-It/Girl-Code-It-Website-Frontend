@@ -40,6 +40,7 @@ export default function Navbarr() {
           <Link onClick={() => handleClick("impact")} offset={-90} duration={1000} >What we Do?</Link>
           <Link onClick={() => handleClick("about")} offset={-90} duration={1000} >About Us</Link>
           <Link onClick={() => handleClick("reviews")} offset={-90} duration={1000} >Reviews</Link>
+          <Link to = "/events" offset={-90} duration={1000} >Events</Link>
           <Link onClick={() => handleClick("faqs")} offset={-90} duration={1000} >FAQs</Link>
           <Link onClick={() => handleClick("contact")} offset={-90} duration={90000} >Contact Us</Link>
         </Nav>

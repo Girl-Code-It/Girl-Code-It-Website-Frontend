@@ -8,6 +8,7 @@ import CodeMapDetails from "./all_components/CodeMapDetails";
 import OneCodeMapDetails from "./all_components/OneCodeMapDetails";
 import MeetTeam from "./all_components/MeetTeam";
 import Review from "./all_components/Review";
+import Events from "./all_components/Events";
 import Error from "./all_components/Error";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -69,6 +70,15 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <Review />
+                </div>
+              )}
+            />
+            <Route
+              exact
+              path="/events"
+              render={(props) => (
+                <div>
+                  <Events />
                 </div>
               )}
             />
