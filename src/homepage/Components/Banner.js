@@ -91,7 +91,7 @@ export default function Banner() {
             <br className={styles.align} />
             <br className={styles.align} />
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSccNJQ-1Jf8T6JVLmCr_evXRVGqKO6SBJNyZ5rdRyMqPzMHHg/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc8MPoo5zoFH3bT-aOIDJU_jdNM-IV2TKGM29Ub5SnWKHZCJA/viewform?usp=sf_link"
               className={styles.Button}
               style={{ marginLeft: "80px" }}
             >
