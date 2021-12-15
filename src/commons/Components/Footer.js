@@ -88,10 +88,6 @@ function Footer() {
         <Row className={(styles.Top1, styles.ContactRow)}>
           <p>
             {' '}
-            <FaPhoneAlt /> (+91) - 83848-13292{' '}
-          </p>
-          <p>
-            {' '}
             <GrMail /> girlcodeit@gmail.com{' '}
           </p>
         </Row>
