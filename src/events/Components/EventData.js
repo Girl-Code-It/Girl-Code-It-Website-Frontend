@@ -43,6 +43,42 @@ var EventData = [
         date: "May 22, 2021",
         speaker: "Lead by Arun Teltia",
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6841611577695748096"
+    },
+    {
+        id: 6,
+        imgUrl: "Rec_Back.png",
+        titlePart1: "Recursion ",
+        titlePart2: "Master Classes",
+        date: "Aug 12, 2021 - Aug 15, 2021",
+        speaker: "Manvi Tyagi and Samrat Bhardwaj",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6830711943947464704"
+    },
+    {
+        id: 7,
+        imgUrl: "SheCodify.png",
+        titlePart1: "SheCodify: ",
+        titlePart2: "Diversity Hiring",
+        date: "Dec 12, 2021",
+        speaker: "Collaboration with Seekho",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6875678086730543104"
+    },
+    {
+        id: 8,
+        imgUrl: "Girls_In_Tech.png",
+        titlePart1: "Girls in Tech: ",
+        titlePart2: "Exun Clan",
+        date: "Jan 17, 2022 - Jan 21, 2022",
+        speaker: "Collaboration with DPS RK Puram",
+        link: "https://www.instagram.com/p/CYy3qogJI47/?utm_source=ig_web_copy_link"
+    },
+    {
+        id: 9,
+        imgUrl: "Pune_Chapter.jpeg",
+        titlePart1: "Pune Chapter ",
+        titlePart2: "Inaugration",
+        date: "Jan 29, 2022",
+        speaker: "Ekta Mishra",
+        link: "https://forms.gle/VwHBav8UBQxzqyyr9"
     }
 ]
 

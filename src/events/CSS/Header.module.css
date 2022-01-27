@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-.Background {
-  background-image: url("../Assets/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10rem 4rem;
-  margin: 5rem 0;
-}
-
 .Title {
   font-family: "Poppins", sans-serif;
   margin: auto;
