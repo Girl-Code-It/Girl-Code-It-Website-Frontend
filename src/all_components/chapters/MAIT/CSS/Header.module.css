@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Background {
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 4rem;
+  margin: 5rem 0;
+}
+
+.Title,
+.Para {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.Title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.Para {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  text-align: justify;
+}
+
+@media (max-width: 900px) {
+    .Background {
+        padding: 2rem;
+    }
+}
