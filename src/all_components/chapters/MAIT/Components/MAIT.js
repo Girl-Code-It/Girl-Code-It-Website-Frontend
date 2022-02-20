@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./Header";
 import TeachersData from "./TeachersData";
 import LeadsData from "./LeadsData";
 import CoreTeamData from "./CoreTeamData";
@@ -29,10 +30,16 @@ export default class MAIT extends Component {
     });
     return (
       <Jumbotron className = {styles.Jumbotron}>
+        <Header/>
         <Container>
           <h1 className = {styles.Title}>
-            Meet <span style = {{color: "#008dc8"}}> The Team </span>
+            <span style = {{color: "#008dc8"}}> Maharaja Agrasen Institute of Technology </span>
           </h1>
+          {/* <h1 className = {styles.Title}>
+            Meet <span style = {{color: "#008dc8"}}> The Team </span>
+          </h1> */}
+
+        
   
           <h3 className = {styles.SubTitle}> 
             Faculty

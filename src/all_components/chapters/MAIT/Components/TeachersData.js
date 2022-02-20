@@ -2,7 +2,7 @@ var TeachersData = [
     {
         id: 1,
         name: "Prof. Nidhi Senger",
-        imgUrl: "UserProfile.png",
+        imgUrl: "NidhiSenger.jpeg",
         designation: "Faculty Head",
         linkedin: "",
         github: "",
@@ -10,8 +10,8 @@ var TeachersData = [
     },
     {
         id: 2,
-        name: "Prof. Pooja Singh",
-        imgUrl: "UserProfile.png",
+        name: "Dr. Pooja Gupta",
+        imgUrl: "PoojaGupta.jpeg",
         designation: "Faculty Head",
         linkedin: "",
         github: "",
