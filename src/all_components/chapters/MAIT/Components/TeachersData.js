@@ -1,18 +1,18 @@
 var TeachersData = [
     {
-        id: 1,
-        name: "Prof. Nidhi Senger",
-        imgUrl: "NidhiSenger.jpeg",
-        designation: "Faculty Head",
+        id: 2,
+        name: "Dr. Pooja Gupta",
+        imgUrl: "PoojaGupta.jpeg",
+        designation: "Associate Professor, Faculty Head",
         linkedin: "",
         github: "",
         bgColor: "#008cd8"
     },
     {
-        id: 2,
-        name: "Dr. Pooja Gupta",
-        imgUrl: "PoojaGupta.jpeg",
-        designation: "Faculty Head",
+        id: 1,
+        name: "Ms. Nidhi Senger",
+        imgUrl: "NidhiSenger.jpeg",
+        designation: "Assistant Professor, Faculty Head",
         linkedin: "",
         github: "",
         bgColor: "#008cd8"
