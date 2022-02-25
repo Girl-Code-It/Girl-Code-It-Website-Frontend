@@ -1,15 +1,24 @@
 var EventData = [
     {
-        id: 1,
+        id: 10,
+        imgUrl: "Public_Speaking.jpg",
+        titlePart1: "Webinar: ",
+        titlePart2: "Public Speaking 101",
+        date: "Feb 10, 2022",
+        speaker: "Mansi Gupta",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6896452687437664256/"
+    },
+    {
+        id: 9,
         imgUrl: "Pune_Chapter.jpeg",
         titlePart1: "Pune Chapter ",
         titlePart2: "Inaugration",
         date: "Jan 29, 2022",
         speaker: "Ekta Mishra",
-        link: "https://forms.gle/VwHBav8UBQxzqyyr9"
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:6895952268240277504/"
     },
     {
-        id: 2,
+        id: 8,
         imgUrl: "Girls_In_Tech.png",
         titlePart1: "Girls in Tech: ",
         titlePart2: "Exun Clan",
@@ -18,7 +27,7 @@ var EventData = [
         link: "https://www.instagram.com/p/CYy3qogJI47/?utm_source=ig_web_copy_link"
     },
     {
-        id: 3,
+        id: 7,
         imgUrl: "SheCodify.png",
         titlePart1: "SheCodify: ",
         titlePart2: "Diversity Hiring",
@@ -27,7 +36,7 @@ var EventData = [
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6875678086730543104"
     },
     {
-        id: 4,
+        id: 6,
         imgUrl: "Rec_Back.png",
         titlePart1: "Recursion ",
         titlePart2: "Master Classes",
@@ -45,7 +54,7 @@ var EventData = [
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6841611577695748096"
     },
     {
-        id: 6,
+        id: 4,
         imgUrl: "Ayush_Event.png",
         titlePart1: "Webinar on ",
         titlePart2: "Importance of DSA",
@@ -54,7 +63,7 @@ var EventData = [
         link: "https://youtu.be/rd1WxJBgY_4"
     },
     {
-        id: 7,
+        id: 3,
         imgUrl: "Award.jpg",
         titlePart1: "Best Female Edu. ",
         titlePart2: "Community",
@@ -63,7 +72,7 @@ var EventData = [
         link: "https://www.linkedin.com/feed/update/urn:li:activity:6791258792769175552"
     },
     {
-        id: 8,
+        id: 2,
         imgUrl: "GSSoC.png",
         titlePart1: "GirlScript ",
         titlePart2: "Summer of Code'21",
@@ -72,7 +81,7 @@ var EventData = [
         link: "https://gssoc.girlscript.tech/projects.html"
     },
     {
-        id: 9,
+        id: 1,
         imgUrl: "Guidance.png",
         titlePart1: "Guidance Session For ",
         titlePart2: "Freshers",
