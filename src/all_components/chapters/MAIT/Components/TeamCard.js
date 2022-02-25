@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap"
-import styles from "../CSS/TeamCard.module.css";
+import styles from  "../../../../team/CSS/TeamCard.module.css";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa"
 
 export default function TeamCard(props) {
