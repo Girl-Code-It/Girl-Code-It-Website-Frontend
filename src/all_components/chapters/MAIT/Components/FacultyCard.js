@@ -7,7 +7,7 @@ export default function TeamCard(props) {
   return (
     <Card className = {styles.cardContent}>
       <div className = {styles.Profile}>
-        <a href = {props.data.linkedin} className = {styles.Linkedin}> <FaLinkedinIn/> </a>
+        {/* <a href = {props.data.linkedin} className = {styles.Linkedin}> <FaLinkedinIn/> </a> */}
         {/* <a href = {props.data.github} className = {styles.Github}> <FaGithub/> </a> */}
       </div>
       <Card.Body>
