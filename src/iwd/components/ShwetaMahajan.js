@@ -17,7 +17,6 @@ function ShwetaMahajan() {
             <Container className={styles.Container}>
                 <p style={{textAlign: "center"}}>
                     <img src={ShwetaMahajanPic} className={styles.Img} />
-
                 </p>
 
                 <Row>
@@ -82,15 +81,6 @@ function ShwetaMahajan() {
                         I had a lot of amazing female peers, but few female mentors. A lot of senior women leaders I have come across, had either adopted a subservient role to their male peers and seniors, or, modified themselves to fit themselves into the male stereotypes, or, found themselves at a dead-end with nobody to guide them on the way forward. These can’t be the only options, maybe I will find the answers eventually.
                     </p>
                 </Row>
-
-                <Row>
-                    <h5>Open Comment - Please feel free to drop in anything that you could not fit in the questions above.</h5>
-                    <p>
-                        Let’s aim to be inspiring leaders, not inspiring female leaders.
-                    </p>
-                </Row>
-
-                
             </Container>
         </div>
     )

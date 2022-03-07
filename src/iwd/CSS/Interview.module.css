@@ -15,6 +15,13 @@
     color: #444;
     font-size: 1.5rem;
 }
+.Container {
+    padding: 0 40px ;
+}
+.Container img {
+    width: 60%;
+    margin: 1rem 0 3rem 0;
+}
 .Container h5 {
     font-weight: 600;
     color: black;
@@ -24,14 +31,18 @@
     margin-bottom: 2.2rem;
     font-size: 1.1rem;
 }
-.Container img {
-    width: 60%;
-    margin: 1rem 0 3rem 0;
-}
-.Container h4 p {
-    text-align: left;
-}
 
-.Question {
-    color: whtie;
+@media screen and (max-width: 800px) {
+    .Header h1 {
+        padding-top: 2rem;
+        font-size: 1.8rem;
+    }
+    .Header p {
+        margin-top: 0;
+        font-size: 1.2rem;
+    }
+    .Container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 }
