@@ -23,7 +23,7 @@ var CoreTeamData = [
         imgUrl: "ShrutiBansal.jpeg",
         designation: "Social Media Strategist",
         linkedin: "https://www.linkedin.com/in/shruti-bansal-8217b7200",
-        github: "https://www.linkedin.com/in/shruti-bansal-8217b7200",
+        github: "https://github.com/",
         bgColor: "#f1d8c2"
     },
     {
@@ -32,7 +32,7 @@ var CoreTeamData = [
         imgUrl: "JyotsnaGarg.jpeg",
         designation: "Graphics Designer",
         linkedin: "https://www.linkedin.com/in/jyotsna-garg-269182205",
-        github: "https://drive.google.com/drive/folders/1cRujeqwWlaGCD0_pplu0PABGY0rvTVZC",
+        github: "https://github.com/",
         bgColor: "#8398b5"
     },
     {
@@ -50,7 +50,7 @@ var CoreTeamData = [
         imgUrl: "Ridham.jpg",
         designation: "Content Writer",
         linkedin: "https://www.linkedin.com/in/ridham-a576421a3",
-        github: "https://www.linkedin.com/in/ridham-a576421a3",
+        github: "https://github.com/",
         bgColor: "#BD6997"
     },
     {
@@ -59,7 +59,7 @@ var CoreTeamData = [
         imgUrl: "VanshikaKumar.jpeg",
         designation: "Content Writer",
         linkedin: "https://www.linkedin.com/in/vanshika-kumar-45ba961b6",
-        github: "https://www.linkedin.com/in/vanshika-kumar-45ba961b6",
+        github: "https://github.com/",
         bgColor: "#f1d8c2"
     }    
 ];

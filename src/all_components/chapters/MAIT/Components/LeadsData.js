@@ -5,7 +5,7 @@ var LeadsData = [
         imgUrl: "AakashGarg.png",
         designation: "Chapter Lead",
         linkedin: "https://www.linkedin.com/in/aakash-garg-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-84092b1b7/",
-        github: "https://www.linkedin.com/in/aakash-garg-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-84092b1b7/",
+        github: "https://github.com/aakashgarg-19",
         bgColor: "#008cd8"
     },
     {
