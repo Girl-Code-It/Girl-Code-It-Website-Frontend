@@ -15,13 +15,14 @@
     color: #444;
     font-size: 1.5rem;
 }
-.Container h4 {
+.Container h5 {
     font-weight: 600;
-    color: #008dc8;
-    line-height: 2.5rem;
+    color: black;
+    line-height: 2.2rem;
 }
 .Container p {
-    margin-bottom: 2rem;
+    margin-bottom: 2.2rem;
+    font-size: 1.1rem;
 }
 .Container img {
     width: 60%;
@@ -29,4 +30,8 @@
 }
 .Container h4 p {
     text-align: left;
+}
+
+.Question {
+    color: whtie;
 }
