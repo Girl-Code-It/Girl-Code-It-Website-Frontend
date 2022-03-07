@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Header {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+.Header h1 {
+    color: #008dc8;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.Header p {
+    color: #444;
+    font-size: 1.5rem;
+}
+.Container {
+    padding: 0 40px ;
+}
+.Container img {
+    width: 60%;
+    margin: 1rem 0 3rem 0;
+}
+.Container h5 {
+    font-weight: 600;
+    color: black;
+    line-height: 2.2rem;
+}
+.Container p {
+    margin-bottom: 2.2rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .Header h1 {
+        padding-top: 2rem;
+        font-size: 1.8rem;
+    }
+    .Header p {
+        margin-top: 0;
+        font-size: 1.2rem;
+    }
+    .Container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
