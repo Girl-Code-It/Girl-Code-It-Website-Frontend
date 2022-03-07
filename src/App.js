@@ -10,6 +10,8 @@ import MeetTeam from "./all_components/MeetTeam";
 import Review from "./all_components/Review";
 import Events from "./all_components/Events";
 import Error from "./all_components/Error";
+// IWD IMPORT
+import ShwetaMahajan from "./iwd/components/ShwetaMahajan";
 // CHAPTERS IMPORT
 import MAIT from "./all_components/chapters/MAIT/Components/MAIT";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -81,6 +83,16 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <Events />
+                </div>
+              )}
+            />
+            {/* IWD ROUTES */}
+            <Route
+              exact
+              path="/iwd/shweta-mahajan"
+              render={(props) => (
+                <div>
+                  <ShwetaMahajan />
                 </div>
               )}
             />
