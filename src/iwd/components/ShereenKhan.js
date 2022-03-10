@@ -4,7 +4,7 @@ import styles from "../CSS/Interview.module.css";
 import ShereenKhanPic from "../assets/shereen-khan.png"
 import { Container, Row } from "react-bootstrap";
 
-function ShwetaMahajan() {
+function ShereenKhan() {
     return (
         <div className={styles.Interview}>
             <header className={styles.Header}>
@@ -81,4 +81,4 @@ function ShwetaMahajan() {
     )
 }
 
-export default ShwetaMahajan;
+export default ShereenKhan;
