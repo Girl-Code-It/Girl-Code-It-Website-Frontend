@@ -12,6 +12,7 @@ import Events from "./all_components/Events";
 import Error from "./all_components/Error";
 // IWD IMPORT
 import ShwetaMahajan from "./iwd/components/ShwetaMahajan";
+import ShereenKhan from "./iwd/components/ShereenKhan";
 // CHAPTERS IMPORT
 import MAIT from "./all_components/chapters/MAIT/Components/MAIT";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -93,6 +94,15 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <ShwetaMahajan />
+                </div>
+              )}
+            />
+             <Route
+              exact
+              path="/iwd/shereen-khan"
+              render={(props) => (
+                <div>
+                  <ShereenKhan />
                 </div>
               )}
             />
