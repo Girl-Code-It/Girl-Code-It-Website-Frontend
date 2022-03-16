@@ -16,6 +16,7 @@ import ShereenKhan from "./iwd/components/ShereenKhan";
 // CHAPTERS IMPORT
 import MAIT from "./all_components/chapters/MAIT/Components/MAIT";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SimranNazare from "./iwd/components/SimranNazare";
 
 export default class App extends Component {
   render() {
@@ -103,6 +104,15 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <ShereenKhan />
+                </div>
+              )}
+            />
+            <Route
+              exact
+              path="/iwd/simran-nazare"
+              render={(props) => (
+                <div>
+                  <SimranNazare />
                 </div>
               )}
             />
