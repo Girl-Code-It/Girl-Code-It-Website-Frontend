@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+header {
+    font-size: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    /* font-family: 'Hurricane', cursive; */
+    font-family: 'Poppins', sans-serif;
+    line-height: 100%;
+    color: rgb(0, 140, 216);
+}
+.Tag {
+    padding: 15px;
+}
+.interviewName{
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.interviewDesignation{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.Button {
+    background-color: #008dc8;
+    border: none;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 5px 20px 5px 20px;
+    margin: 15px;
+    margin-top: 0px;
+    position: relative;
+    float: right;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+.Button:hover {
+    box-shadow: 0 5px 10px -4px rgba(0, 0, 0, 0.7);
+}
