@@ -20,7 +20,7 @@ var IwdInterviewData = [
     {
         id: 3,
         name: "Simran Nazare",
-        designation: "Dance Fitness Trainer, CultFit",
+        designation: "Dance Fitness Trainer",
         imgUrl: "simran-nazare.jpg",
         interviewUrl: "/iwd/simran-nazare",
         quote: "Hustle se Hasil",

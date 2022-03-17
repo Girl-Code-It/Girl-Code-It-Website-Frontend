@@ -16,9 +16,11 @@ export default class IwdInterviewList extends Component {
         });
 
         return (
-            <Row className="justify-content-md-center">
-                {IwdInterviewData}
-            </Row>
+            <Container>
+                <Row className="justify-content-center">
+                    {IwdInterviewData}
+                </Row>
+            </Container>
         )
     }
 }
