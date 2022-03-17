@@ -9,7 +9,7 @@ function SimranNazare() {
         <div className={styles.Interview}>
             <header className={styles.Header}>
                 <h1>Simran Nazare</h1>
-                <p>Dance Fitness Trainer, CultFit</p>
+                <p>Dance Fitness Trainer</p>
             </header>
             <div className={styles}>
 
