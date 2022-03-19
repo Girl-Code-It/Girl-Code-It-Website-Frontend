@@ -11,6 +11,7 @@ import Review from "./all_components/Review";
 import Events from "./all_components/Events";
 import Error from "./all_components/Error";
 // IWD IMPORT
+import Iwd from "./iwd/components/Iwd";
 import ShwetaMahajan from "./iwd/components/ShwetaMahajan";
 import ShereenKhan from "./iwd/components/ShereenKhan";
 // CHAPTERS IMPORT
@@ -89,6 +90,15 @@ export default class App extends Component {
               )}
             />
             {/* IWD ROUTES */}
+            <Route
+              exact
+              path="/iwd"
+              render={(props) => (
+                <div>
+                  <Iwd />
+                </div>
+              )}
+            />
             <Route
               exact
               path="/iwd/shweta-mahajan"
