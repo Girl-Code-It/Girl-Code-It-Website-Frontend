@@ -26,6 +26,16 @@ var IwdInterviewData = [
         quote: "Hustle se Hasil",
         themeColor: "#ee5b70"
     },
+    {
+        id: 4,
+        name: "Nikita Gupta",
+        designation: "Founder @FAANGPath | Senior Technical Recruiter @Uber",
+        imgUrl: "nikita-gupta.png",
+        interviewUrl: "/iwd/nikita-gupta",
+        quote: "Hustle se Hasil",
+        themeColor: "#926aa0"
+    },
+    
     
 ]
 
