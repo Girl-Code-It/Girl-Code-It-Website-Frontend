@@ -14,10 +14,11 @@ import Error from "./all_components/Error";
 import Iwd from "./iwd/components/Iwd";
 import ShwetaMahajan from "./iwd/components/ShwetaMahajan";
 import ShereenKhan from "./iwd/components/ShereenKhan";
+import SimranNazare from "./iwd/components/SimranNazare";
+import NikitaGupta from "./iwd/components/NikitaGupta";
 // CHAPTERS IMPORT
 import MAIT from "./all_components/chapters/MAIT/Components/MAIT";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import SimranNazare from "./iwd/components/SimranNazare";
 
 export default class App extends Component {
   render() {
@@ -123,6 +124,15 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <SimranNazare />
+                </div>
+              )}
+            />
+            <Route
+              exact
+              path="/iwd/nikita-gupta"
+              render={(props) => (
+                <div>
+                  <NikitaGupta/>
                 </div>
               )}
             />
