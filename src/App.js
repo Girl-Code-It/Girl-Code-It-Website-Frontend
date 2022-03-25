@@ -16,6 +16,7 @@ import ShwetaMahajan from "./iwd/components/ShwetaMahajan";
 import ShereenKhan from "./iwd/components/ShereenKhan";
 import SimranNazare from "./iwd/components/SimranNazare";
 import NikitaGupta from "./iwd/components/NikitaGupta";
+import KhushbooGupta from "./iwd/components/KhushbooGupta";
 // CHAPTERS IMPORT
 import MAIT from "./all_components/chapters/MAIT/Components/MAIT";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -133,6 +134,15 @@ export default class App extends Component {
               render={(props) => (
                 <div>
                   <NikitaGupta/>
+                </div>
+              )}
+            />
+             <Route
+              exact
+              path="/iwd/khushboo-gupta"
+              render={(props) => (
+                <div>
+                  <KhushbooGupta/>
                 </div>
               )}
             />
