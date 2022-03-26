@@ -31,6 +31,14 @@ var IwdInterviewData = [
         interviewUrl: "/iwd/nikita-gupta",
         themeColor: "#926aa0"
     },
+    {
+        id: 5,
+        name: "Khushboo Gupta",
+        designation: "Software Engineer @Google | Competitive Programmer | 6 ⭐ Coder @Codechef",
+        imgUrl: "khushboo-gupta.png",
+        interviewUrl: "/iwd/khushboo-gupta",
+        themeColor: "#0993be"
+    },
     
     
 ]
