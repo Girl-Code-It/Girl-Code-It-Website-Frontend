@@ -6,12 +6,6 @@ const ReviewsData = () => [
     "summary": "Girl Code IT, was a girl coder society, until I came. I joined GCI in my first year and completed three courses - Basic C++, Web Development and ReactJS. I have practised everything that I have learnt which makes my problem solving to next level. Now with the help of these courses I am able to think the possible solutions of Competitive programming questions and can build some awesome web application, games and many more. I want to thank you all of GCI team member because of you. I made my first year more productive than I expected."
     },
     {
-    "img": "https://i.ibb.co/qJ1M6Rv/img-Urvashi-Anand.jpg",
-    "name": "Urvashi Anand",
-    "backgroundColor": "#bd6997",
-    "summary": "It is so amazing experience to be a part of such an amazing community. Everything I have now or everything I have achieved till now is all because of you all. Thank you so much for being so helpful throughout the courses. I have learnt a lot and from writing the first line of code till now all the mentors helped a lot."
-    },
-    {
     "img": "https://i.ibb.co/3m4vH32/img-Harsha-Gupta.jpg",
     "name": "Harsha Gupta",
     "backgroundColor": "grey",
